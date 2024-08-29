@@ -1,0 +1,8 @@
+{
+  "showInlineTitle": true,
+  "showRibbon": false,
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "foldHeading": true,
+  "vimMode": true
+}

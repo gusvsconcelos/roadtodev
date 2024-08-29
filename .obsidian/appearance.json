@@ -1,0 +1,9 @@
+{
+  "theme": "system",
+  "cssTheme": "Catppuccin",
+  "showViewHeader": false,
+  "interfaceFontFamily": "Ubuntu",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font",
+  "baseFontSize": 18,
+  "baseFontSizeAction": false
+}
