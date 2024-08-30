@@ -11,35 +11,28 @@ Trata-se do conjunto de qualidades que deve ser seguido sempre que vamos constru
     - *Agrupamento e distinção por localização e por formato*
     - *Legibilidade*
     - *Feedback imediato*
-	
 2. **Carga de trabalho**
 	O objetivo deste critério é diminuir ao máximo a carga cognitiva que o usuário precisa para realizar seu trabalho.
     - *Brevidade*
     - *Concisão*
     - *Ações mínimas*
-	
 3. **Controle explícito**
 	O objetivo deste critério é permitir que o usuário tenha controle sobre a interface do sistema.
     - *Ações explícitas*
     - *Controle do usuário*
-	
 4. **Adaptabilidade**
 	O objetivo deste critério é garantir a capacidade do sistema de se adaptar ao contexto e às preferências do usuário.
     - *Flexibilidade*
     - *Experiência do usuário (UX - User Experience)*
-	
 5. **Gestão de erros**
 	O objetivo deste critério é prevenir ou reduzir a ocorrência de erros, entendendo como e quando ocorrem.
     - *Proteção contra erros*
     - *Qualidade das mensagens de erros*
     - *Correção de erros*
-	
 6. **Consistência/Homogeneidade**
 	O objetivo deste critério é padronizar as interfaces de modo que os elementos sejam facilmente reconhecidos, localizados e, principalmente, lembrados.
-	
 7. **Significados de códigos**
 	O objetivo deste critério é garantir que o vocabulário utilizado em rótulos, títulos, cabeçalhos, mensagens e opções de menus estejam compatíveis com as figuras e ícones utilizados.
-    
 8. **Compatibilidade**
 	O objetivo deste critério é fazer com que a organização das saídas e entradas de uma aplicação se adequem às características do usuário, como hábitos, idade, competências, expectativas etc.
 
@@ -57,7 +50,6 @@ Segundo Norman (1986), ==um sistema orientado à usabilidade possui uma interfac
 De acordo com Pressman (1992), os requisitos desejáveis em uma boa interface podem ser agrupados em duas categorias:
 - **Requisitos relacionados à exibição de informação**
 	Consistência, feedback, níveis de habilidade e conhecimento humano, percepção humana, metáforas, minimização de carga de memória, classificação funcional dos comandos, projeto independente da resposta do monitor.
-    
 - **Entrada de dados**
 	Mecanismos de ajuda, prevenção de erros e tratamento de erros.
 
@@ -66,10 +58,8 @@ De acordo com Pressman (1992), os requisitos desejáveis em uma boa interface po
 Outro ponto importante que pode contribuir para a construção adequada de uma interface é o estudo dos tipos de problemas que os usuários podem enfrentar durante o uso. Existem três tipos de problemas que podem ser encontrados pelos usuários ao utilizar o software: *barreiras*, *obstáculos* e *ruídos*.
 - **Barreiras**
 	Tipos de problemas que os usuários ==não conseguem superar sem ajuda externa==. Isso impossibilita que os usuários executem seu trabalho.
-    
 - **Obstáculos**
 	Tipos de problemas que os usuários ==conseguem resolver após algumas tentativas, sem ajuda de terceiros==. Isso atrasa a execução do trabalho por parte do usuário.
-    
 - **Ruídos**
 	Tipos de problemas mais simples. ==Não atrapalha nem atrasa a execução do trabalho do usuário==, mas este pode ficar com uma má impressão do sistema.
 

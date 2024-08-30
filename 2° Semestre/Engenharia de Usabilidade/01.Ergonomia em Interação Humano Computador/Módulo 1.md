@@ -6,10 +6,8 @@ Segundo o site Significados, ergonomia consiste no conjunto de disciplinas que e
 
 - **Ergonomia Física**
 	Fala das características da ==anatomia humana, antropometria, fisiologia e biomecânica==. Isso inclui o estudo da postura no trabalho, manuseio de materiais, movimentos repetitivos, distúrbios musculares e do esqueleto, segurança e saúde.
-    
 - **Ergonomia Cognitiva**
 	Fala das características de ==percepção, atenção, cognição, controle motor e armazenamento e recuperação de memória==. Analisa tudo isto em relação à interação do ser humano com os elementos de um sistema.
-    
 - **Ergonomia Organizacional**
 	Fala da ==otimização dos sistemas sociotécnicos==, incluindo suas estruturas organizacionais, políticas e de processos. *Inclui comunicações, projeto de trabalho, organização temporal do trabalho, trabalho em grupo, projeto participativo, novos paradigmas do trabalho, trabalho cooperativo, cultura organizacional, organizações em rede, teletrabalho e gestão da qualidade.*
 
@@ -28,45 +26,34 @@ Segundo o site Significados, ergonomia consiste no conjunto de disciplinas que e
 
 - **Evidência**
 	Devem estar evidentes o modo de operação e a função do produto.
-    
 - **Consistência**
     Operações semelhantes devem ser resolvidas de formas semelhantes.
-    
 - **Capacidade**
     As capacidades do usuário para cada função não devem ser ultrapassadas.
-    
 - **Compatibilidade**
 	A experiência de uso deve ser compatível com as experiências socioculturais dos usuários. Como exemplo, para desenroscar uma tampa, é preciso girá-la no sentido anti-horário.
-    
 - **Prevenção de erros**
     Os produtos devem evitar ao máximo procedimentos errados.
-    
 - **Realimentação**
 	O sistema deve dar um retorno ao usuário sobre o sucesso de sua tarefa, para que ações repetitivas sejam evitadas.
 
 A ISO 9126 define usabilidade como _“a capacidade de uma aplicação ser compreendida, aprendida e utilizada, sendo atraente para o usuário em condições específicas de utilização”_. Isso significa que os softwares devem ter as seguintes características:
 - **Aprendizagem**
 	Quão fácil e quanto de treinamento os usuários precisam para realizarem tarefas básicas no primeiro contato que têm com a interface do sistema?
-    
 - **Eficiência**
 	Os usuários conseguem realizar as tarefas exigidas pelo sistema, de forma eficiente, depois de quanto tempo de uso?
-    
 - **Memorização**
 	O usuário deve lembrar-se de como usar o sistema depois de um longo período sem utilizá-lo?
-    
 - **Robustez**
 	Caso erros aconteçam, a interface deve avisar o usuário e permitir a correção de modo fácil, sem gerar frustrações.
-    
 - **Satisfação**
 	Quão agradável, confiável e satisfatória é a utilização do sistema?
 
 A ISO 9241-11 também define usabilidade como ==uma medida pela qual um produto pode ser utilizado por usuários específicos para alcançar objetivos específicos com efetividade, eficiência e satisfação em um contexto de uso específico.== Isto significa que os softwares devem ter as seguintes características:
 - **Eficácia**
 	Precisão e completeza com que os usuários atingem objetivos específicos, acessando a informação correta ou gerando os resultados esperados.
-    
 - **Eficiência**
 	Precisão e completeza com que os usuários atingem seus objetivos, em relação à quantidade de recursos gastos.
-    
 - **Satisfação**
 	Conforto e aceitabilidade do produto, medidos por meio de métodos subjetivos e/ou objetivos. Esta é a mais difícil de medir e quantificar, pois está relacionada com fatores subjetivos. Refere-se ao nível de conforto que o usuário sente ao utilizar a interface para alcançar seus objetivos.
  
