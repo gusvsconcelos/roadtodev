@@ -21,8 +21,8 @@
 
 ==O primeiro princípio que deve pautar a construção de um objeto de interação é que o usuário possa conseguir entender o significado das telas e seu conteúdo.== A informação deve ser legível e devem ser evitados o uso de abreviaturas desconhecidas, mensagens que não são diretas, entradas com muita informação. ==Quanto menos elementos por tela, melhor==, pois a simplicidade visual deve ser sempre priorizada.
 
-**`ATENCAO:`**
-**A ortografia e os termos utilizados devem ser consistentes. Usando consistência, o usuário aprenderá mais rapidamente.**
+##### Atenção!
+>A ortografia e os termos utilizados devem ser consistentes. Usando consistência, o usuário aprenderá mais rapidamente.
 
 Podemos pensar também em **simetria**. ==Devemos colocar sempre que possível a mesma quantidade de texto em cada metade da tela (superior e inferior, direita e esquerda)==. Para isso, podemos dividir a tela em 4 quadrantes. Cada um quarto deve conter mais ou menos a mesma quantidade de informação. Podemos olhar também as informações quanto à sua sequência. ==O ideal é que estejam, sempre que possível, na sequência de execução do trabalho==. As informações mais importantes também devem vir primeiro, devendo ser apresentado o que é usado mais frequentemente pelo usuário.
 
