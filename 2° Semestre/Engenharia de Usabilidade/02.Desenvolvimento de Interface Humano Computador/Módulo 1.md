@@ -1,4 +1,4 @@
-# **Desenvolvimento de Interface Humano Computador**
+# **Projeto de design de interface humano-computador**
 
 ### Características do projeto de design IHC
 

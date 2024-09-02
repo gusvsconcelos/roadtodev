@@ -1,4 +1,4 @@
-# Requisitos em IHC
+# **Concepção e modelagem de interface humano-computador**
 
 No processo de desenvolvimento de software, o levantamento de requisitos é uma ==fase crucial em que se compreendem os processos de trabalho dos usuários e suas necessidades.==
 
