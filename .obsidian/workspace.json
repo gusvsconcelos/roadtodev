@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 3.md",
+                "file": "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 4.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282,
-    "collapsed": true
+    "width": 282
   },
   "right": {
     "id": "48a0b3906f0bf11b",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 3.md",
+                "file": "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 3.md",
+                "file": "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 3.md"
+                "file": "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 4.md"
               }
             }
           }
@@ -149,13 +148,14 @@
   },
   "active": "edf084f9cdca0e78",
   "lastOpenFiles": [
-    "Captura de imagem_20240830_084427.png",
-    "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 3.md",
+    "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 1.md",
+    "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 4.md",
     "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 2.md",
     "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 1.md",
-    "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 3.md",
     "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 2.md",
-    "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 1.md",
+    "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 3.md",
+    "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 3.md",
+    "Captura de imagem_20240830_084427.png",
     "interacao-usuario-sistema.png",
     "Captura de imagem_20240830_084427 1.png",
     "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador",
