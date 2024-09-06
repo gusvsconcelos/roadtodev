@@ -45,9 +45,9 @@ Trata-se do conjunto de qualidades que deve ser seguido sempre que vamos constru
 
 ### Requisitos de Usabilidade
 
-Segundo Norman (1986), ==um sistema orientado à usabilidade possui uma interface que deve ser usada para se executar uma tarefa, sem chamar nenhuma atenção para si==, de modo a permitir que os usuários não precisem focalizar a sua energia na interface em si, mas apenas no trabalho que eles desejam executar.
+Segundo **Norman (1986)**, ==um sistema orientado à usabilidade possui uma interface que deve ser usada para se executar uma tarefa, sem chamar nenhuma atenção para si==, de modo a permitir que os usuários não precisem focalizar a sua energia na interface em si, mas apenas no trabalho que eles desejam executar.
 
-De acordo com Pressman (1992), os requisitos desejáveis em uma boa interface podem ser agrupados em duas categorias:
+De acordo com **Pressman (1992)**, os requisitos desejáveis em uma boa interface podem ser agrupados em duas categorias:
 - **Requisitos relacionados à exibição de informação**
 	Consistência, feedback, níveis de habilidade e conhecimento humano, percepção humana, metáforas, minimização de carga de memória, classificação funcional dos comandos, projeto independente da resposta do monitor.
 - **Entrada de dados**

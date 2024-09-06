@@ -18,7 +18,7 @@ No entanto, ==é difícil garantir a qualidade total de um produto de software.=
 
 ### Objeto da avaliação de interface humano-computador
 
-De acordo com **Barbosa e Silva (2010)**, ==um sistema interativo deve ser avaliado sob as perspectivas de todos os envolvidos==: Quem o concebe (projetista), quem o constrói (desenvolvedores), e quem o utiliza (usuários).
+De acordo com **Barbosa e Silva**, ==um sistema interativo deve ser avaliado sob as perspectivas de todos os envolvidos==: Quem o concebe (projetista), quem o constrói (desenvolvedores), e quem o utiliza (usuários).
 
 **O desenvolvedor utiliza várias técnicas de avaliação, que compõem a chamada etapa de testes do processo de desenvolvimento de software. Por exemplo:**
 - **Testes de unidade**
@@ -79,7 +79,7 @@ Para decidir qual técnica (ou quais técnicas) adotar, o avaliador deve levar e
 
 ### Framework DECIDE
 
-Preece, Sharp e Rogers (2013) apresentaram um framework chamado **DECIDE** com objetivo de ==orientar o planejamento, a execução e a análise de uma avaliação de IHC.== O framework ==**DECIDE** é composto por seis etapas onde as iniciais compõem o nome (em inglês):==
+**Preece, Sharp e Rogers (2013)** apresentaram um framework chamado **DECIDE** com objetivo de ==orientar o planejamento, a execução e a análise de uma avaliação de IHC.== O framework ==**DECIDE** é composto por seis etapas onde as iniciais compõem o nome (em inglês):==
 
 ***D** - Determinar (Determine)*
 - Determinar as metas e os objetivos da avaliação.

@@ -5,31 +5,31 @@ No processo de desenvolvimento de software, o levantamento de requisitos é uma 
 
 ### Técnicas de levantamento de requisitos em IHC
 - **Entrevistas**
-	É uma conversa guiada por um roteiro de perguntas, na qual um entrevistador busca obter informação de um entrevistado.
+	==É uma conversa guiada por um roteiro de perguntas==, na qual um entrevistador busca obter informação de um entrevistado.
 - **Grupos de foco**
-	É um grupo com diversas pessoas reunidas numa espécie de entrevista coletiva, guiada por um moderador. 
+	==É um grupo com diversas pessoas reunidas numa espécie de entrevista coletiva==, guiada por um moderador. 
 - **Questionários**
-	É um formulário com perguntas que os usuários e demais participantes devem responder para fornecer os dados necessários em uma pesquisa.
+	==É um formulário com perguntas que os usuários e demais participantes devem responder== para fornecer os dados necessários em uma pesquisa.
 - **Brainstorming**
-	*"Tempestade de ideias"*. É utilizado para coletar informações sobre as características que os usuários querem em um produto. Serve para qualquer produto. Seu resultado é uma lista priorizada de necessidades dos usuários.
+	*"Tempestade de ideias"*. ==É utilizado para coletar informações sobre as características que os usuários querem em um produto.== Serve para qualquer produto. Seu resultado é uma lista priorizada de necessidades dos usuários.
 	
-	Para organizar as informações de um _brainstorm_, é recomendado o uso da técnica de *diagrama de afinidade*. Essa técnica organiza ideias de acordo com seus relacionamentos naturais.
+	Para organizar as informações de um _brainstorm_, ==é recomendado o uso da técnica de *diagrama de afinidade*.== Essa técnica organiza ideias de acordo com seus relacionamentos naturais.
 - **Classificação de cartões (card sorting)**
-	É uma técnica que não depende de tecnologia. Consiste em escrever as categorias em papel e espalhá-las em uma área para visualmente fazer a classificação.
+	==É uma técnica que não depende de tecnologia.== Consiste em escrever as categorias em papel e espalhá-las em uma área para visualmente fazer a classificação.
 - **Estudos de campo**
-	Durante um estudo de campo, são visitados os ambientes onde ocorrem os processos em que o usuário participa. Trata-se de uma investigação da realidade dos usuários, e não de suposições.
+	==Durante um estudo de campo, são visitados os ambientes onde ocorrem os processos em que o usuário participa.== Trata-se de uma investigação da realidade dos usuários, e não de suposições.
 - **Investigação contextual**
-	A investigação contextual ocorre no local onde o usuário trabalha, de forma que se possa observar o usuário enquanto ele trabalha e conversar com ele sobre o seu trabalho.
+	==A investigação contextual ocorre no local onde o usuário trabalha==, de forma que se possa observar o usuário enquanto ele trabalha e conversar com ele sobre o seu trabalho.
 - **Storyboard**
-	Técnica que detalha cenários do sistema por meio de uma sequência de desenhos. Os desenhos também podem ser feitos em papel e colocados em uma área visível aos outros membros das sessões de discussão.
+	==Técnica que detalha cenários do sistema por meio de uma sequência de desenhos.== Os desenhos também podem ser feitos em papel e colocados em uma área visível aos outros membros das sessões de discussão.
 - **Protótipo/maquete**
-	É uma concretização do projeto de interface que permite aos usuários e envolvidos interagirem com ele e explorarem sua aderência às suas necessidades. É um modelo, uma representação do que pode ser o produto.
+	==É uma concretização do projeto de interface que permite aos usuários e envolvidos interagirem com ele e explorarem sua aderência às suas necessidades.== É um modelo, uma representação do que pode ser o produto.
 	
 	**Os protótipos podem ter baixa e alta fidelidade**
 	- ***Protótipo de baixa fidelidade***
-		É aquele que não se parece muito com o produto, mesmo assim é útil porque é simples, de rápida produção, barato e fácil de ser modificado para novos testes.
+		==É aquele que não se parece muito com o produto==, mesmo assim é útil porque é simples, de rápida produção, barato e fácil de ser modificado para novos testes.
 	- ***Protótipo de alta fidelidade***
-		É aquele que utiliza ferramentas com linguagens mais rápidas de desenvolvimento, e com isso já mostra ao usuário como vai ficar o produto mais próximo da realidade.
+		==É aquele que utiliza ferramentas com linguagens mais rápidas de desenvolvimento==, e com isso já mostra ao usuário como vai ficar o ==produto mais próximo da realidade.==
 
 ### Técnicas de modelagem de interface
 

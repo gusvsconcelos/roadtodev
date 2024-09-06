@@ -57,7 +57,7 @@ A ISO 9241-11 também define usabilidade como ==uma medida pela qual um produto 
 - **Satisfação**
 	Conforto e aceitabilidade do produto, medidos por meio de métodos subjetivos e/ou objetivos. Esta é a mais difícil de medir e quantificar, pois está relacionada com fatores subjetivos. Refere-se ao nível de conforto que o usuário sente ao utilizar a interface para alcançar seus objetivos.
  
- Outro conceito também bastante importante e que precisamos entender é o de **interação.** Kammersgaard (1988) identificou quatro perspectivas de interação usuário-sistema: *perspectiva de sistema, de parceiro de discurso, de ferramenta e de mídia.*
+ Outro conceito também bastante importante e que precisamos entender é o de **interação.** **Kammersgaard (1988)** identificou quatro perspectivas de interação usuário-sistema: *perspectiva de sistema, de parceiro de discurso, de ferramenta e de mídia.*
 ![[interacao-usuario-sistema.png]]
 
 ### Interface Humano-Computador (IHC)

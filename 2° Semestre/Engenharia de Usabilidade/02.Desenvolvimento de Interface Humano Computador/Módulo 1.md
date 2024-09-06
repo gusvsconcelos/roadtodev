@@ -16,7 +16,7 @@ Visa elaborar um modelo conceitual de entidades e atributos do domínio e do sis
 
 ### Affordance 
 
-O conceito de *affordance*, introduzido por Norman (1998), refere-se às características perceptíveis de um software que ==indicam aos usuários as operações possíveis e como realizá-las.== 
+O conceito de *affordance*, introduzido por **Norman (1998)**, refere-se às características perceptíveis de um software que ==indicam aos usuários as operações possíveis e como realizá-las.== 
 
 Essencial para o design de interfaces humano-computador, ==*affordance* facilita o reconhecimento e o uso intuitivo de um objeto sem explicações prévias==, baseando-se frequentemente em padrões para reduzir a carga cognitiva.
 
@@ -47,7 +47,7 @@ A *comunicabilidade* ==é a propriedade de uma interface que permite transmitir,
 
 ### Fases de um projeto de interface humano-computador
 
-Segundo Rogers, Sharp e Preece (2013), as fases de um projeto de IHC são fundamentais para ==garantir que o sistema atenda às necessidades reais dos usuários e suporte todos os requisitos de negócio.== O processo começa com a compreensão dos processos de trabalho dos usuários e suas necessidades.
+Segundo **Rogers, Sharp e Preece (2013)**, as fases de um projeto de IHC são fundamentais para ==garantir que o sistema atenda às necessidades reais dos usuários e suporte todos os requisitos de negócio.== O processo começa com a compreensão dos processos de trabalho dos usuários e suas necessidades.
 
 **Essas fases são:**
 - **Identificar as necessidades e definir os requisitos**

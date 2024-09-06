@@ -2,7 +2,7 @@
 
 ## *Princípios e diretrizes de design IHC: parte I*
 
-Existem diversos princípios, diretrizes e heurísticas na área de IHC. Os mais conhecidos são os de **Norman** (1988) e de **Nielsen** (1993) e as **regras de ouro de Shneiderman** (1998). A existência deles não substitui os processos de análise, design e avaliação. De toda forma, ==esses princípios e diretrizes podem ser usados como apoio aos processos de design.==
+Existem diversos princípios, diretrizes e heurísticas na área de IHC. Os mais conhecidos são os de **Norman (1988)** e de **Nielsen (1993)** e as regras de ouro de **Shneiderman (1998)**. A existência deles não substitui os processos de análise, design e avaliação. De toda forma, ==esses princípios e diretrizes podem ser usados como apoio aos processos de design.==
 
 Cabe ao designer considerar se e ==quais diretrizes são adequadas à sua situação de design==, e como elas devem se manifestar na solução.
 
@@ -47,7 +47,7 @@ Para isso, os designers devem seguir **quatro abordagens:**
 
 Mas é importante ressaltar que ==o usuário pode ter mais ou menos liberdade de acordo com seu perfil.== Usuários sem muita experiência podem precisar de mais assistência e menos alternativas, enquanto os mais experientes podem ter mais alternativas.
 
-Shneiderman (1998) ==recomenda permitir que o usuário tenha controle total da interação.== Também é importante que eles ==possam cancelar ou desfazer suas ações==, pois isso reduz o medo de errar e evita a necessidade de apresentar diversos diálogos pedindo confirmação das ações dos usuários.
+**Shneiderman**  ==recomenda permitir que o usuário tenha controle total da interação.== Também é importante que eles ==possam cancelar ou desfazer suas ações==, pois isso reduz o medo de errar e evita a necessidade de apresentar diversos diálogos pedindo confirmação das ações dos usuários.
 
 ### Promoção da eficiência do usuário
 
