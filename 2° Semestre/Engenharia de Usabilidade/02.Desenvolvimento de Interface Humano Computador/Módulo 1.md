@@ -112,6 +112,6 @@ Aqui falaremos sobre diversas representações e modelos utilizados para registr
 - **Análise de tarefas**
 	Esta análise ==é utilizada para se ter um entendimento melhor sobre qual é o trabalho dos usuários==. Nesse tipo de análise, o trabalho não é apenas elencar tarefas, mas entender como o sistema irá afetar esse trabalho realizado.
 	
-	![[Captura de imagem_20240830_084427.png]]
+	![[analise-de-tarefas.png]]
 	
 	Existem alguns métodos para realizar análise de tarefas utilizados em IHC, como a **Análise Hierárquica de Tarefas** (HTA – _Hierarchical Task Analysis_), o **GOMS** (_Goals, Operators, Methods, and Selection_) e o **_ConcurTaskTrees_** (CTT).

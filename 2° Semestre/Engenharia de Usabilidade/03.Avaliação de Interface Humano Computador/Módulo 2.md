@@ -41,4 +41,4 @@ As heurísticas de Nielsen ==são genéricas e válidas para qualquer sistema==,
 **Santos (2016)** ==explica que somente uma pessoa não é capaz de encontrar todas as possíveis falhas do sistema==; por isso, ==para a avaliação heurística, deve ser selecionado um pequeno grupo de avaliadores== (em geral, de 3 a 5) para aplicar as heurísticas.
 
 **A figura ilustra as etapas da avaliação heurística.**
-![[img_20.jpg]]
+![[etapas-avaliacao-heuristica.jpg]]

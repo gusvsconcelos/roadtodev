@@ -36,4 +36,4 @@ A elaboração das listas ==deve ser feita de forma a reduzir ao máximo o núme
 - **Compatibilidade**: ==grau de similaridade entre diferentes ambientes e aplicações.==
 
 **Exemplo de questões de uma lista de verificação, relacionada com o critério de visibilidade do estado do sistema:**
-![[img_09.jpg]]
+![[inspecao-de-usabilidade.jpg]]

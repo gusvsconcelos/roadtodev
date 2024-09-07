@@ -4,5 +4,6 @@
   "readableLineLength": true,
   "strictLineBreaks": false,
   "foldHeading": true,
-  "vimMode": true
+  "vimMode": true,
+  "alwaysUpdateLinks": true
 }
