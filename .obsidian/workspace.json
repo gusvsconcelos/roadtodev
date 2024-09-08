@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c8128dc8b44229da",
+        "id": "d062edb9603c66b2",
         "type": "tabs",
         "children": [
           {
-            "id": "edf084f9cdca0e78",
+            "id": "e4c21207b4c44994",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 1.md",
+                "file": "2° Semestre/Engenharia de Usabilidade/04.Acessibilidade à Web/Módulo 3.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 282
+    "width": 282,
+    "collapsed": true
   },
   "right": {
     "id": "48a0b3906f0bf11b",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 1.md",
+                "file": "2° Semestre/Engenharia de Usabilidade/04.Acessibilidade à Web/Módulo 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 1.md",
+                "file": "2° Semestre/Engenharia de Usabilidade/04.Acessibilidade à Web/Módulo 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 1.md"
+                "file": "2° Semestre/Engenharia de Usabilidade/04.Acessibilidade à Web/Módulo 3.md"
               }
             }
           }
@@ -146,24 +147,28 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "edf084f9cdca0e78",
+  "active": "e4c21207b4c44994",
   "lastOpenFiles": [
+    "2° Semestre/Engenharia de Usabilidade/04.Acessibilidade à Web/Módulo 2.md",
+    "2° Semestre/Engenharia de Usabilidade/04.Acessibilidade à Web/Módulo 3.md",
+    "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 3.md",
+    "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 2.md",
+    "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 1.md",
+    "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 4.md",
+    "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 3.md",
+    "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 2.md",
+    "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 1.md",
     "2° Semestre/Engenharia de Usabilidade/03.Avaliação de Interface Humano Computador/Módulo 1.md",
-    "2° Semestre/Engenharia de Usabilidade/03.Avaliação de Interface Humano Computador/Módulo 2.md",
-    "2° Semestre/Engenharia de Usabilidade/03.Avaliação de Interface Humano Computador/Módulo 3.md",
     "2° Semestre/Engenharia de Usabilidade/03.Avaliação de Interface Humano Computador/Módulo 4.md",
+    "2° Semestre/Engenharia de Usabilidade/03.Avaliação de Interface Humano Computador/Módulo 3.md",
+    "2° Semestre/Engenharia de Usabilidade/03.Avaliação de Interface Humano Computador/Módulo 2.md",
+    "2° Semestre/Engenharia de Usabilidade/04.Acessibilidade à Web/Módulo 1.md",
+    "2° Semestre/Engenharia de Usabilidade/04.Acessibilidade à Web",
     "interacao-usuario-sistema.png",
     "inspecao-de-usabilidade.jpg",
     "etapas-avaliacao-heuristica.jpg",
     "analise-de-tarefas.png",
     "2° Semestre/img_09.jpg",
-    "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 4.md",
-    "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 3.md",
-    "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 2.md",
-    "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 1.md",
-    "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 3.md",
-    "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 1.md",
-    "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 2.md",
     "2° Semestre/Engenharia de Usabilidade/03.Avaliação de Interface Humano Computador",
     "Captura de imagem_20240830_084427 1.png",
     "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador",

@@ -37,6 +37,7 @@ Em geral, todo esse conhecimento é baseado em **padrões**. ==Padrões são út
 A *comunicabilidade* ==é a propriedade de uma interface que permite transmitir, de forma *eficaz* e *eficiente*, as finalidades e a lógica do design do sistema ao usuário.==
 
 > *Se um usuário é capaz de compreender a lógica utilizada na concepção do sistema interativo, terá maiores chances de fazer um uso criativo, eficiente e produtivo dele.*
+
 > (PRATES; BARBOSA, 2007)
 
 **A intenção é que o usuário saiba:**
