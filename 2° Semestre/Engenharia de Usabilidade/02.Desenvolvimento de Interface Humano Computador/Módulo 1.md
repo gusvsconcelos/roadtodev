@@ -1,26 +1,26 @@
 # **Projeto de design de interface humano-computador**
 
-### Características do projeto de design IHC
+## Características do projeto de design IHC
 
-O design de *interfaces humano-computador (IHC)* visa ==criar sistemas interativos que atendam às necessidades dos usuários através de um modelo conceitual detalhado==. Isso inclui estruturar tarefas, projetar interações e considerar elementos essenciais como a parte visual, usabilidade, arquitetura da informação, navegação e transição de telas.
+O design de *interfaces humano-computador (IHC)* visa ==criar sistemas interativos que atendam às necessidades dos usuários através de um modelo conceitual detalhado==. Isso inclui **estruturar tarefas**, **projetar interações** e considerar elementos essenciais como a **parte visual**, **usabilidade**, **arquitetura da informação**, **navegação** e **transição de telas**.
 
-Visa elaborar um modelo conceitual de entidades e atributos do domínio e do sistema, estruturar as tarefas e projetar as interações e a interface de um sistema interativo que ==apoie os objetivos do usuário==. Precisamos não só entender o problema do usuário, mas também ==como este executa suas atividades e quais são suas necessidades== que devem ser atendidas com o uso do sistema.
+Visa elaborar um modelo conceitual de entidades e atributos do domínio e do sistema, estruturar as tarefas e projetar as interações e a interface de ==um sistema interativo que apoie os objetivos do usuário==. Precisamos não só entender o problema do usuário, mas também ==como este executa suas atividades e quais são suas necessidades== que devem ser atendidas com o uso do sistema.
 
 
  **O projeto de design de interface se preocupa com muitos elementos, entre eles:**
-- Parte visual
-- Usabilidade
-- Arquitetura da informação
-- Navegação
-- Transição de telas
+- **Parte visual**
+- **Usabilidade**
+- **Arquitetura da informação**
+- **Navegação**
+- **Transição de telas**
 
-### Affordance 
+## Affordance 
 
-O conceito de *affordance*, introduzido por **Norman (1998)**, refere-se às características perceptíveis de um software que ==indicam aos usuários as operações possíveis e como realizá-las.== 
+O conceito de **affordance**, introduzido por **Norman (1998)**, ==refere-se às características perceptíveis de um software que indicam aos usuários as operações possíveis e como realizá-las.== 
 
-Essencial para o design de interfaces humano-computador, ==*affordance* facilita o reconhecimento e o uso intuitivo de um objeto sem explicações prévias==, baseando-se frequentemente em padrões para reduzir a carga cognitiva.
+Essencial para o design de interfaces humano-computador, ==**affordance** facilita o reconhecimento e o uso intuitivo de um objeto sem explicações prévias==, baseando-se frequentemente em padrões para reduzir a carga cognitiva.
 
-Em geral, todo esse conhecimento é baseado em **padrões**. ==Padrões são úteis, pois somos capazes de reduzir a carga cognitiva dos usuários quando interagem com um determinado elemento.== 
+Em geral, todo esse conhecimento é baseado em **padrões**. ==**Padrões** são úteis, pois somos capazes de reduzir a carga cognitiva dos usuários quando interagem com um determinado elemento.== 
 
  **Tipos existentes de affordance:**
  - **Explicito**
@@ -28,39 +28,38 @@ Em geral, todo esse conhecimento é baseado em **padrões**. ==Padrões são út
  - **Convencional**/**Padrão**
 	 Baseado em experiências anteriores do usuário ou em ==informações que são conhecidas pela maioria dos usuários.==
  - **Oculto**/**Escondido**
-	 É utilizado para ==diminuir a complexidade de uma interface==, porém ==pode tornar a interface difícil de usar== se o usuário não estiver acostumado.
+	 É utilizado para ==diminuir a complexidade de uma interface==, ==**porém** pode tornar a interface difícil de usar== se o usuário não estiver acostumado.
  - **Metafórico**
 	 ==Utiliza objetos do mundo real como metáforas== para ajudar no entendimento da interface.
 
 ### Comunicabilidade
 
-A *comunicabilidade* ==é a propriedade de uma interface que permite transmitir, de forma *eficaz* e *eficiente*, as finalidades e a lógica do design do sistema ao usuário.==
+A **comunicabilidade** ==é a propriedade de uma interface que permite transmitir, de forma **eficaz** e **eficiente**, as finalidades e a lógica do design do sistema ao usuário.==
 
 > *Se um usuário é capaz de compreender a lógica utilizada na concepção do sistema interativo, terá maiores chances de fazer um uso criativo, eficiente e produtivo dele.*
-
-> (PRATES; BARBOSA, 2007)
+> **(PRATES; BARBOSA, 2007)**
 
 **A intenção é que o usuário saiba:**
-- Para que serve o sistema
-- Qual a vantagem de utilizar o sistema
-- Como ele funciona
-- Quais são os princípios gerais de interação com o sistema.
+- **Para que serve o sistema**
+- **Qual a vantagem de utilizar o sistema**
+- **Como ele funciona**
+- **Quais são os princípios gerais de interação com o sistema.**
 
-### Fases de um projeto de interface humano-computador
+## Fases de um projeto de interface humano-computador
 
-Segundo **Rogers, Sharp e Preece (2013)**, as fases de um projeto de IHC são fundamentais para ==garantir que o sistema atenda às necessidades reais dos usuários e suporte todos os requisitos de negócio.== O processo começa com a compreensão dos processos de trabalho dos usuários e suas necessidades.
+Segundo **Rogers, Sharp e Preece (2013)**, ==as fases de um projeto de IHC são fundamentais para garantir que o sistema atenda às necessidades reais dos usuários e suporte todos os requisitos de negócio.== O processo começa com a compreensão dos processos de trabalho dos usuários e suas necessidades.
 
 **Essas fases são:**
 - **Identificar as necessidades e definir os requisitos**
-	deverão ser entendidos os processos de trabalho dos usuários, verificadas as suas ==reais necessidades perante o uso do sistema== para apoio aos seus processos de trabalho.
+	deverão ser entendidos os processos de trabalho dos usuários, ==verificadas as suas reais necessidades perante o uso do sistema== para apoio aos seus processos de trabalho.
 - **Desenvolver designs alternativos**
 	devem ser explorados vários aspectos com relação ao visual e à usabilidade do software.
 - **Construir versões interativas dos designs**
 	são desenvolvidos protótipos que permitem ao usuário vivenciar a visão da interface em um software próprio para prototipação.
 - **Avaliar o design**
-	as alternativas de design apresentadas nos protótipos são avaliadas e ranqueadas mediante critérios definidos previamente, como: *aparência*, *quantidade* *de* *requisitos* *satisfeitos*, *usabilidade*, entre outros.
+	as alternativas de design apresentadas nos protótipos são avaliadas e ranqueadas mediante critérios definidos previamente, como: **aparência**, **quantidade de requisitos satisfeitos**, **usabilidade**, entre outros.
 
-### Definindo as representações do projeto
+## Definindo as representações do projeto
 
 No processo de levantamento de requisitos para o *design de interfaces humano-computador* (IHC), ==é essencial utilizar representações claras e estruturadas para registrar, organizar, refinar e analisar os dados coletados.== Entre as principais representações estão os perfis de usuário, personas, cenários de uso e modelos de tarefas.
 
@@ -72,7 +71,7 @@ Aqui falaremos sobre diversas representações e modelos utilizados para registr
 - **Personas**
 	É um termo que representa um grupo *hipotético* de usuários.
 	
-	*Uma ==boa prática== citada por muitos autores é ==termos poucas personas para um sistema==. Muitas delas em paralelo geram muitos conjuntos e isso pode complicar muito as funcionalidades do sistema, pois vamos ter que “agradar” muitos pontos de vista diferentes.*
+	*Uma boa prática citada por muitos autores é ==termos poucas personas para um sistema==. Muitas delas em paralelo geram muitos conjuntos e isso pode complicar muito as funcionalidades do sistema, pois vamos ter que “agradar” muitos pontos de vista diferentes.*
 	
 	**Elementos que uma persona deve ter:**
 	- ***Identidade***
@@ -115,4 +114,4 @@ Aqui falaremos sobre diversas representações e modelos utilizados para registr
 	
 	![[analise-de-tarefas.png]]
 	
-	Existem alguns métodos para realizar análise de tarefas utilizados em IHC, como a **Análise Hierárquica de Tarefas** (HTA – _Hierarchical Task Analysis_), o **GOMS** (_Goals, Operators, Methods, and Selection_) e o **_ConcurTaskTrees_** (CTT).
+	Existem alguns métodos para realizar análise de tarefas utilizados em IHC, como a **Análise Hierárquica de Tarefas** (**HTA** – _Hierarchical Task Analysis_), o **GOMS** (_Goals, Operators, Methods, and Selection_) e o **_ConcurTaskTrees_** (**CTT**).

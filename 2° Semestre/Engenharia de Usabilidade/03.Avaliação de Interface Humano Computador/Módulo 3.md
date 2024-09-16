@@ -1,21 +1,20 @@
 # **Aplicar a técnica de avaliação por inspeção por meio de lista de verificação de interface humano-computador**
 
-### Definição de avaliação por inspeção por meio de lista de verificação
+## Definição de avaliação por inspeção por meio de lista de verificação
 
-As técnicas de inspeção de interface humano-computador ==permitem ao avaliador prever problemas que os usuários podem vir a ter quando interagirem com um sistema.== **A avaliação por inspeção por lista de verificação é uma dessas técnicas.**
+==As técnicas de inspeção de interface humano-computador permitem ao avaliador prever problemas que os usuários podem vir a ter quando interagirem com um sistema.== A **avaliação por inspeção por lista de verificação** é uma dessas técnicas.
 
-*A avaliação por inspeção por lista de verificação ==é baseada na verificação da usabilidade do sistema com base em uma lista predefinida== (checklist), a qual deverá ser percorrida por todos os avaliadores.*
+*==A avaliação por inspeção por lista de verificação é baseada na verificação da usabilidade do sistema com base em uma lista predefinida== (checklist), a qual deverá ser percorrida por todos os avaliadores.*
 
-*A lista de verificação (checklist) ==é um conjunto de itens a serem vistoriados por profissionais, que não são necessariamente especialistas em IHC ou usabilidade==, por exemplo, programadores e analistas.*
+*==A lista de verificação (checklist) é um conjunto de itens a serem vistoriados por profissionais, que não são necessariamente especialistas em IHC ou usabilidade==, por exemplo, programadores e analistas.*
 
-### Elaboração da lista de verificação
+## Elaboração da lista de verificação
 
-A elaboração das listas ==deve ser feita de forma a reduzir ao máximo o número de questões subjetivas== que possam colocar o avaliador em dúvida.
+==A elaboração das listas deve ser feita de forma a reduzir ao máximo o número de questões subjetivas== que possam colocar o avaliador em dúvida.
 
 *Segundo **Bastien e Scapin (1993)**, a definição de critérios de usabilidade é parte de um projeto mais amplo, que aponta para o desenvolvimento de técnicas que podem incorporar considerações de ergonomia dentro do processo de design e avaliação da interface humano-computador.*
 
 **Os critérios definidos por Bastien e Scapin (1993) são os seguintes:**
-
 - **Presteza**: ==facilidade de realização de determinadas ações na interação== com o computador. Por exemplo, entrada de dados.
 - **Agrupamento/Distinção por localização**: ==posicionamento relativo dos elementos de interface, se pertencem ou não a uma classe==, ou indicam distinções entre classes diferentes ou entre itens de uma mesma classe.
 - **Agrupamento/Distinção por formato**: ==características gráficas (formato, cor, etc.) que indicam se itens pertencem à mesma classe==, distinção entre classes e entre itens de uma mesma classe.

@@ -2,8 +2,7 @@
 
 No processo de desenvolvimento de software, o levantamento de requisitos é uma ==fase crucial em que se compreendem os processos de trabalho dos usuários e suas necessidades.==
 
-
-### Técnicas de levantamento de requisitos em IHC
+## Técnicas de levantamento de requisitos em IHC
 - **Entrevistas**
 	==É uma conversa guiada por um roteiro de perguntas==, na qual um entrevistador busca obter informação de um entrevistado.
 - **Grupos de foco**
@@ -31,18 +30,18 @@ No processo de desenvolvimento de software, o levantamento de requisitos é uma 
 	- ***Protótipo de alta fidelidade***
 		==É aquele que utiliza ferramentas com linguagens mais rápidas de desenvolvimento==, e com isso já mostra ao usuário como vai ficar o ==produto mais próximo da realidade.==
 
-### Técnicas de modelagem de interface
+## Técnicas de modelagem de interface
 
-As *técnicas de bridge* e *design centrado no usuário* são fundamentais para definir elementos concretos a partir de conceitos abstratos no design de IHC.
+As **técnicas de bridge** e **design centrado no usuário** são fundamentais para definir elementos concretos a partir de conceitos abstratos no design de IHC.
 
-- A *técnica de bridge* ==transforma fluxos de trabalho dos usuários em objetos de tarefas==, testados para garantir correspondência com as atividades reais.
+- A **técnica de bridge** ==transforma fluxos de trabalho dos usuários em objetos de tarefas==, testados para garantir correspondência com as atividades reais.
 
-- Já o *design centrado no usuário* é uma abordagem iterativa que especifica o contexto de uso, requisitos, cria a solução de design e ==realiza testes de usabilidade para garantir qualidade==.
+- Já o **design centrado no usuário** ==é uma abordagem iterativa que especifica o contexto de uso, requisitos, cria a solução de design e realiza testes de usabilidade para garantir qualidade==.
 
-##### *Técnica de Bridge*
-É baseada numa sequência de sessões com várias pessoas envolvidas no projeto, com a intenção de ==criar “pontes” entre os requisitos dos usuários e da organização==. Em geral, os ==usuários apresentam seu fluxo de trabalho, que são transformados em objetos de tarefas (caixas de diálogo e caixas de mensagens)==. Esses objetos, por sua vez, são testados pelos usuários participantes para verificar se atendem e correspondem às atividades que fazem atualmente e que serão transferidas para o sistema.
-##### *Design centrado no usuário*
-é uma abordagem *iterativa* que foca especificamente no uso do sistema. ==Essa técnica pressupõe que os designers irão prever como será o uso do sistema== e com isso farão testes de validade desse uso.
+### *Técnica de Bridge*
+==É baseada numa sequência de sessões com várias pessoas envolvidas no projeto, com a intenção de criar “pontes” entre os requisitos dos usuários e da organização. Em geral, os usuários apresentam seu fluxo de trabalho, que são transformados em objetos de tarefas (caixas de diálogo e caixas de mensagens)==. Esses objetos, por sua vez, são testados pelos usuários participantes para verificar se atendem e correspondem às atividades que fazem atualmente e que serão transferidas para o sistema.
+### *Design centrado no usuário*
+é uma abordagem **iterativa** que foca especificamente no uso do sistema. ==Essa técnica pressupõe que os designers irão prever como será o uso do sistema e com isso farão testes de validade desse uso.==
 
 Em geral, cada iteração nessa abordagem segue basicamente **quatro etapas**:
 - **Etapa 1**
@@ -54,48 +53,48 @@ Em geral, cada iteração nessa abordagem segue basicamente **quatro etapas**:
 - **Etapa 4**
 	==Avaliação quanto à qualidade== por meio de testes de usabilidade.
 
-### Técnicas para análise e modelagem de tarefas
+## Técnicas para análise e modelagem de tarefas
 
 No campo de IHC, técnicas como *análise hierárquica de tarefas (HTA)*, *GOMS (goals, operators, methods and selection rules, em inglês)* e *ConcurTaskTrees (CTT)* são essenciais para análise e modelagem de tarefas.
 
-A *HTA* ==decompõe objetivos complexos em subobjetivos e operações, facilitando a identificação de problemas e soluções.== O *GOMS* ==descreve tarefas em termos de objetivos, operadores, métodos e regras de seleção==, baseando-se no conhecimento do usuário sobre as ações. Já o *CTT* ==apoia a avaliação do design da interface, explicitando a hierarquia entre tarefas do usuário, sistema, interativas e abstratas==, garantindo uma compreensão clara das relações e dependências entre elas.
+A *HTA* decompõe objetivos complexos em subobjetivos e operações, facilitando a identificação de problemas e soluções. O *GOMS* descreve tarefas em termos de objetivos, operadores, métodos e regras de seleção, baseando-se no conhecimento do usuário sobre as ações. Já o *CTT* apoia a avaliação do design da interface, explicitando a hierarquia entre tarefas do usuário, sistema, interativas e abstratas, garantindo uma compreensão clara das relações e dependências entre elas.
 
-##### **Análise hierárquica de tarefas**
-Foi desenvolvida para ==entender as competências e habilidades necessárias em tarefas complexas e não repetitivas.== Ajuda a relacionar o que as pessoas fazem, por que fazem, e quais as consequências caso não o façam corretamente.
+### *Análise hierárquica de tarefas*
+==Foi desenvolvida para entender as competências e habilidades necessárias em tarefas complexas e não repetitivas.== Ajuda a relacionar o que as pessoas fazem, por que fazem, e quais as consequências caso não o façam corretamente.
 
 **HTA em síntese:**
-- A HTA examina os objetivos de alto nível e os decompõe em subobjetivos, buscando ==identificar quais **subobjetivos** são mais difíceis de atingir== (ou que geram mais erros).
+- A HTA examina os objetivos de alto nível e os decompõe em subobjetivos, ==buscando identificar quais **subobjetivos** são mais difíceis de atingir== (ou que geram mais erros).
 - Os subobjetivos de um objetivo e as relações entre eles são estabelecidos em um **plano**.
 - Um plano define os subobjetivos necessários para alcançar um outro **objetivo maior**
-- No plano, cada subobjetivo é alcançado por uma **operação**, que ==é a unidade fundamental em HTA==.
+- No plano, cada subobjetivo é alcançado por uma **operação**, ==que é a unidade fundamental em HTA==.
 
-*Uma **operação** é especificada pelas ==circunstâncias nas quais o objetivo é ativado== (input ou entrada), ==pelas atividades ou ações== (actions) que contribuem para atingi-lo e ==pelas condições que indicam o seu atingimento== (feedback).*
+*Uma **operação** ==é especificada pelas circunstâncias nas quais o objetivo é ativado== (input ou entrada), ==pelas atividades ou ações== (actions) que contribuem para atingi-lo e ==pelas condições que indicam o seu atingimento== (feedback).*
 
-*Uma **ação** pode ser entendida como ==uma instrução para fazer algo sob certas circunstâncias==, o **input** ==como estados== e o **feedback** ==como testes ou avaliação do estado final.==*
+*Uma **ação** ==pode ser entendida como uma instrução para fazer algo sob certas circunstâncias==, o **input** ==como estados== e o **feedback** ==como testes ou avaliação do estado final.==*
 
-Dessa maneira, a análise ==visa identificar principalmente como um sistema possibilita ou impede as pessoas de alcançarem seus objetivos==. Essa análise permite ainda ==identificar problemas potenciais de cada ação==, bem como elaborar recomendações para evitá-los.
+Dessa maneira, ==a análise visa identificar principalmente como um sistema possibilita ou impede as pessoas de alcançarem seus objetivos. Essa análise permite ainda identificar problemas potenciais de cada ação==, bem como elaborar recomendações para evitá-los.
 
 **A análise hierárquica de tarefas consiste nos seguintes passos:**
-1. Definir objetivos.
-2. Obter consenso.
-3. Identificar as fontes de informação
+1. **Definir objetivos.**
+2. **Obter consenso.**
+3. **Identificar as fontes de informação**
 
-##### **GOMS (goals, operators, methods, and selection rules)**
-Esta técnica ==descreve uma tarefa e o conhecimento do usuário sobre como realizar essa tarefa== em termos de **objetivos (_goals_)**, **operadores (_operators_)**, **métodos (_methods_)** e **regras de seleção (_selection rules_)**.
+### *GOMS (goals, operators, methods, and selection rules)*
+==Esta técnica descreve uma tarefa e o conhecimento do usuário sobre como realizar essa tarefa== em termos de **objetivos (_goals_)**, **operadores (_operators_)**, **métodos (_methods_)** e **regras de seleção (_selection rules_)**.
 
 *Os **objetivos** são as ações que o usuário quer realizar. Os **operadores** permitem que essas ações aconteçam como seleção de menus e o clique de um botão, por exemplo.\*
 
 *Os **métodos** são as sequências de subobjetivos e operadores que fazem com que o usuário atinja seus objetivos.* 
 
-##### Atenção!
+### **Atenção!**
 >Quando há mais do que um método para atingir um mesmo objetivo, temos então as **regras de seleção**, que serão as tomadas de decisão dos usuários sobre qual método utilizar.
 
 *O **GOMS** trabalha com o conhecimento que uma pessoa tem sobre os processos que executa. ==É mais utilizado quando os usuários executam tarefas sobre as quais já têm bastante conhecimento.==*
 
-###### **CTT (ConcurTaskTrees)**
+### *CTT (ConcurTaskTrees)*
 As árvores de tarefas concorrentes ==servem para apoiar a avaliação do design da interface.==
 
-Tarefas do CTT:
+**Tarefas do CTT:**
 - **Tarefas do usuário**
 	Realizadas fora do sistema.
 - **Tarefas do sistema**

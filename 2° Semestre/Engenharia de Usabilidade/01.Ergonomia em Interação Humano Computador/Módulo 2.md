@@ -2,9 +2,9 @@
 
 Os princípios e critérios ergonômicos são diretrizes que os desenvolvedores devem seguir para garantir uma experiência mais agradável e interessante para o usuário ao interagir com a interface de qualquer sistema.
 
-### Critérios ergonômicos em IHC
+## Critérios ergonômicos em IHC
 
-Trata-se do conjunto de qualidades que deve ser seguido sempre que vamos construir interfaces. Existem 8 critérios a serem observados e verificados. São eles:
+Trata-se do conjunto de qualidades que deve ser seguido sempre que vamos construir interfaces. **Existem 8 critérios a serem observados e verificados. São eles:**
 1. **Condução**
     O objetivo deste critério é guiar os usuários ainda sem experiência no uso do sistema.
     - *Convite*
@@ -36,24 +36,24 @@ Trata-se do conjunto de qualidades que deve ser seguido sempre que vamos constru
 8. **Compatibilidade**
 	O objetivo deste critério é fazer com que a organização das saídas e entradas de uma aplicação se adequem às características do usuário, como hábitos, idade, competências, expectativas etc.
 
-### Critérios de Usabilidade
-- Facilidade de uso
-- Eficiência
-- Facilidade de memorização
-- Taxa de erros
-- Satisfação
+## Critérios de Usabilidade
+- **Facilidade de uso**
+- **Eficiência**
+- **Facilidade de memorização**
+- **Taxa de erros**
+- **Satisfação**
 
-### Requisitos de Usabilidade
+## Requisitos de Usabilidade
 
 Segundo **Norman (1986)**, ==um sistema orientado à usabilidade possui uma interface que deve ser usada para se executar uma tarefa, sem chamar nenhuma atenção para si==, de modo a permitir que os usuários não precisem focalizar a sua energia na interface em si, mas apenas no trabalho que eles desejam executar.
 
-De acordo com **Pressman (1992)**, os requisitos desejáveis em uma boa interface podem ser agrupados em duas categorias:
+De acordo com **Pressman (1992)**, **os requisitos desejáveis em uma boa interface podem ser agrupados em duas categorias:**
 - **Requisitos relacionados à exibição de informação**
 	Consistência, feedback, níveis de habilidade e conhecimento humano, percepção humana, metáforas, minimização de carga de memória, classificação funcional dos comandos, projeto independente da resposta do monitor.
 - **Entrada de dados**
 	Mecanismos de ajuda, prevenção de erros e tratamento de erros.
 
-### Tipos de problemas no uso das interfaces
+## Tipos de problemas no uso das interfaces
 
 Outro ponto importante que pode contribuir para a construção adequada de uma interface é o estudo dos tipos de problemas que os usuários podem enfrentar durante o uso. Existem três tipos de problemas que podem ser encontrados pelos usuários ao utilizar o software: *barreiras*, *obstáculos* e *ruídos*.
 - **Barreiras**
@@ -63,11 +63,11 @@ Outro ponto importante que pode contribuir para a construção adequada de uma i
 - **Ruídos**
 	Tipos de problemas mais simples. ==Não atrapalha nem atrasa a execução do trabalho do usuário==, mas este pode ficar com uma má impressão do sistema.
 
-### Avaliação da aplicação dos critérios ergonômicos em uma interface
+## Avaliação da aplicação dos critérios ergonômicos em uma interface
 
 ==A verificação e validação ergonômica devem ser realizadas em todas as etapas do ciclo de vida do desenvolvimento de software==. Existem algumas técnicas para realização destas atividades. Há duas formas de avaliação: *Heurística* ou por *Inspeção*.
 - Uma **avaliação heurística** ==produz um julgamento sobre as qualidades ergonômicas das interfaces==. Deve ser realizada por um grupo de especialistas, pois, em geral, existem diferenças de opinião entre eles, devido ao caráter subjetivo dessa avaliação.
-- As **inspeções ergonômicas**, por outro lado, ==são vistorias baseadas em listas de verificação (checklists) com diferentes níveis de detalhe==. Elas sistematizam o diagnóstico. Para utilizar essa técnica, é importante definir os principais aspectos de inspeção, a saber:
+- As **inspeções ergonômicas**, por outro lado, ==são vistorias baseadas em listas de verificação (checklists) com diferentes níveis de detalhe==. Elas sistematizam o diagnóstico. Para utilizar essa técnica, **é importante definir os principais aspectos de inspeção, a saber:**
 	- **Abordagem** ‒ Define a dimensão da inspeção.
 	- **Modelo subjacente** ‒ Define os elementos e a organização da dimensão do problema.
 	- **Dinâmica** ‒ Define a ordem de exame dos elementos do modelo.
