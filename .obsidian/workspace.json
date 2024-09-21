@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "a7a6a835b4a109c2",
+        "id": "0ea5c70eea93368e",
         "type": "tabs",
         "children": [
           {
-            "id": "303d05b0450b931c",
+            "id": "4082d8b79438086c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2° Semestre/Modelagem de Sistemas em Uml/01.Conceitos Básicos de Modelagem de Sistemas/Módulo 3.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "heurist",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324
+    "width": 434
   },
   "right": {
     "id": "48a0b3906f0bf11b",
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2° Semestre/Modelagem de Sistemas em Uml/01.Conceitos Básicos de Modelagem de Sistemas/Módulo 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2° Semestre/Modelagem de Sistemas em Uml/01.Conceitos Básicos de Modelagem de Sistemas/Módulo 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2° Semestre/Modelagem de Sistemas em Uml/01.Conceitos Básicos de Modelagem de Sistemas/Módulo 3.md"
+              }
             }
           }
         ]
@@ -135,17 +143,24 @@
       "canvas:Criar novo canvas": false,
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "96473303a0b4a49f",
+  "active": "4082d8b79438086c",
   "lastOpenFiles": [
-    "2° Semestre/Engenharia de Usabilidade/Considerações finais.md",
-    "2° Semestre/Engenharia de Usabilidade/04.Acessibilidade à Web/Módulo 4.md",
-    "2° Semestre/Engenharia de Usabilidade/04.Acessibilidade à Web/Módulo 3.md",
-    "2° Semestre/Engenharia de Usabilidade/04.Acessibilidade à Web/Módulo 2.md",
-    "2° Semestre/Engenharia de Usabilidade/04.Acessibilidade à Web/Módulo 1.md",
+    "2° Semestre/Modelagem de Sistemas em Uml/01.Conceitos Básicos de Modelagem de Sistemas/Módulo 1.md",
+    "2° Semestre/Modelagem de Sistemas em Uml/01.Conceitos Básicos de Modelagem de Sistemas/Módulo 3.md",
+    "2° Semestre/Modelagem de Sistemas em Uml/01.Conceitos Básicos de Modelagem de Sistemas/Módulo 2.md",
+    "imagens/diagramas-uml.jpg",
+    "imagens/diagramas-uml.jpg.crdownload",
+    "imagens/momento3.jpg",
+    "imagens/momento2.jpg",
+    "imagens/momento2.jpg.crdownload",
+    "imagens/momento1.jpg",
+    "imagens/momento1.jpg.crdownload",
+    "Sem título.md",
+    "imagens/realidade-x-sistema.jpg",
+    "imagens/realidade-x-sistema.jpg.crdownload",
     "2° Semestre/Engenharia de Usabilidade/03.Avaliação de Interface Humano Computador/Módulo 4.md",
     "2° Semestre/Engenharia de Usabilidade/03.Avaliação de Interface Humano Computador/Módulo 3.md",
     "2° Semestre/Engenharia de Usabilidade/03.Avaliação de Interface Humano Computador/Módulo 2.md",
@@ -157,26 +172,26 @@
     "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 3.md",
     "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 2.md",
     "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 1.md",
-    "interacao-usuario-sistema.png",
+    "imagens/analise-de-tarefas.png",
+    "imagens",
+    "2° Semestre/Modelagem de Sistemas em Uml/Sem título.md",
+    "2° Semestre/Modelagem de Sistemas em Uml/01.Conceitos Básicos de Modelagem de Sistemas",
+    "2° Semestre/Modelagem de Sistemas em Uml",
+    "2° Semestre/Engenharia de Usabilidade/Considerações finais.md",
+    "2° Semestre/Engenharia de Usabilidade/04.Acessibilidade à Web/Módulo 4.md",
+    "2° Semestre/Engenharia de Usabilidade/04.Acessibilidade à Web/Módulo 3.md",
+    "2° Semestre/Engenharia de Usabilidade/04.Acessibilidade à Web/Módulo 2.md",
+    "2° Semestre/Engenharia de Usabilidade/04.Acessibilidade à Web/Módulo 1.md",
+    "imagens/interacao-usuario-sistema.png",
     "2° Semestre/Engenharia de Usabilidade/04.Acessibilidade à Web",
-    "inspecao-de-usabilidade.jpg",
-    "etapas-avaliacao-heuristica.jpg",
-    "analise-de-tarefas.png",
+    "imagens/inspecao-de-usabilidade.jpg",
+    "imagens/etapas-avaliacao-heuristica.jpg",
     "2° Semestre/img_09.jpg",
     "2° Semestre/Engenharia de Usabilidade/03.Avaliação de Interface Humano Computador",
-    "Captura de imagem_20240830_084427 1.png",
     "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador",
-    "Sem título.md",
-    "s8 1.jpg",
-    "s8.jpg",
     "Sem título.canvas",
     "2° Semestre/Engenharia de Usabilidade/Ergonomia em Interação Humano Computador/Módulo 1/Sem título.md",
     "Modulo 1.md",
-    "2° Semestre/Engenharia de Usabilidade/Ergonomia em Interação Humano Computador/Módulo 1",
-    "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador",
-    "2° Semestre/Engenharia de Usabilidade/Ergonomia em Interação Humano",
-    "2° Semestre/Engenharia de Usabilidade",
-    "2° Semestre",
     "Welcome.md"
   ]
 }
