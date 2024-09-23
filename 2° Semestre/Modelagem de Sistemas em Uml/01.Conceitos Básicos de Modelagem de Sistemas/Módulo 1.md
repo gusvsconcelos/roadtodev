@@ -61,7 +61,6 @@ A construção dos diferentes modelos para um sistema compreende o que denominam
 - **no entendimento do sistema por membros da equipe de desenvolvimento.**
 
 ### *Entendimento e validação dos modelos junto aos usuários*
-
 ![](momento1.jpg)
 
 **Momento 1**: ==A equipe de desenvolvimento se reúne com os usuários e, usando técnicas de levantamento de dados, compreende a realidade e as necessidades que os usuários têm, visando a que sejam implementadas no sistema.== Os dados levantados são registrados e usados na construção dos modelos. *Esse momento acontece com maior intensidade na fase de requisitos, mas também se faz presente nas fases de análise e de projeto.*
@@ -75,5 +74,4 @@ A construção dos diferentes modelos para um sistema compreende o que denominam
 **Momento 3**: ==A equipe de desenvolvimento se reúne com os usuários, apresentando e discutindo os modelos construídos, visando validá-los e responder à pergunta base: os modelos que construímos representam de fato a realidade dos usuários?== *Esse momento acontece nas fases de requisitos, análise e projeto.*
 
 ### *Entendimento do sistema por membros da equipe de desenvolvimento*
-
 **Exemplo**: seria um projetista de interface, que precisa conhecer o funcionamento de determinado recurso para criar a interface necessária, então ele consulta o modelo que exibe a comunicação do usuário com o sistema para a referida funcionalidade. Esse momento acontece em todas as fases do projeto, pois sempre haverá desenvolvedores recebendo tarefas e consultando os respectivos modelos pertinentes.

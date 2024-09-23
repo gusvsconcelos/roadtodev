@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0ea5c70eea93368e",
+        "id": "6b44f440230f7471",
         "type": "tabs",
         "children": [
           {
-            "id": "4082d8b79438086c",
+            "id": "211e7577c8a5530d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2° Semestre/Modelagem de Sistemas em Uml/01.Conceitos Básicos de Modelagem de Sistemas/Módulo 3.md",
+                "file": "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 434
+    "width": 432
   },
   "right": {
     "id": "48a0b3906f0bf11b",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2° Semestre/Modelagem de Sistemas em Uml/01.Conceitos Básicos de Modelagem de Sistemas/Módulo 3.md",
+                "file": "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2° Semestre/Modelagem de Sistemas em Uml/01.Conceitos Básicos de Modelagem de Sistemas/Módulo 3.md",
+                "file": "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2° Semestre/Modelagem de Sistemas em Uml/01.Conceitos Básicos de Modelagem de Sistemas/Módulo 3.md"
+                "file": "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 2.md"
               }
             }
           }
@@ -146,11 +146,37 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "4082d8b79438086c",
+  "active": "211e7577c8a5530d",
   "lastOpenFiles": [
+    "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 1.md",
+    "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 3.md",
+    "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 1.md",
+    "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 2.md",
+    "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 3.md",
+    "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 4.md",
+    "2° Semestre/Engenharia de Usabilidade/03.Avaliação de Interface Humano Computador/Módulo 1.md",
+    "2° Semestre/Engenharia de Usabilidade/03.Avaliação de Interface Humano Computador/Módulo 2.md",
+    "2° Semestre/Engenharia de Usabilidade/03.Avaliação de Interface Humano Computador/Módulo 3.md",
+    "2° Semestre/Engenharia de Usabilidade/03.Avaliação de Interface Humano Computador/Módulo 4.md",
+    "2° Semestre/Engenharia de Usabilidade/04.Acessibilidade à Web/Módulo 1.md",
+    "2° Semestre/Engenharia de Usabilidade/04.Acessibilidade à Web/Módulo 2.md",
+    "2° Semestre/Engenharia de Usabilidade/04.Acessibilidade à Web/Módulo 4.md",
+    "2° Semestre/Engenharia de Usabilidade/04.Acessibilidade à Web/Módulo 3.md",
     "2° Semestre/Modelagem de Sistemas em Uml/01.Conceitos Básicos de Modelagem de Sistemas/Módulo 1.md",
-    "2° Semestre/Modelagem de Sistemas em Uml/01.Conceitos Básicos de Modelagem de Sistemas/Módulo 3.md",
     "2° Semestre/Modelagem de Sistemas em Uml/01.Conceitos Básicos de Modelagem de Sistemas/Módulo 2.md",
+    "2° Semestre/Modelagem de Sistemas em Uml/01.Conceitos Básicos de Modelagem de Sistemas/Módulo 3.md",
+    "2° Semestre/Modelagem de Sistemas em Uml/02.UmL Para Modelagem do Domínio/Módulo 1.md",
+    "2° Semestre/Modelagem de Sistemas em Uml/02.UmL Para Modelagem do Domínio/Módulo 2.md",
+    "2° Semestre/Modelagem de Sistemas em Uml/02.UmL Para Modelagem do Domínio/Módulo 3.md",
+    "2° Semestre/Modelagem de Sistemas em Uml/02.UmL Para Modelagem do Domínio/Módulo 4.md",
+    "2° Semestre/Modelagem de Sistemas em Uml/03.Utilizando Uml Para Projetar o Software/Módulo 1.md",
+    "2° Semestre/Modelagem de Sistemas em Uml/03.Utilizando Uml Para Projetar o Software/Módulo 2.md",
+    "2° Semestre/Modelagem de Sistemas em Uml/03.Utilizando Uml Para Projetar o Software/Módulo 3.md",
+    "2° Semestre/Modelagem de Sistemas em Uml/03.Utilizando Uml Para Projetar o Software/Módulo 4.md",
+    "2° Semestre/Engenharia de Usabilidade/Considerações finais.md",
+    "2° Semestre/Modelagem de Sistemas em Uml/03.Utilizando Uml Para Projetar o Software",
+    "2° Semestre/Modelagem de Sistemas em Uml/02.UmL Para Modelagem do Domínio",
+    "2° Semestre/Modelagem de Sistemas em Uml/01.Conceitos Básicos de Modelagem de Sistemas/Sem título",
     "imagens/diagramas-uml.jpg",
     "imagens/diagramas-uml.jpg.crdownload",
     "imagens/momento3.jpg",
@@ -158,40 +184,16 @@
     "imagens/momento2.jpg.crdownload",
     "imagens/momento1.jpg",
     "imagens/momento1.jpg.crdownload",
-    "Sem título.md",
     "imagens/realidade-x-sistema.jpg",
     "imagens/realidade-x-sistema.jpg.crdownload",
-    "2° Semestre/Engenharia de Usabilidade/03.Avaliação de Interface Humano Computador/Módulo 4.md",
-    "2° Semestre/Engenharia de Usabilidade/03.Avaliação de Interface Humano Computador/Módulo 3.md",
-    "2° Semestre/Engenharia de Usabilidade/03.Avaliação de Interface Humano Computador/Módulo 2.md",
-    "2° Semestre/Engenharia de Usabilidade/03.Avaliação de Interface Humano Computador/Módulo 1.md",
-    "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 4.md",
-    "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 3.md",
-    "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 2.md",
-    "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 1.md",
-    "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 3.md",
-    "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 2.md",
-    "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 1.md",
     "imagens/analise-de-tarefas.png",
     "imagens",
-    "2° Semestre/Modelagem de Sistemas em Uml/Sem título.md",
     "2° Semestre/Modelagem de Sistemas em Uml/01.Conceitos Básicos de Modelagem de Sistemas",
     "2° Semestre/Modelagem de Sistemas em Uml",
-    "2° Semestre/Engenharia de Usabilidade/Considerações finais.md",
-    "2° Semestre/Engenharia de Usabilidade/04.Acessibilidade à Web/Módulo 4.md",
-    "2° Semestre/Engenharia de Usabilidade/04.Acessibilidade à Web/Módulo 3.md",
-    "2° Semestre/Engenharia de Usabilidade/04.Acessibilidade à Web/Módulo 2.md",
-    "2° Semestre/Engenharia de Usabilidade/04.Acessibilidade à Web/Módulo 1.md",
     "imagens/interacao-usuario-sistema.png",
-    "2° Semestre/Engenharia de Usabilidade/04.Acessibilidade à Web",
     "imagens/inspecao-de-usabilidade.jpg",
     "imagens/etapas-avaliacao-heuristica.jpg",
     "2° Semestre/img_09.jpg",
-    "2° Semestre/Engenharia de Usabilidade/03.Avaliação de Interface Humano Computador",
-    "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador",
-    "Sem título.canvas",
-    "2° Semestre/Engenharia de Usabilidade/Ergonomia em Interação Humano Computador/Módulo 1/Sem título.md",
-    "Modulo 1.md",
-    "Welcome.md"
+    "Sem título.canvas"
   ]
 }

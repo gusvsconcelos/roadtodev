@@ -41,4 +41,5 @@ Para facilitar a compreensão e comparação dos problemas encontrados, Nielsen,
 **Santos (2016)** explica que somente uma pessoa não é capaz de encontrar todas as possíveis falhas do sistema; por isso, ==para a avaliação heurística, deve ser selecionado um pequeno grupo de avaliadores== (em geral, de 3 a 5) para aplicar as heurísticas.
 
 **A figura ilustra as etapas da avaliação heurística.**
+
 ![[etapas-avaliacao-heuristica.jpg]]

@@ -58,7 +58,6 @@
 	Apresentam algumas características associadas a uma, algumas ou todas as funcionalidades, e dizem respeito a aspectos de qualidade, confiabilidade, desempenho, portabilidade, segurança e usabilidade do sistema.
 
 ### *Análise de requisitos*
-
 A fase de análise de requisitos é a transposição dos registros dos requisitos funcionais e não funcionais para os modelos que a equipe pretende usar.
 
 **A análise de requisitos tem, minimamente, duas perspectivas ou visões:**

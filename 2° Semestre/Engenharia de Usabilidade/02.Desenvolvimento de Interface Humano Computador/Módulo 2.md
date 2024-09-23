@@ -3,6 +3,7 @@
 No processo de desenvolvimento de software, o levantamento de requisitos é uma ==fase crucial em que se compreendem os processos de trabalho dos usuários e suas necessidades.==
 
 ## Técnicas de levantamento de requisitos em IHC
+
 - **Entrevistas**
 	==É uma conversa guiada por um roteiro de perguntas==, na qual um entrevistador busca obter informação de um entrevistado.
 - **Grupos de foco**

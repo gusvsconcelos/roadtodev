@@ -37,6 +37,7 @@ Trata-se do conjunto de qualidades que deve ser seguido sempre que vamos constru
 	O objetivo deste critério é fazer com que a organização das saídas e entradas de uma aplicação se adequem às características do usuário, como hábitos, idade, competências, expectativas etc.
 
 ## Critérios de Usabilidade
+
 - **Facilidade de uso**
 - **Eficiência**
 - **Facilidade de memorização**
