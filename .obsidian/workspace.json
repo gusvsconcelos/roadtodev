@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6b44f440230f7471",
+        "id": "0651938ea55a67f5",
         "type": "tabs",
         "children": [
           {
-            "id": "211e7577c8a5530d",
+            "id": "f7628b9f17fddefc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 2.md",
+                "file": "2° Semestre/Modelagem de Sistemas em Uml/04.Estudo de Caso de Modelagem de Sistemas em Uml/Módulo 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 2.md",
+                "file": "2° Semestre/Modelagem de Sistemas em Uml/04.Estudo de Caso de Modelagem de Sistemas em Uml/Módulo 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 2.md",
+                "file": "2° Semestre/Modelagem de Sistemas em Uml/04.Estudo de Caso de Modelagem de Sistemas em Uml/Módulo 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 2.md"
+                "file": "2° Semestre/Modelagem de Sistemas em Uml/04.Estudo de Caso de Modelagem de Sistemas em Uml/Módulo 1.md"
               }
             }
           }
@@ -146,8 +146,15 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "211e7577c8a5530d",
+  "active": "f7628b9f17fddefc",
   "lastOpenFiles": [
+    "2° Semestre/Modelagem de Sistemas em Uml/04.Estudo de Caso de Modelagem de Sistemas em Uml/Módulo 2.md",
+    "2° Semestre/Modelagem de Sistemas em Uml/04.Estudo de Caso de Modelagem de Sistemas em Uml/Módulo 3.md",
+    "2° Semestre/Modelagem de Sistemas em Uml/04.Estudo de Caso de Modelagem de Sistemas em Uml/Módulo 4.md",
+    "2° Semestre/Modelagem de Sistemas em Uml/04.Estudo de Caso de Modelagem de Sistemas em Uml/Módulo 1.md",
+    "2° Semestre/Modelagem de Sistemas em Uml/03.Utilizando Uml Para Projetar o Software/Módulo 1.md",
+    "2° Semestre/Modelagem de Sistemas em Uml/04.Estudo de Caso de Modelagem de Sistemas em Uml",
+    "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 2.md",
     "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 1.md",
     "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 3.md",
     "2° Semestre/Engenharia de Usabilidade/02.Desenvolvimento de Interface Humano Computador/Módulo 1.md",
@@ -168,12 +175,6 @@
     "2° Semestre/Modelagem de Sistemas em Uml/02.UmL Para Modelagem do Domínio/Módulo 1.md",
     "2° Semestre/Modelagem de Sistemas em Uml/02.UmL Para Modelagem do Domínio/Módulo 2.md",
     "2° Semestre/Modelagem de Sistemas em Uml/02.UmL Para Modelagem do Domínio/Módulo 3.md",
-    "2° Semestre/Modelagem de Sistemas em Uml/02.UmL Para Modelagem do Domínio/Módulo 4.md",
-    "2° Semestre/Modelagem de Sistemas em Uml/03.Utilizando Uml Para Projetar o Software/Módulo 1.md",
-    "2° Semestre/Modelagem de Sistemas em Uml/03.Utilizando Uml Para Projetar o Software/Módulo 2.md",
-    "2° Semestre/Modelagem de Sistemas em Uml/03.Utilizando Uml Para Projetar o Software/Módulo 3.md",
-    "2° Semestre/Modelagem de Sistemas em Uml/03.Utilizando Uml Para Projetar o Software/Módulo 4.md",
-    "2° Semestre/Engenharia de Usabilidade/Considerações finais.md",
     "2° Semestre/Modelagem de Sistemas em Uml/03.Utilizando Uml Para Projetar o Software",
     "2° Semestre/Modelagem de Sistemas em Uml/02.UmL Para Modelagem do Domínio",
     "2° Semestre/Modelagem de Sistemas em Uml/01.Conceitos Básicos de Modelagem de Sistemas/Sem título",
@@ -189,7 +190,6 @@
     "imagens/analise-de-tarefas.png",
     "imagens",
     "2° Semestre/Modelagem de Sistemas em Uml/01.Conceitos Básicos de Modelagem de Sistemas",
-    "2° Semestre/Modelagem de Sistemas em Uml",
     "imagens/interacao-usuario-sistema.png",
     "imagens/inspecao-de-usabilidade.jpg",
     "imagens/etapas-avaliacao-heuristica.jpg",
