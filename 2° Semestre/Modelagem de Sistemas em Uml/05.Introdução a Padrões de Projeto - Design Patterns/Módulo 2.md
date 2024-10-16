@@ -1,10 +1,10 @@
 # **Padrões GRASP**
 
-## Especialista
+**GRASP** (General Responsibility Assignment Software Patterns) foi definido por **Craig Larman** no livro **Applying UML and Patterns** e ==se refere a um conjunto de padrões gerais para atribuição de responsabilidades em software orientado a objetos.==
 
-**GRASP** (General Responsibility Assignment Software Patterns) foi definido por **Craig Larman** no livro *Applying UML and Patterns* e ==se refere a um conjunto de padrões gerais para atribuição de responsabilidades em software orientado a objetos.== Ao contrário dos padrões GoF, que abordam problemas específicos, ==os padrões GRASP se concentram em princípios gerais de design.==
+Ao contrário dos padrões GoF, que abordam problemas específicos, ==os padrões GRASP se concentram em princípios gerais de design.==
 
-### *Comparação:*
+**Comparação:**
 - **Padrões GoF:** Focados em problemas específicos de projeto de software.
 - **Padrões GRASP:** Princípios gerais de design para software orientado a objetos.
 
@@ -18,14 +18,12 @@
 
 *O foco deste módulo é o padrão **Especialista**, que trata da atribuição de responsabilidades aos objetos no sistema.*
 
+## Especialista
 ### *Problema*
 Quando desenvolvemos um sistema orientado a objetos, uma das principais tarefas é definir as responsabilidades de cada classe e as interações necessárias entre os objetos para garantir que as funcionalidades desejadas sejam cumpridas com uma estrutura de fácil entendimento, manutenção e extensão.
 
 ### *Solução*
 Atribua a responsabilidade ao especialista — ao módulo que tem o conhecimento necessário para realizar a tarefa. Por exemplo, ao desenvolver um site de vendas online, a classe `Pedido` deve ter a responsabilidade de calcular o valor total do pedido, pois ela detém as informações dos itens que o compõem.
-
-### *Comentário*
-Atribuir responsabilidades aos especialistas é algo que fazemos intuitivamente em nosso dia a dia. Quando precisamos de um serviço específico, procuramos alguém com o conhecimento necessário para realizá-lo, como um eletricista para trocar a parte elétrica de uma casa.
 
 ### *Exemplo*
 **Em um site de vendas, considere as seguintes classes:**
@@ -35,12 +33,14 @@ Atribuir responsabilidades aos especialistas é algo que fazemos intuitivamente 
 Neste cenário, o valor total do pedido é a soma dos valores de cada item. Portanto, a operação `obterValorTotal` deve ser definida na classe `Pedido`, enquanto a operação `obterValor` (cálculo do valor de cada item) deve estar na classe `Item do Pedido`.
 
 ### *Consequências*
-==Quando o padrão Especialista não é seguido, surge o antipadrão conhecido como **God Class**, que concentra as funcionalidades em uma única classe==, enquanto as outras classes apenas fornecem dados por meio de getters e setters. ==Esse design gera classes chamadas "idiotas", que não possuem responsabilidades próprias, e concentra toda a lógica em uma classe de controle ou serviço.==
+==Quando o padrão Especialista não é seguido, surge o antipadrão conhecido como **God Class**, que concentra as funcionalidades em uma única classe==, enquanto as outras classes apenas fornecem dados por meio de getters e setters.
+
+==Esse design gera classes chamadas "idiotas", que não possuem responsabilidades próprias, e concentra toda a lógica em uma classe de controle ou serviço.==
 
 Por outro lado, em algumas situações, seguir rigorosamente o padrão Especialista pode comprometer conceitos como coesão e acoplamento. Por exemplo, atribuir a responsabilidade de armazenamento dos dados a uma classe `Pedido` fere o princípio de coesão, pois mistura responsabilidades de negócio com tecnologia de armazenamento (e.g., SQL, NoSQL). ==Isso acopla a classe de negócio com a tecnologia de armazenamento, tornando-a suscetível a alterações em ambos os contextos.==
 
 ### *Considerações Finais*
-O padrão Especialista é uma diretriz útil para atribuição de responsabilidades, mas é necessário ter cuidado ao aplicá-lo, garantindo que o design do sistema permaneça coeso e com baixo acoplamento.
+O padrão Especialista é uma diretriz útil para atribuição de responsabilidades, mas ==é necessário ter cuidado ao aplicá-lo, garantindo que o design do sistema permaneça coeso e com baixo acoplamento.==
 
 ## Criador e Baixo Acoplamento
 

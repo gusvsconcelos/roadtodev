@@ -6,16 +6,20 @@
 
 ==Ao serem utilizados, os padrões tornam o processo de evolução de sistemas existentes mais eficiente, proporcionando uma base estruturada que os desenvolvedores podem reutilizar.== Esses padrões surgiram como uma maneira de responder a perguntas mais complexas sobre a estruturação de sistemas, especialmente quando o desafio vai além da implementação de classes e interfaces.
 
-Uma analogia ao jogo de xadrez é feita para explicar a evolução do conhecimento: ==assim como grandes enxadristas acumulam experiências para tomar melhores decisões, desenvolvedores experientes aplicam soluções conhecidas que funcionaram bem no passado.== Esse conhecimento foi registrado por quatro engenheiros de software no livro **"Design Patterns: Elements of Reusable Object-Oriented Software"** (1994), que apresentou 23 padrões de projeto. Esses engenheiros ficaram conhecidos como a "Gangue dos Quatro" (*GoF*), e os padrões descritos por eles se tornaram referência no desenvolvimento de software.
+Uma analogia ao jogo de xadrez é feita para explicar a evolução do conhecimento: ==assim como grandes enxadristas acumulam experiências para tomar melhores decisões, desenvolvedores experientes aplicam soluções conhecidas que funcionaram bem no passado.==
+
+Esse conhecimento foi registrado por quatro engenheiros de software no livro **"Design Patterns: Elements of Reusable Object-Oriented Software"** (1994), que apresentou 23 padrões de projeto. Esses engenheiros ficaram conhecidos como a **"Gangue dos Quatro"** (*GoF*), e os padrões descritos por eles se tornaram referência no desenvolvimento de software.
 
 ## Conhecendo padrões de projeto
 
-Padrões de projeto (ou *design patterns*) são soluções nomeadas e estruturadas para problemas recorrentes em desenvolvimento de software. ==Embora muitas vezes descritos em termos de UML e associados ao paradigma orientado a objetos, os padrões de projeto podem ser aplicados em praticamente qualquer plataforma ou paradigma de programação, como o funcional e o reativo.==
+Padrões de projeto (ou *design patterns*) são soluções nomeadas e estruturadas para problemas recorrentes em desenvolvimento de software.
+
+==Embora muitas vezes descritos em termos de UML e associados ao paradigma orientado a objetos, os padrões de projeto podem ser aplicados em praticamente qualquer plataforma ou paradigma de programação, como o funcional e o reativo.==
 
 ==O uso de padrões permite adotar uma base de conhecimento amplamente testada e aceita no mercado, mas, como há várias famílias de padrões, é importante que o desenvolvedor saiba analisar e escolher o mais adequado para cada cenário.== Em alguns casos, o que é recomendado por um padrão pode ser desqualificado por outro, o que demanda experiência e discernimento.
 
 ### *O Que é um Padrão de Projeto?*
-Um padrão de projeto descreve um problema recorrente e a estrutura fundamental de sua solução, definida por módulos e comunicações entre eles. ==Na orientação a objetos, isso se traduz em classes, interfaces e mecanismos de colaboração entre objetos.==
+==Um padrão de projeto descreve um problema recorrente e a estrutura fundamental de sua solução, definida por módulos e comunicações entre eles.== Na orientação a objetos, isso se traduz em classes, interfaces e mecanismos de colaboração entre objetos.
 
 **Um padrão de projeto é composto por quatro elementos principais:**
 1. **Nome**: Um nome descritivo para a solução.
