@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "07bf74c1e8566747",
+        "id": "02b6e0be9f4fd47f",
         "type": "tabs",
         "children": [
           {
-            "id": "07eb3c1e4080932e",
+            "id": "079d4af5acb188d4",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -36,7 +36,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse"
+                "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de arquivos"
@@ -160,6 +160,12 @@
   },
   "active": "96473303a0b4a49f",
   "lastOpenFiles": [
+    "2° Semestre/Computação em Nuvem/01.Fundamentos da Computação em Nuvem/Módulo 1.md",
+    "2° Semestre/Computação em Nuvem/01.Fundamentos da Computação em Nuvem/Módulo 2.md",
+    "2° Semestre/Computação em Nuvem/01.Fundamentos da Computação em Nuvem/Módulo 3.md",
+    "2° Semestre/Computação em Nuvem/01.Fundamentos da Computação em Nuvem/Tema.md",
+    "2° Semestre/Computação em Nuvem/01.Fundamentos da Computação em Nuvem",
+    "2° Semestre/Computação em Nuvem",
     "2° Semestre/Comunicação Entre Aplicações/02.Modelo de Referência OSI e Arquitetura TCPIP/Módulo 2.md",
     "2° Semestre/Comunicação Entre Aplicações/02.Modelo de Referência OSI e Arquitetura TCPIP/Módulo 1.md",
     "2° Semestre/Comunicação Entre Aplicações/04.Desenvolvimento de Aplicações com Sockets/Módulo 4.md",
@@ -187,15 +193,9 @@
     "2° Semestre/Comunicação Entre Aplicações/02.Modelo de Referência OSI e Arquitetura TCPIP",
     "2° Semestre/Comunicação Entre Aplicações/01.Redes de Computadores e a Internet",
     "2° Semestre/Modelagem de Sistemas em Uml/05.Introdução a Padrões de Projeto - Design Patterns/Módulo 1.md",
-    "2° Semestre/Modelagem de Sistemas em Uml/05.Introdução a Padrões de Projeto - Design Patterns/Módulo 2.md",
-    "2° Semestre/Modelagem de Sistemas em Uml/05.Introdução a Padrões de Projeto - Design Patterns/Módulo 3.md",
-    "2° Semestre/Modelagem de Sistemas em Uml/05.Introdução a Padrões de Projeto - Design Patterns/Módulo 4.md",
     "2° Semestre/Comunicação Entre Aplicações",
-    "2° Semestre/Modelagem de Sistemas em Uml/05.Introdução a Padrões de Projeto - Design Patterns/Considerações finais.md",
     "2° Semestre/Modelagem de Sistemas em Uml/05.Introdução a Padrões de Projeto - Design Patterns",
     "2° Semestre/Modelagem de Sistemas em Uml/04.Estudo de Caso de Modelagem de Sistemas em Uml",
-    "2° Semestre/Modelagem de Sistemas em Uml/03.Utilizando Uml Para Projetar o Software",
-    "2° Semestre/Modelagem de Sistemas em Uml/02.UmL Para Modelagem do Domínio",
     "imagens/diagramas-uml.jpg",
     "imagens/momento3.jpg",
     "imagens/momento2.jpg",
