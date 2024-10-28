@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2b74b3c1f9686954",
+        "id": "07bf74c1e8566747",
         "type": "tabs",
         "children": [
           {
-            "id": "8fa41f7c7ef27d6b",
+            "id": "07eb3c1e4080932e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2° Semestre/Comunicação Entre Aplicações/03.Camadas de Aplicação e Transporte/Módulo 4.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Módulo 4"
+              "title": "Nova aba"
             }
           }
         ]
@@ -77,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 432
+    "width": 411
   },
   "right": {
     "id": "48a0b3906f0bf11b",
@@ -162,45 +158,45 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "8fa41f7c7ef27d6b",
+  "active": "96473303a0b4a49f",
   "lastOpenFiles": [
-    "2° Semestre/Comunicação Entre Aplicações/03.Camadas de Aplicação e Transporte/Módulo 3.md",
-    "2° Semestre/Comunicação Entre Aplicações/03.Camadas de Aplicação e Transporte/Módulo 4.md",
-    "2° Semestre/Comunicação Entre Aplicações/03.Camadas de Aplicação e Transporte/Módulo 1.md",
-    "2° Semestre/Comunicação Entre Aplicações/03.Camadas de Aplicação e Transporte/Módulo 2.md",
-    "2° Semestre/Comunicação Entre Aplicações/02.Modelo de Referência OSI e Arquitetura TCPIP/Módulo 3.md",
-    "2° Semestre/Comunicação Entre Aplicações/03.Camadas de Aplicação e Transporte",
     "2° Semestre/Comunicação Entre Aplicações/02.Modelo de Referência OSI e Arquitetura TCPIP/Módulo 2.md",
     "2° Semestre/Comunicação Entre Aplicações/02.Modelo de Referência OSI e Arquitetura TCPIP/Módulo 1.md",
-    "2° Semestre/Comunicação Entre Aplicações/02.Modelo de Referência OSI e Arquitetura TCPIP",
+    "2° Semestre/Comunicação Entre Aplicações/04.Desenvolvimento de Aplicações com Sockets/Módulo 4.md",
+    "2° Semestre/Comunicação Entre Aplicações/04.Desenvolvimento de Aplicações com Sockets/Módulo 3.md",
+    "2° Semestre/Comunicação Entre Aplicações/04.Desenvolvimento de Aplicações com Sockets/Módulo 2.md",
+    "2° Semestre/Comunicação Entre Aplicações/04.Desenvolvimento de Aplicações com Sockets/Módulo 1.md",
+    "2° Semestre/Comunicação Entre Aplicações/02.Modelo de Referência OSI e Arquitetura TCPIP/Módulo 3.md",
+    "2° Semestre/Comunicação Entre Aplicações/05.Web Services em Python/Módulo 1.md",
     "2° Semestre/Comunicação Entre Aplicações/01.Redes de Computadores e a Internet/Módulo 3.md",
     "2° Semestre/Comunicação Entre Aplicações/01.Redes de Computadores e a Internet/Módulo 2.md",
-    "2° Semestre/Comunicação Entre Aplicações/01.Redes de Computadores e a Internet/Módulo 4.md",
     "2° Semestre/Comunicação Entre Aplicações/01.Redes de Computadores e a Internet/Módulo 1.md",
+    "2° Semestre/Comunicação Entre Aplicações/05.Web Services em Python/Módulo 3.md",
+    "2° Semestre/Comunicação Entre Aplicações/05.Web Services em Python/Módulo 2.md",
+    "2° Semestre/Comunicação Entre Aplicações/03.Camadas de Aplicação e Transporte/Módulo 3.md",
+    "2° Semestre/Comunicação Entre Aplicações/03.Camadas de Aplicação e Transporte/Módulo 2.md",
+    "2° Semestre/Comunicação Entre Aplicações/03.Camadas de Aplicação e Transporte/Módulo 1.md",
+    "2° Semestre/Comunicação Entre Aplicações/03.Camadas de Aplicação e Transporte/Módulo 4.md",
+    "2° Semestre/Comunicação Entre Aplicações/01.Redes de Computadores e a Internet/Módulo 4.md",
+    "2° Semestre/Comunicação Entre Aplicações/05.Web Services em Python/Módulo 5.md",
+    "2° Semestre/Comunicação Entre Aplicações/05.Web Services em Python/Módulo 4.md",
+    "2° Semestre/tema 4 e 5 comunicação entre aplicações.md",
+    "2° Semestre/Comunicação Entre Aplicações/05.Web Services em Python",
+    "2° Semestre/Comunicação Entre Aplicações/04.Desenvolvimento de Aplicações com Sockets",
+    "2° Semestre/Comunicação Entre Aplicações/03.Camadas de Aplicação e Transporte",
+    "2° Semestre/Comunicação Entre Aplicações/02.Modelo de Referência OSI e Arquitetura TCPIP",
     "2° Semestre/Comunicação Entre Aplicações/01.Redes de Computadores e a Internet",
     "2° Semestre/Modelagem de Sistemas em Uml/05.Introdução a Padrões de Projeto - Design Patterns/Módulo 1.md",
     "2° Semestre/Modelagem de Sistemas em Uml/05.Introdução a Padrões de Projeto - Design Patterns/Módulo 2.md",
     "2° Semestre/Modelagem de Sistemas em Uml/05.Introdução a Padrões de Projeto - Design Patterns/Módulo 3.md",
     "2° Semestre/Modelagem de Sistemas em Uml/05.Introdução a Padrões de Projeto - Design Patterns/Módulo 4.md",
     "2° Semestre/Comunicação Entre Aplicações",
-    "2° Semestre/Sem título.md",
     "2° Semestre/Modelagem de Sistemas em Uml/05.Introdução a Padrões de Projeto - Design Patterns/Considerações finais.md",
-    "2° Semestre/Modelagem de Sistemas em Uml/05.Introdução a Padrões de Projeto - Design Patterns/Módulo 5.md",
-    "2° Semestre/Modelagem de Sistemas em Uml/04.Estudo de Caso de Modelagem de Sistemas em Uml/Módulo 1.md",
     "2° Semestre/Modelagem de Sistemas em Uml/05.Introdução a Padrões de Projeto - Design Patterns",
-    "2° Semestre/Modelagem de Sistemas em Uml/04.Estudo de Caso de Modelagem de Sistemas em Uml/Módulo 2.md",
-    "2° Semestre/Modelagem de Sistemas em Uml/04.Estudo de Caso de Modelagem de Sistemas em Uml/Módulo 3.md",
-    "2° Semestre/Modelagem de Sistemas em Uml/04.Estudo de Caso de Modelagem de Sistemas em Uml/Módulo 4.md",
-    "2° Semestre/Modelagem de Sistemas em Uml/03.Utilizando Uml Para Projetar o Software/Módulo 1.md",
     "2° Semestre/Modelagem de Sistemas em Uml/04.Estudo de Caso de Modelagem de Sistemas em Uml",
-    "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 2.md",
-    "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 1.md",
-    "2° Semestre/Engenharia de Usabilidade/01.Ergonomia em Interação Humano Computador/Módulo 3.md",
     "2° Semestre/Modelagem de Sistemas em Uml/03.Utilizando Uml Para Projetar o Software",
     "2° Semestre/Modelagem de Sistemas em Uml/02.UmL Para Modelagem do Domínio",
-    "2° Semestre/Modelagem de Sistemas em Uml/01.Conceitos Básicos de Modelagem de Sistemas/Sem título",
     "imagens/diagramas-uml.jpg",
-    "imagens/diagramas-uml.jpg.crdownload",
     "imagens/momento3.jpg",
     "imagens/momento2.jpg",
     "imagens/momento1.jpg",

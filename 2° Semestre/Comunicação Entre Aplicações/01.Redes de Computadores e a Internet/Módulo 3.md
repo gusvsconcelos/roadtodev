@@ -3,7 +3,7 @@
 ## Arquitetura de Camadas
 
 ### *Protocólos de Comunicação*
-1. **Definição de Protocolo**: Um protocolo é um conjunto de regras que governam a troca de mensagens entre entidades que se comunicam. Ele define o formato, a ordem das mensagens e as ações a serem realizadas durante a transmissão ou recebimento.
+1. ==**Definição de Protocolo**: Um protocolo é um conjunto de regras que governam a troca de mensagens entre entidades que se comunicam. Ele define o formato, a ordem das mensagens e as ações a serem realizadas durante a transmissão ou recebimento.==
 
 2. **Semelhança com Protocolos Humanos**: Assim como em interações humanas, onde cumprimentos e respostas seguem regras específicas (ex: dizer "oi" e esperar a mesma resposta), as entidades em uma rede devem seguir o mesmo protocolo para se comunicarem efetivamente. Por exemplo, um usuário deve enviar uma requisição e esperar uma resposta do servidor.
 
@@ -12,9 +12,9 @@
 
 **Modelo de Serviço:**
 - **Camadas e Serviços**: Cada protocolo opera em uma camada específica da arquitetura. **Cada camada:**
-    - Oferece serviços à camada superior.
-    - Utiliza os serviços da camada imediatamente inferior.
-  - **Interfaces**: As camadas se comunicam entre si através de interfaces, que definem como as informações são trocadas.
+    - ==Oferece serviços à camada superior.==
+    - ==Utiliza os serviços da camada imediatamente inferior.==
+  - **Interfaces**: ==As camadas se comunicam entre si através de interfaces==, que definem como as informações são trocadas.
 
 ### *Resumo*
 A arquitetura de camadas permite que os protocolos sejam organizados de maneira a facilitar a comunicação entre diferentes entidades na rede, garantindo que as regras de troca de mensagens sejam seguidas e compreendidas. Essa estrutura é fundamental para o desenvolvimento e a manutenção das redes modernas, permitindo que novas tecnologias sejam integradas sem comprometer a funcionalidade existente.
@@ -41,7 +41,7 @@ Embora o modelo OSI seja fundamental para o estudo das redes, ele não é amplam
 
 2. **Camada de Apresentação**:
    - **Função**: Interpreta e traduz os dados trocados.
-   - **Descrição**: Garante que sistemas diferentes possam comunicar-se, oferecendo serviços como compressão, criptografia e codificação de dados.
+   - ==**Descrição**: Garante que sistemas diferentes possam comunicar-se, oferecendo serviços como compressão, criptografia e codificação de dados.==
 
 3. **Camada de Sessão**:
    - **Função**: Delimita e sincroniza a troca de dados.
@@ -49,11 +49,11 @@ Embora o modelo OSI seja fundamental para o estudo das redes, ele não é amplam
 
 4. **Camada de Transporte**:
    - **Função**: Garante a troca correta de dados entre sistemas finais.
-   - **Descrição**: Encaminha mensagens (segmentos) da camada de aplicação, assegurando que não haja perda, mantendo a ordem e evitando sobrecarga.
+   - ==**Descrição**: Encaminha mensagens (segmentos) da camada de aplicação, assegurando que não haja perda, mantendo a ordem e evitando sobrecarga.==
 
 5. **Camada de Rede**:
    - **Função**: Determina o caminho entre hospedeiros.
-   - **Descrição**: Define endereços lógicos e realiza o roteamento. Os pacotes desta camada são conhecidos como datagramas.
+   - ==**Descrição**: Define endereços lógicos e realiza o roteamento. Os pacotes desta camada são conhecidos como datagramas.==
 
 6. **Camada de Enlace**:
    - **Função**: Encaminha pacotes (quadros) entre nós.
@@ -78,19 +78,19 @@ Enquanto o modelo OSI é uma referência teórica, a **arquitetura TCP/IP** é a
 5. **Camada Física**
 
 ### *Diferenças entre OSI e TCP/IP*
-- A **arquitetura TCP/IP** não possui as camadas de apresentação e sessão; suas funções são absorvidas pela camada de aplicação.
+- ==A **arquitetura TCP/IP** não possui as camadas de apresentação e sessão; suas funções são absorvidas pela camada de aplicação.==
 - O termo "modelo" (OSI) e "arquitetura" (TCP/IP) é utilizado de forma diferente: o OSI não define protocolos, enquanto a TCP/IP possui um conjunto de protocolos associados, conhecido como **pilha de protocolos TCP/IP**.
 
 ### *Detalhamento das Camadas TCP/IP*
 1. **Camada de Aplicação**:
    - **Função**: Equivalente à camada de aplicação do modelo OSI, incorporando as funções de apresentação e sessão.
-   - **Protocolos**: Inclui protocolos como **HTTP** (HyperText Transfer Protocol), **DNS** (Domain Name Server) e **SMTP** (Simple Mail Transfer Protocol).
+   - ==**Protocolos**: Inclui protocolos como **HTTP** (HyperText Transfer Protocol), **DNS** (Domain Name Server) e **SMTP** (Simple Mail Transfer Protocol).==
 
 2. **Camada de Transporte**:
    - **Responsabilidade**: Garante a confiabilidade das informações trocadas entre aplicações.
    - **Protocolos**:
-     - **TCP (Transmission Control Protocol)**: Protocolo orientado à conexão que garante a entrega de mensagens, controle de fluxo e controle de congestionamento.
-     - **UDP (User Datagram Protocol)**: Protocolo não orientado à conexão, que é econômico e não oferece controle de fluxo, sendo adequado para aplicações que toleram perda de pacotes, mas não atrasos.
+     - **TCP (Transmission Control Protocol)**: ==Protocolo orientado à conexão== que garante a entrega de mensagens, controle de fluxo e controle de congestionamento.
+     - **UDP (User Datagram Protocol)**: ==Protocolo não orientado à conexão==, que é econômico e não oferece controle de fluxo, sendo adequado para aplicações que toleram perda de pacotes, mas não atrasos.
 
 3. **Camada de Rede**:
    - **Função**: Similar à camada de rede do modelo OSI, mas define o formato do endereço e as regras de encaminhamento por meio do protocolo **IP (Internet Protocol)**.

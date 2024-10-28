@@ -3,10 +3,10 @@
 ## O que é a Internet?
 
 **Redes de Computadores:**
-- **Definição:** Conjunto de módulos processadores interligados por um sistema de comunicação que possibilitam a troca de informações e o compartilhamento de recursos.
+- ==**Definição:** Conjunto de módulos processadores interligados por um sistema de comunicação que possibilitam a troca de informações e o compartilhamento de recursos.==
   
 **Internet:**
-- **Definição:** Conjunto global de redes de computadores interligadas que operam utilizando os protocolos **TCP** (Transmission Control Protocol) e **IP** (Internet Protocol).
+- **Definição:** Conjunto global de redes de computadores interligadas que ==operam utilizando os protocolos **TCP** (Transmission Control Protocol) e **IP** (Internet Protocol).==
 - A internet conecta bilhões de dispositivos ao redor do mundo, mas vai além de ser apenas uma rede de redes.
 
 **Componentes da Internet:**

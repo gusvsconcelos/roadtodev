@@ -2,12 +2,12 @@
 
 ## Arquitetura e Evolução do Protocolo TCP/IP
 
-O TCP/IP (Transmission Control Protocol/Internet Protocol) é a base da comunicação na internet, sendo fundamental para o **desenvolvimento e expansão da rede global** como a conhecemos. Ele foi proposto em **1974** por Vinton Cerf e Robert Kahn como uma arquitetura que poderia **interligar diferentes redes de comunicação**, permitindo que sistemas diversos se conectassem de maneira eficiente e padronizada .
+O TCP/IP (==Transmission Control Protocol/Internet Protocol==) é a base da comunicação na internet, sendo fundamental para o **desenvolvimento e expansão da rede global** como a conhecemos. Ele foi proposto em **1974** por Vinton Cerf e Robert Kahn como uma arquitetura que poderia **interligar diferentes redes de comunicação**, permitindo que sistemas diversos se conectassem de maneira eficiente e padronizada .
 
 ### *Estrutura de Camadas do TCP/IP*
 A arquitetura TCP/IP se baseia em um modelo **de quatro camadas**:
 1. **Aplicação**: Onde ocorrem as interações diretas entre o usuário e a rede, como o uso de e-mails, web, e transferência de arquivos. Protocolos conhecidos nessa camada incluem **HTTP, FTP, SMTP, DNS**.
-2. **Transporte**: Responsável por garantir a comunicação **processo a processo**, com o controle de erros e a confiabilidade na entrega de dados. Aqui, temos o **TCP** (Transmission Control Protocol) e o **UDP** (User Datagram Protocol).
+2. ==**Transporte**: Responsável por garantir a comunicação **processo a processo**, com o controle de erros e a confiabilidade na entrega de dados. Aqui, temos o **TCP** (Transmission Control Protocol) e o **UDP** (User Datagram Protocol).==
 3. **Internet**: Encarregada de fazer o roteamento dos pacotes de dados de origem a destino, utilizando o **IP** (Internet Protocol). Essa camada trata da comunicação entre **dispositivos em diferentes redes**.
 4. **Acesso à Rede**: Une as funções de acesso físico e de enlace, sendo responsável por entregar pacotes de dados na rede local. Ela engloba tanto a **camada física** (como cabos, conexões sem fio) quanto a **camada de enlace**, que define como os dados serão transmitidos entre dois dispositivos diretamente conectados.
 

@@ -12,8 +12,8 @@ Cada camada tem responsabilidades específicas e se comunica com as camadas adja
 ## Elementos da Camada  
 
 1. **Serviço:** Define o **que a camada faz**, ou seja, as funcionalidades que ela oferece. Exemplo: correção de erros na transmissão ou identificação de computadores.  
-2. **Protocolo:** Explica **como o serviço é executado**. É o conjunto de regras que implementa as funcionalidades da camada.  
-3. **Interface:** É o ponto de comunicação entre duas camadas vizinhas, permitindo a troca de informações entre elas.
+2. ==**Protocolo:** Explica **como o serviço é executado**. É o conjunto de regras que implementa as funcionalidades da camada.==  
+3. ==**Interface:** É o ponto de comunicação entre duas camadas vizinhas, permitindo a troca de informações entre elas.==
 
 Esses elementos podem ser implementados tanto em **hardware** (como uma placa de rede) quanto em **software** (como parte do sistema operacional).
 
@@ -54,10 +54,10 @@ O processo de **encapsulamento** é o coração da comunicação entre camadas e
 Quando a camada 2 da máquina de origem precisa conversar com a camada 2 da máquina de destino, ela faz isso de maneira **virtual**. O dado que passa por essa camada recebe um **cabeçalho**, que é um conjunto de informações adicionadas ao dado. Esse cabeçalho será lido **exclusivamente** pela mesma camada no destino. Ou seja, a camada 2 da origem embala o dado com informações que a camada 2 do destino entenderá.
 
 ### *Processo de Encapsulamento*
-O **encapsulamento** é como um "empacotamento" que cada camada faz no dado que recebe da camada superior. Imagine assim:
-1. A camada 5 entrega o dado à camada 4.
-2. A camada 4 adiciona o seu cabeçalho específico e passa para a camada 3.
-3. Isso se repete até chegar à **camada 1**, que então envia o dado encapsulado pelo meio físico (como um cabo ou via Wi-Fi).
+==O **encapsulamento** é como um "empacotamento" que cada camada faz no dado que recebe da camada superior. Imagine assim:==
+1. ==A camada 5 entrega o dado à camada 4.==
+2. ==A camada 4 adiciona o seu cabeçalho específico e passa para a camada 3.==
+3. ==Isso se repete até chegar à **camada 1**, que então envia o dado encapsulado pelo meio físico (como um cabo ou via Wi-Fi).==
 
 Esse ciclo de **adicionar cabeçalhos** em cada camada garante que, quando o dado chegar ao destino, ele passe por um processo inverso chamado **desencapsulamento**.
 

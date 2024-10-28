@@ -35,11 +35,11 @@ O modelo pode ser dividido em três subgrupos principais:
 ### *1. Camada de Aplicação*
 Essa é a camada mais próxima dos usuários e a que lida diretamente com as interações de rede que conhecemos e usamos no dia a dia. Exemplos de serviços disponíveis nesta camada incluem:
 
-- **Serviços Web** (HTTP, HTTPS);
-- **Correio eletrônico** (SMTP, IMAP);
-- **Transferência de arquivos** (FTP, SFTP);
-- **Streaming de áudio e vídeo** (Spotify, YouTube);
-- **Compartilhamento de arquivos** (Google Drive, Dropbox).
+- ==**Serviços Web** (HTTP, HTTPS);==
+- ==**Correio eletrônico** (SMTP, IMAP);==
+- ==**Transferência de arquivos** (FTP, SFTP);==
+- ==**Streaming de áudio e vídeo** (Spotify, YouTube);==
+- ==**Compartilhamento de arquivos** (Google Drive, Dropbox).==
 
 Esses serviços são executados por processos em execução nos dispositivos dos usuários. É nessa camada que você interage com a rede, seja ao assistir um vídeo, enviar um e-mail ou acessar um site. 
 
@@ -63,7 +63,7 @@ Essa camada garante que a comunicação seja contínua e confiável, especialmen
 ## Camadas de Transporte e Rede
 
 ### *1. Camada de Transporte*
-A camada de transporte garante que os dados enviados cheguem **corretamente e na ordem certa** ao processo de destino. Ela cuida da **comunicação processo a processo**, assegurando que as mensagens que saem da camada de aplicação sejam entregues aos aplicativos certos, sem perda de dados ou duplicações. Para isso, desempenha algumas funções essenciais:
+==A camada de transporte garante que os dados enviados cheguem **corretamente e na ordem certa** ao processo de destino.== Ela cuida da **comunicação processo a processo**, assegurando que as mensagens que saem da camada de aplicação sejam entregues aos aplicativos certos, sem perda de dados ou duplicações. Para isso, desempenha algumas funções essenciais:
 
 - **Controle de fluxo**: Garante que o remetente não envie dados mais rápido do que o destinatário pode processar.
 - **Controle de erro**: Detecta e corrige erros que possam surgir durante a transmissão.
@@ -72,7 +72,7 @@ A camada de transporte garante que os dados enviados cheguem **corretamente e na
 Se um arquivo é enviado por meio de um protocolo de transporte confiável, como o **TCP (Transmission Control Protocol)**, essa camada garante que, mesmo se um pedaço da mensagem se perder, ele será reenviado até chegar corretamente. Já em um protocolo não confiável, como o **UDP (User Datagram Protocol)**, essa garantia não existe, o que pode ser útil para transmissões que priorizam velocidade, como streaming de vídeos ao vivo.
 
 ### *2. Camada de Rede*
-A camada de rede é o **cérebro do roteamento**. Ela é responsável por fazer com que os pacotes enviados pela camada de transporte cheguem de uma máquina de origem até a máquina de destino, mesmo que os dois dispositivos estejam em redes diferentes e tenham que atravessar vários intermediários (roteadores). Suas funções principais são:
+==A camada de rede é o **cérebro do roteamento**. Ela é responsável por fazer com que os pacotes enviados pela camada de transporte cheguem de uma máquina de origem até a máquina de destino==, mesmo que os dois dispositivos estejam em redes diferentes e tenham que atravessar vários intermediários (roteadores). Suas funções principais são:
 
 - **Endereçamento lógico**: Utiliza endereços IP para identificar a origem e o destino dos dados. Isso permite que os pacotes possam ser roteados através de redes diferentes, até chegar no lugar certo.
 - **Roteamento**: Define a melhor rota (caminho) para os dados chegarem ao destino, levando em conta fatores como congestionamento de rede, distância ou falhas.
@@ -80,8 +80,8 @@ A camada de rede é o **cérebro do roteamento**. Ela é responsável por fazer 
 Enquanto a camada de transporte se preocupa em garantir que os dados cheguem corretamente, a camada de rede se concentra em **encontrar o melhor caminho** para transportar esses dados de uma máquina para outra.
 
 ### *Resumo prático:*
-- **Camada de Transporte**: Garante a comunicação **processo a processo**, confiabilidade e controle de fluxo de dados.
-- **Camada de Rede**: Cuida do **roteamento** e endereçamento lógico para que os pacotes cheguem à máquina de destino, facilitando a comunicação **máquina a máquina**.
+- ==**Camada de Transporte**: Garante a comunicação **processo a processo**, confiabilidade e controle de fluxo de dados.==
+- ==**Camada de Rede**: Cuida do **roteamento** e endereçamento lógico para que os pacotes cheguem à máquina de destino, facilitando a comunicação **máquina a máquina**.==
 
 Essas camadas são essenciais para conectar redes e processos diferentes, permitindo que os dados fluam corretamente entre dispositivos.
 

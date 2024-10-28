@@ -3,7 +3,7 @@
 ## Camada de Transporte na Internet
 
 ### *Função da Camada de Transporte*
-A camada de transporte é crucial para garantir a entrega confiável de dados entre hospedeiros na internet, independentemente das redes físicas. Sua principal função é possibilitar que as aplicações se comuniquem, assegurando que mensagens ou fluxos de dados cheguem ao destino correto e na forma certa.
+==A camada de transporte é crucial para garantir a entrega confiável de dados entre hospedeiros na internet, independentemente das redes físicas.== Sua principal função é possibilitar que as aplicações se comuniquem, assegurando que mensagens ou fluxos de dados cheguem ao destino correto e na forma certa.
 
 ### *Objetivos da Camada de Transporte*
 - **Serviço Confiável:** Promover a transferência de dados de forma confiável entre a origem e o destino.
@@ -44,7 +44,7 @@ Quando um programa faz uma solicitação a um servidor, ele precisa que a mensag
  **Identificação de Aplicações:** O endereçamento serve para indicar em qual aplicação os dados devem ser entregues, garantindo que o hospedeiro destino saiba exatamente para onde encaminhar as informações.
 
 ### *Endereço de Transporte*
-Nos protocolos da camada de transporte, como o **TCP** e **UDP**, o endereço de transporte é conhecido como **porta**. Cada aplicação escuta em uma porta específica, permitindo que múltiplas aplicações coexistam no mesmo hospedeiro.
+==Nos protocolos da camada de transporte, como o **TCP** e **UDP**, o endereço de transporte é conhecido como **porta**.== Cada aplicação escuta em uma porta específica, permitindo que múltiplas aplicações coexistam no mesmo hospedeiro.
 
 ### *Como Funciona o Endereçamento*
 **Associação de Endereços:** O hospedeiro origem pode saber qual porta o servidor no hospedeiro destino está utilizando por:

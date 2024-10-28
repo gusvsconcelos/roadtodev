@@ -14,17 +14,17 @@ Esses protocolos são fundamentais para garantir que aplicações em diferentes 
 ## Serviços e Protocolos da Camada de Aplicação na Internet
 
 ### *Serviço Web – Protocolo HTTP*
-O **HTTP (Hypertext Transfer Protocol)** é o protocolo que possibilita o funcionamento da web. Toda vez que acessamos um site, nosso navegador (cliente) se comunica com um servidor web por meio do HTTP, pedindo o conteúdo (como páginas HTML) e recebendo as respostas para exibir o site.
+==O **HTTP (Hypertext Transfer Protocol)** é o protocolo que possibilita o funcionamento da web.== Toda vez que acessamos um site, nosso navegador (cliente) se comunica com um servidor web por meio do HTTP, pedindo o conteúdo (como páginas HTML) e recebendo as respostas para exibir o site.
 
-- **Requisição**: O cliente (navegador) envia uma mensagem ao servidor, pedindo uma página web.
-- **Resposta**: O servidor envia o conteúdo solicitado de volta ao navegador.
+- ==**Requisição**: O cliente (navegador) envia uma mensagem ao servidor, pedindo uma página web.==
+- ==**Resposta**: O servidor envia o conteúdo solicitado de volta ao navegador.==
 
 Esse protocolo é **stateless**, o que significa que cada requisição é independente, e o servidor não mantém memória sobre as interações anteriores.
 
 ### *Serviço de Correio Eletrônico – Protocolos SMTP, IMAP e POP3*
 Os e-mails são enviados e recebidos por meio de protocolos de camada de aplicação, como:
 
-- **SMTP (Simple Mail Transfer Protocol)**: Utilizado para o **envio** de e-mails. Ele garante que as mensagens saiam do cliente e cheguem ao servidor de e-mail.
+- ==**SMTP (Simple Mail Transfer Protocol)**: Utilizado para o **envio** de e-mails.== Ele garante que as mensagens saiam do cliente e cheguem ao servidor de e-mail.
 - **POP3 (Post Office Protocol)**: Usado para o **recebimento** de e-mails. Ele permite que o cliente baixe as mensagens do servidor para seu dispositivo e as exclua do servidor.
 - **IMAP (Internet Message Access Protocol)**: Também usado para **receber** e-mails, mas diferente do POP3, o IMAP mantém as mensagens no servidor, permitindo que sejam acessadas de diferentes dispositivos.
 
@@ -109,7 +109,7 @@ Embora não seja um protocolo, o **webmail** é uma forma popular de acessar o c
 ## Serviço de Nomes DNS
 
 ### *Introdução ao DNS*
-O **Domain Name System (DNS)** é um sistema crucial que facilita a comunicação na internet, traduzindo nomes de domínio em endereços IP. Isso evita a necessidade de lembrar endereços binários, que são difíceis de gerenciar e lembrar.
+O **Domain Name System (DNS)** é um sistema crucial que facilita a comunicação na internet, ==traduzindo nomes de domínio em endereços IP.== Isso evita a necessidade de lembrar endereços binários, que são difíceis de gerenciar e lembrar.
 
 ### *Serviços Oferecidos pelo DNS*
 Além de mapear nomes de hospedeiros em endereços IP, o DNS fornece:
