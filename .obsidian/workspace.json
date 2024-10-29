@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "02b6e0be9f4fd47f",
+        "id": "bce63ec670659a77",
         "type": "tabs",
         "children": [
           {
-            "id": "079d4af5acb188d4",
+            "id": "5b2e00734236a908",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -160,7 +160,12 @@
   },
   "active": "96473303a0b4a49f",
   "lastOpenFiles": [
+    "2° Semestre/Computação em Nuvem/02.Arquitetura de Computação em Nuvem/Módulo 3.md",
+    "2° Semestre/Computação em Nuvem/02.Arquitetura de Computação em Nuvem/Módulo 2.md",
+    "2° Semestre/Computação em Nuvem/02.Arquitetura de Computação em Nuvem/Módulo 1.md",
     "2° Semestre/Computação em Nuvem/01.Fundamentos da Computação em Nuvem/Módulo 1.md",
+    "2° Semestre/Computação em Nuvem/Sem título.md",
+    "2° Semestre/Computação em Nuvem/02.Arquitetura de Computação em Nuvem",
     "2° Semestre/Computação em Nuvem/01.Fundamentos da Computação em Nuvem/Módulo 2.md",
     "2° Semestre/Computação em Nuvem/01.Fundamentos da Computação em Nuvem/Módulo 3.md",
     "2° Semestre/Computação em Nuvem/01.Fundamentos da Computação em Nuvem/Tema.md",
@@ -184,18 +189,13 @@
     "2° Semestre/Comunicação Entre Aplicações/03.Camadas de Aplicação e Transporte/Módulo 1.md",
     "2° Semestre/Comunicação Entre Aplicações/03.Camadas de Aplicação e Transporte/Módulo 4.md",
     "2° Semestre/Comunicação Entre Aplicações/01.Redes de Computadores e a Internet/Módulo 4.md",
-    "2° Semestre/Comunicação Entre Aplicações/05.Web Services em Python/Módulo 5.md",
-    "2° Semestre/Comunicação Entre Aplicações/05.Web Services em Python/Módulo 4.md",
-    "2° Semestre/tema 4 e 5 comunicação entre aplicações.md",
     "2° Semestre/Comunicação Entre Aplicações/05.Web Services em Python",
     "2° Semestre/Comunicação Entre Aplicações/04.Desenvolvimento de Aplicações com Sockets",
     "2° Semestre/Comunicação Entre Aplicações/03.Camadas de Aplicação e Transporte",
     "2° Semestre/Comunicação Entre Aplicações/02.Modelo de Referência OSI e Arquitetura TCPIP",
     "2° Semestre/Comunicação Entre Aplicações/01.Redes de Computadores e a Internet",
-    "2° Semestre/Modelagem de Sistemas em Uml/05.Introdução a Padrões de Projeto - Design Patterns/Módulo 1.md",
     "2° Semestre/Comunicação Entre Aplicações",
     "2° Semestre/Modelagem de Sistemas em Uml/05.Introdução a Padrões de Projeto - Design Patterns",
-    "2° Semestre/Modelagem de Sistemas em Uml/04.Estudo de Caso de Modelagem de Sistemas em Uml",
     "imagens/diagramas-uml.jpg",
     "imagens/momento3.jpg",
     "imagens/momento2.jpg",
