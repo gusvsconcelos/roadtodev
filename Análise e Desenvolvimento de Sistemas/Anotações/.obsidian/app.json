@@ -1,0 +1,8 @@
+{
+  "showRibbon": false,
+  "showInlineTitle": true,
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "vimMode": true,
+  "promptDelete": false
+}

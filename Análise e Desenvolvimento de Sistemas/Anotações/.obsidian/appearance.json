@@ -1,0 +1,9 @@
+{
+  "cssTheme": "Catppuccin",
+  "baseFontSize": 18,
+  "showViewHeader": false,
+  "nativeMenus": false,
+  "interfaceFontFamily": "",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font",
+  "textFontFamily": ""
+}

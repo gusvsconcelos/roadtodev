@@ -1,0 +1,205 @@
+{
+  "main": {
+    "id": "f75e603194c80c4d",
+    "type": "split",
+    "children": [
+      {
+        "id": "2767fb035e4c4d1c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3cf8a631f5f21358",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024.1/Pensamento Computacional/1.Introdução aos princípios fundamentais da computação/Módulo 3.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Módulo 3"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ec1a6ee555239831",
+    "type": "split",
+    "children": [
+      {
+        "id": "e804573b71345e80",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "43759332df85bd01",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "82af6d3fb6172392",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "41e8af8592096d94",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 447
+  },
+  "right": {
+    "id": "38d6d89cc8c648f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "aee174f1fec4d7b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8fecfc755f6adbf3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2024.2/Computação em Nuvem/1.Fundamentos da Computação em Nuvem/Módulo 3.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para Módulo 3"
+            }
+          },
+          {
+            "id": "bfdd4d019324e60a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2024.2/Computação em Nuvem/1.Fundamentos da Computação em Nuvem/Módulo 3.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para Módulo 3"
+            }
+          },
+          {
+            "id": "11584036e076c968",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1a588a8698483267",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2024.2/Computação em Nuvem/1.Fundamentos da Computação em Nuvem/Módulo 3.md"
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de Módulo 3"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "43759332df85bd01",
+  "lastOpenFiles": [
+    "2024.2/Estrutura de Dados",
+    "2024.2/Nova pasta",
+    "2024.1/Pensamento Computacional/1.Introdução aos princípios fundamentais da computação/Módulo 2.md",
+    "2024.1/Pensamento Computacional/1.Introdução aos princípios fundamentais da computação/Módulo 1.md",
+    "Sem título.md",
+    "2024.1/Pensamento Computacional/Drawing 2024-11-07 18.50.58.excalidraw.md",
+    "2024.2/Engenharia de Usabilidade/4.Acessibilidade à Web/Módulo 4.md",
+    "2024.2/Engenharia de Usabilidade/4.Acessibilidade à Web/Módulo 3.md",
+    "2024.2/Engenharia de Usabilidade/4.Acessibilidade à Web/Módulo 2.md",
+    "2024.2/Engenharia de Usabilidade/4.Acessibilidade à Web/Módulo 1.md",
+    "2024.2/Engenharia de Usabilidade/4.Acessibilidade à Web",
+    "2024.2/Engenharia de Usabilidade/1.Ergonomia em Interação Humano Computador/Módulo 3.md",
+    "2024.2/Engenharia de Usabilidade/1.Ergonomia em Interação Humano Computador/Módulo 2.md",
+    "2024.2/Engenharia de Usabilidade/1.Ergonomia em Interação Humano Computador/Módulo 1.md",
+    "2024.2/Engenharia de Usabilidade/1.Ergonomia em Interação Humano Computador",
+    "2024.2/Engenharia de Usabilidade/2.Desenvolvimento de Interface Humano Computador/Módulo 4.md",
+    "2024.2/Engenharia de Usabilidade/2.Desenvolvimento de Interface Humano Computador/Módulo 3.md",
+    "2024.2/Engenharia de Usabilidade/2.Desenvolvimento de Interface Humano Computador/Módulo 2.md",
+    "2024.2/Engenharia de Usabilidade/2.Desenvolvimento de Interface Humano Computador/Módulo 1.md",
+    "2024.2/Engenharia de Usabilidade/2.Desenvolvimento de Interface Humano Computador",
+    "2024.2/Engenharia de Usabilidade/3.Avaliação de Interface Humano Computador/Módulo 4.md",
+    "2024.2/Engenharia de Usabilidade/3.Avaliação de Interface Humano Computador/Módulo 3.md",
+    "2024.2/Engenharia de Usabilidade/3.Avaliação de Interface Humano Computador/Módulo 2.md",
+    "2024.2/Engenharia de Usabilidade/3.Avaliação de Interface Humano Computador/Módulo 1.md",
+    "2024.2/Engenharia de Usabilidade/3.Avaliação de Interface Humano Computador",
+    "2024.2/Modelagem de Sistemas em Uml/5.Introdução a Padrões de Projeto - Design Patterns/Módulo 4.md",
+    "2024.2/Modelagem de Sistemas em Uml/5.Introdução a Padrões de Projeto - Design Patterns/Módulo 3.md",
+    "2024.2/Modelagem de Sistemas em Uml/5.Introdução a Padrões de Projeto - Design Patterns/Módulo 2.md",
+    "2024.2/Modelagem de Sistemas em Uml/5.Introdução a Padrões de Projeto - Design Patterns/Módulo 1.md",
+    "2024.2/Modelagem de Sistemas em Uml/5.Introdução a Padrões de Projeto - Design Patterns",
+    "2024.2/Modelagem de Sistemas em Uml/1.Conceitos Básicos de Modelagem de Sistemas/Módulo 3.md",
+    "2024.2/Modelagem de Sistemas em Uml/1.Conceitos Básicos de Modelagem de Sistemas/Módulo 2.md",
+    "2024.2/Modelagem de Sistemas em Uml/1.Conceitos Básicos de Modelagem de Sistemas",
+    "2024.2/Modelagem de Sistemas em Uml/2.UmL Para Modelagem do Domínio",
+    "2024.2/Modelagem de Sistemas em Uml/3.Utilizando Uml Para Projetar o Software",
+    "2024.2/Modelagem de Sistemas em Uml/4.Estudo de Caso de Modelagem de Sistemas em Uml"
+  ]
+}
