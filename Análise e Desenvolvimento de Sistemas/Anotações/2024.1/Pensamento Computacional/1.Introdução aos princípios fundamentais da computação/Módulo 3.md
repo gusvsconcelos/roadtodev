@@ -4,7 +4,7 @@
 
 ==Nos computadores, todas as instruções são baseadas em códigos escritos em linguagens de programação==, que são compiladas para linguagem de máquina, tornando possível para o computador entender e executar essas instruções.
 
-**Compiladores**: São um tipo de software responsável por interpretar e "traduzir" o código-fonte em linguagem de máquina.
+**Compiladores:** São um tipo de software responsável por interpretar e "traduzir" o código-fonte em linguagem de máquina.
 
 ---
 ## Lidando com erros de sintaxe
