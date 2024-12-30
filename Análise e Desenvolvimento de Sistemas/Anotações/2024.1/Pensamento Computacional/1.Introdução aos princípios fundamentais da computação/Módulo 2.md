@@ -2,7 +2,7 @@
 
 ## Entre códigos e algoritmos: aprendendo a lógica do computador
 
-**Código fonte:** É um conjunto de instruções escrita em uma linguagem de programação em que o computador seja de executar.
+**Código fonte:** É um conjunto de instruções escrita em uma linguagem de programação em que o computador seja capaz de executar.
 
 - O processamento de bilhões de instruções simples por segundo pelo computador só se torna útil quando surge a combinação lógica dessas instruções.
 
@@ -20,7 +20,7 @@
 
 **Algoritmo:** É um conjunto de instruções com uma finalidade útil, escritas em uma ordem lógica, podendo ser expresso em uma linguagem de programação ou na linguagem comum, como o português.
 
-- **Exemplo:** Uma receita pode ser considerada um algoritmo.
+- **Exemplo:** Uma receita de bolo pode ser considerada um algoritmo.
 
 - ==Um algoritmo só é válido quando alcança seu propósito.==
 
