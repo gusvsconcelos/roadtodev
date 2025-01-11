@@ -11,9 +11,9 @@
 ---
 ## O conceito de código
 
-- **Código:** É  qualquer instrução simples escrita em uma linguagem de programação.
+**Código:** É  qualquer instrução simples escrita em uma linguagem de programação.
 
-==Um corpo de código compreensível para o computador e que é capaz de realizar uma tarefa dada, é chamado de **algoritmo**.==
+- ==Um corpo de código compreensível para o computador e que é capaz de realizar uma tarefa dada, é chamado de **algoritmo**.==
 
 ---
 ## Algoritmo

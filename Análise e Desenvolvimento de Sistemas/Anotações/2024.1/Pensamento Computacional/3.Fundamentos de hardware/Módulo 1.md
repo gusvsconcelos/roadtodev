@@ -2,9 +2,9 @@
 
 ## O conceito de hardware
 
-> "Hardware é o que você pode chutar, já software é o que você pode só xingar"
-
 Hardware é o termo usado para se referir à parte física de um equipamento. ==Devemos pensar que estamos falando dos componentes diretamente utilizados pela estrutura tecnológica.==
+
+> "Hardware é o que você pode chutar, já software é o que você pode só xingar"
 
 ---
 ## O que difere hardware de software?

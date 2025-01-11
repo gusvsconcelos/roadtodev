@@ -2,22 +2,22 @@
 
 ## Conhecendo o software
 
+Sempre que você baixa um programa ou vê um computador ligado, está presenciando algum software sendo executado.
+
 - **Software:** Software é o conjunto de funções executadas na programação de um computador.
 
 - **CPU (Central Processing Unit):** Também chamada de processador, funciona como o "cérebro" do computador. ==É ela quem realmente executa o que chamamos de "instruções de código de máquina".==
 
-Sempre que você baixa um programa ou vê um computador ligado, está presenciando algum software sendo executado.
-
 ---
 ## Representação e armazenamento das instruções em hardware
 
-- **Código de máquina:** São instruções extremamente simples e constituídas apenas dos números zero e um, também conhecido como **código binário**.
+**Código de máquina:** São instruções extremamente simples e constituídas apenas dos números zero e um, também conhecido como **código binário**.
 
-- **Idioma de baixo nível:** Podemos pensar no conjunto de instruções de código de máquina que uma CPU é capaz de executar como sendo um idioma de baixo nível.
+**Idioma de baixo nível:** Podemos pensar no conjunto de instruções de código de máquina que uma CPU é capaz de executar como sendo um idioma de baixo nível.
 
-- **Idioma de alto nível:** São instruções muito mais complexas do que uma instrução de código de máquina individual que CPUs são capazes de executar.
+**Idioma de alto nível:** São instruções muito mais complexas do que uma instrução de código de máquina individual que CPUs são capazes de executar.
 
-- **Hardware:** É o termo usado para se referir à parte física do computador.
+**Hardware:** É o termo usado para se referir à parte física do computador.
 
 ### *Compatibilidade entre diferentes famílias de CPUs*
 Cada família de CPUs compatíveis possui seu próprio código de máquina especifico.
@@ -55,8 +55,8 @@ Um programa é um arquivo que possui muitos bytes. Na maioria dos casos, esses b
 A CPU processa uma sequência de instruções presentes na memória RAM, esse processo, conhecido como *ciclo busca-execução*, envolve a CPU buscando e executando cada instrução uma após a outra.
 
 ### *Como o programa vai parar na memória RAM?*
-- **Passo 1:** Cópia do bytes (ou seja, instruções) que compõem o programa no dispositivo de armazenamento persistente para uma área desocupada da memória RAM. Essa cópia é comumente chamada de carregar (*load*) o programa.
+1. Cópia do bytes (ou seja, instruções) que compõem o programa no dispositivo de armazenamento persistente para uma área desocupada da memória RAM. Essa cópia é comumente chamada de carregar (*load*) o programa.
 
-- **Passo 2:** Após o carregamento, a CPU já é capaz de realizar o ciclo busca-execução para rodar o programa.
+2. Após o carregamento, a CPU já é capaz de realizar o ciclo busca-execução para rodar o programa.
 
-- **Passo 3:** A CPU começa o processo de rodar/executar as instruções de forma incrivelmente rápida.
+3. A CPU começa o processo de rodar/executar as instruções de forma incrivelmente rápida.

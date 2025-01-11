@@ -12,6 +12,7 @@ Um bit, por si só, é pequeno demais para ser útil para qualquer coisa. Então
 
 - Cada megabyte equivale a um milhão de bytes, um gigabyte equivale a carca de um bilhão de bytes.
 
+---
 ## Por que os computadores funcionam dessa forma?
 
 Os engenheiros que trabalharam no desenvolvimento de computadores notaram que esta é uma forma muito mais barata de construir tais hardwares, pois a unidade fundamental de dados pode assumir mais do que dois estados.

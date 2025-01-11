@@ -2,19 +2,15 @@
 
 ## Componentes fundamentais do computador
 
-**CPU**
-- Faz a computação, ou seja, executa instruções.
+**CPU**: Faz a computação, ou seja, executa instruções.
 
-**Placa-mãe**
-- É responsável por interligar CPU, RAM, discos, etc.
+**Placa-mãe**: É responsável por interligar CPU, RAM, discos, etc.
 
-**Memória temporária**
-- A Random Access Memory (RAM), que significa Memória de Acesso Aleatório, ==é considerada a memória principal, pois é o armazenamento temporário usado pela CPU para manter os dados e os códigos utilizados enquanto processa instruções.==
+**Memória temporária**: A *Random Access Memory* (**RAM**) é considerada a memória principal, pois ==é o armazenamento temporário usado pela CPU para manter os dados e os códigos utilizados enquanto processa instruções.==
 
 - Quando a energia elétrica é desligada, ela imediatamente fica em branco.
 
-**Memória persistente**
-- A memória persistente de um computador é qualquer tipo de armazenamento que ==retém os dados mesmo quando o computador é desligado.==
+**Memória persistente**: A memória persistente de um computador é qualquer tipo de armazenamento que ==retém os dados mesmo quando o computador é desligado.==
 
 - **Exemplos**: Disco rígido, SDD (Solid State Drive) e Pen drive.
 
