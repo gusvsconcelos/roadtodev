@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "c3917526f119a2d8",
+        "id": "4f7dcfffa14632e8",
         "type": "tabs",
         "children": [
           {
-            "id": "84a4b184bf284b05",
+            "id": "7ca5d3b42913a8fb",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -159,8 +159,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "43759332df85bd01",
+  "active": "7ca5d3b42913a8fb",
   "lastOpenFiles": [
+    "2024.1/Pensamento Computacional/4.Representação de imagens em computadores/Módulo 2.md",
+    "2024.1/Pensamento Computacional/4.Representação de imagens em computadores/Módulo 1.md",
     "2024.1/Pensamento Computacional/3.Fundamentos de hardware/Módulo 3.md",
     "2024.1/Pensamento Computacional/3.Fundamentos de hardware/Módulo 1.md",
     "2024.1/Pensamento Computacional/3.Fundamentos de hardware/Módulo 2.md",
@@ -170,7 +172,6 @@
     "2024.1/Pensamento Computacional/1.Introdução aos princípios fundamentais da computação/Módulo 3.md",
     "2024.1/Pensamento Computacional/1.Introdução aos princípios fundamentais da computação/Módulo 1.md",
     "2024.1/Pensamento Computacional/1.Introdução aos princípios fundamentais da computação/Módulo 2.md",
-    "2024.1/Pensamento Computacional/4.Representação de imagens em computadores/Módulo 1.md",
     "2024.1/Pensamento Computacional/4.Representação de imagens em computadores",
     "2024.1/Pensamento Computacional/3.Fundamentos de hardware",
     "2024.1/Pensamento Computacional/2.Fundamentos de softwares de computadores",
@@ -194,7 +195,6 @@
     "2024.2/Engenharia de Usabilidade/2.Desenvolvimento de Interface Humano Computador",
     "2024.2/Engenharia de Usabilidade/3.Avaliação de Interface Humano Computador/Módulo 4.md",
     "2024.2/Engenharia de Usabilidade/3.Avaliação de Interface Humano Computador/Módulo 3.md",
-    "2024.2/Engenharia de Usabilidade/3.Avaliação de Interface Humano Computador/Módulo 2.md",
     "2024.2/Engenharia de Usabilidade/3.Avaliação de Interface Humano Computador",
     "2024.2/Modelagem de Sistemas em Uml/5.Introdução a Padrões de Projeto - Design Patterns"
   ]
