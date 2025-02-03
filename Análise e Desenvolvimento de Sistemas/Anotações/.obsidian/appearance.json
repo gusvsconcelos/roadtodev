@@ -1,9 +1,10 @@
 {
-  "cssTheme": "Catppuccin",
-  "baseFontSize": 18,
+  "cssTheme": "Tokyo Night",
+  "baseFontSize": 14,
   "showViewHeader": false,
   "nativeMenus": false,
-  "interfaceFontFamily": "",
+  "interfaceFontFamily": "Iosevka Custom,Iosevka",
   "monospaceFontFamily": "JetBrainsMono Nerd Font",
-  "textFontFamily": ""
+  "textFontFamily": "Iosevka Custom,Iosevka,JetBrains Mono",
+  "showRibbon": false
 }
