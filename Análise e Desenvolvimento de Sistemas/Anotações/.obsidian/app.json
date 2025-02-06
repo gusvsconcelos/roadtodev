@@ -1,8 +1,9 @@
 {
-  "showInlineTitle": true,
+  "showInlineTitle": false,
   "readableLineLength": true,
-  "strictLineBreaks": false,
+  "strictLineBreaks": true,
   "vimMode": true,
   "promptDelete": false,
-  "spellcheck": false
+  "spellcheck": false,
+  "tabSize": 2
 }

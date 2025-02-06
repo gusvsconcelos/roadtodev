@@ -25,10 +25,13 @@ A ideia é que o software seja criado em ciclos curtos, com introdução de func
 ### Como iniciar um projeto RAD
 **Aplicação da metodologia JAD**
 - Aplicar a metodologia Joint Application Development (JAD), na qual usuários e analistas projetam o sistema juntos, sob uma liderança em oficinas de trabalho.
+
 **Dinâmicas de grupo**
 - Potencializar o resultado do desenvolvimento através de dinâmicas de grupo
+
 **Objetivos e aplicações do sistema**
 - Definir os objetivos e as aplicações do sistema, desde a geração de telas até a geração de relatórios.
+
 **Princípios**
 - Estabelecer a dinâmica de grupo, os recursos audiovisuais, o processo organizado e racional, a escolha do local e documentação com a abordagem WYSIWIG - "O que você vê é o que você obtém".
 
@@ -36,4 +39,3 @@ Os métodos tradicionais de desenvolvimento de software, como a metodologia de d
 
 ---
 ## Conceitos da RAD
-

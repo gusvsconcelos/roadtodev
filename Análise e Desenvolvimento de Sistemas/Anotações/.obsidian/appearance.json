@@ -1,10 +1,11 @@
 {
   "cssTheme": "Tokyo Night",
-  "baseFontSize": 14,
+  "baseFontSize": 16,
   "showViewHeader": false,
   "nativeMenus": false,
-  "interfaceFontFamily": "Iosevka Custom,Iosevka",
+  "interfaceFontFamily": "Iosevka,Iosevka Nerd Font",
   "monospaceFontFamily": "JetBrainsMono Nerd Font",
-  "textFontFamily": "Iosevka Custom,Iosevka,JetBrains Mono",
-  "showRibbon": false
+  "textFontFamily": "Iosevka,Iosevka Nerd Font",
+  "showRibbon": false,
+  "baseFontSizeAction": true
 }

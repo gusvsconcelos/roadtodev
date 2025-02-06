@@ -44,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de arquivos"
             }
           },
           {
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 495.5,
-    "collapsed": true
+    "width": 443.5
   },
   "right": {
     "id": "38d6d89cc8c648f9",
@@ -156,17 +155,18 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
   "active": "a18cb366e05797de",
   "lastOpenFiles": [
+    "2024.1/Pensamento Computacional/1.Introdução aos princípios fundamentais da computação/Módulo 1.md",
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/1.RAD (Rapid Applications Development)/Módulo 1.md",
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/1.RAD (Rapid Applications Development)",
     "2024.1/Pensamento Computacional/1.Introdução aos princípios fundamentais da computação/Módulo 2.md",
@@ -182,7 +182,6 @@
     "2024.1/Pensamento Computacional/2.Fundamentos de softwares de computadores/Módulo 2.md",
     "2024.1/Pensamento Computacional/2.Fundamentos de softwares de computadores/Módulo 1.md",
     "2024.1/Pensamento Computacional/1.Introdução aos princípios fundamentais da computação/Módulo 3.md",
-    "2024.1/Pensamento Computacional/1.Introdução aos princípios fundamentais da computação/Módulo 1.md",
     "2024.1/Pensamento Computacional/4.Representação de imagens em computadores",
     "2024.1/Pensamento Computacional/3.Fundamentos de hardware",
     "2024.1/Pensamento Computacional/2.Fundamentos de softwares de computadores",
