@@ -1,6 +1,6 @@
 # **Componentes básicos de hardware**
 
-## Componentes fundamentais do computador
+## 1. Componentes fundamentais do computador
 
 **CPU**: Faz a computação, ou seja, executa instruções.
 
@@ -15,14 +15,14 @@
 - **Exemplos**: Disco rígido, SDD (Solid State Drive) e Pen drive.
 
 ---
-## Sistemas de arquivos
+## 2. Sistemas de arquivos
 
 Normalmente, o armazenamento de dados em disco rígido ou unidade flash é organizado com esquemas convencionados, que são conhecidos como sistemas de arquivos.
 
 - ==Um sistema de arquivos é uma maneira de organizar a grande área de bytes de dispositivos persistentes, dando a eles um tipo de estrutura familiar de arquivos e pastas.==
 
 ---
-## Microcontroladores
+## 3. Microcontroladores
 
 ==Um microcontrolador é um pequeno computador embutido em um único chip==, possui todos os componentes básicos, como CPU, RAM e armazenamento persistente, em uma escala muito pequena.
 

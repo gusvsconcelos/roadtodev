@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 443.5
+    "width": 465
   },
   "right": {
     "id": "38d6d89cc8c648f9",
@@ -160,28 +160,27 @@
       "canvas:Criar novo canvas": false,
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "command-palette:Abrir paleta de comandos": false
     }
   },
   "active": "a18cb366e05797de",
   "lastOpenFiles": [
-    "2024.1/Pensamento Computacional/1.Introdução aos princípios fundamentais da computação/Módulo 1.md",
-    "2025.1/Desenvolvimento Rápido de Aplicações em Python/1.RAD (Rapid Applications Development)/Módulo 1.md",
-    "2025.1/Desenvolvimento Rápido de Aplicações em Python/1.RAD (Rapid Applications Development)",
-    "2024.1/Pensamento Computacional/1.Introdução aos princípios fundamentais da computação/Módulo 2.md",
-    "2025.1/Desenvolvimento Rápido de Aplicações em Python/Untitled.md",
-    "2025.1/Desenvolvimento Rápido de Aplicações em Python",
-    "2025.1",
-    "2024.1/Pensamento Computacional/4.Representação de imagens em computadores/Módulo 1.md",
     "2024.1/Pensamento Computacional/4.Representação de imagens em computadores/Módulo 2.md",
+    "2024.1/Pensamento Computacional/4.Representação de imagens em computadores/Módulo 1.md",
     "2024.1/Pensamento Computacional/3.Fundamentos de hardware/Módulo 3.md",
-    "2024.1/Pensamento Computacional/3.Fundamentos de hardware/Módulo 1.md",
     "2024.1/Pensamento Computacional/3.Fundamentos de hardware/Módulo 2.md",
+    "2024.1/Pensamento Computacional/3.Fundamentos de hardware/Módulo 1.md",
     "2024.1/Pensamento Computacional/2.Fundamentos de softwares de computadores/Módulo 3.md",
     "2024.1/Pensamento Computacional/2.Fundamentos de softwares de computadores/Módulo 2.md",
     "2024.1/Pensamento Computacional/2.Fundamentos de softwares de computadores/Módulo 1.md",
     "2024.1/Pensamento Computacional/1.Introdução aos princípios fundamentais da computação/Módulo 3.md",
+    "2024.1/Pensamento Computacional/1.Introdução aos princípios fundamentais da computação/Módulo 2.md",
+    "2024.1/Pensamento Computacional/1.Introdução aos princípios fundamentais da computação/Módulo 1.md",
+    "2025.1/Desenvolvimento Rápido de Aplicações em Python/1.RAD (Rapid Applications Development)/Módulo 1.md",
+    "2025.1/Desenvolvimento Rápido de Aplicações em Python/1.RAD (Rapid Applications Development)",
+    "2025.1/Desenvolvimento Rápido de Aplicações em Python/Untitled.md",
+    "2025.1/Desenvolvimento Rápido de Aplicações em Python",
+    "2025.1",
     "2024.1/Pensamento Computacional/4.Representação de imagens em computadores",
     "2024.1/Pensamento Computacional/3.Fundamentos de hardware",
     "2024.1/Pensamento Computacional/2.Fundamentos de softwares de computadores",
