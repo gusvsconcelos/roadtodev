@@ -2,7 +2,7 @@
 
 ## 1. Conceito: Linguagens de programação
 
-Uma linguagem de programação é um sistema de comunicação usado para criar instruções que um computador pode entender e executar.
+==Uma linguagem de programação é um sistema de comunicação usado para criar instruções que um computador pode entender e executar.==
 
 ### Principais Características de uma Linguagem de Programação
 
@@ -17,13 +17,13 @@ Uma linguagem de programação é um sistema de comunicação usado para criar i
 
 ### Linguagens de Baixo Nível
 
-- Mais próximas do hardware.
+- ==Mais próximas do hardware.==
 - **Exemplo**: Assembly, Linguagem de Máquina.
 - **Características**: Rápidas e eficientes, mas difíceis de programar.
 
 ### Linguagens de Alto Nível
 
-- Mais próximas da linguagem humana.
+- ==Mais próximas da linguagem humana.==
 - **Exemplo**: Python, Java, C++, JavaScript.
 - **Características**: Mais fáceis de aprender e usar, mas menos eficientes em termos de desempenho bruto.
 
@@ -48,7 +48,7 @@ Essas três categorias se referem a como o código-fonte de um programa é tradu
 
 ### Linguagens Compiladas
 
- O código-fonte é transformado (compilado) em código de máquina antes de ser executado. Essa tradução é feita por um *compilador*.
+ ==O código-fonte é transformado (compilado) em código de máquina antes de ser executado.== Essa tradução é feita por um *compilador*.
  
 - **Exemplos**: C, C++, Rust, Go.
 
@@ -69,7 +69,7 @@ Essas três categorias se referem a como o código-fonte de um programa é tradu
 
 ### Linguagens Interpretadas
 
-O código-fonte é traduzido e executado linha por linha por um *interpretador* em tempo de execução.
+==O código-fonte é traduzido e executado linha por linha por um *interpretador* em tempo de execução.==
 
 - **Exemplos**: Python, Ruby, JavaScript.
 
@@ -91,7 +91,7 @@ O código-fonte é traduzido e executado linha por linha por um *interpretador* 
 
 ### Compilação Just-in-Time (JIT)
 
-Uma combinação dos dois métodos anteriores. ==O código é compilado em tempo de execução==, gerando código de máquina "sob demanda".
+==Uma combinação dos dois métodos anteriores. O código é compilado em tempo de execução==, gerando código de máquina "sob demanda".
 
 - **Exemplos**: Java (com a JVM), C# (com o .NET CLR), Kotlin.
 
