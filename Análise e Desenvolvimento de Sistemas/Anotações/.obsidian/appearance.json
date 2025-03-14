@@ -3,9 +3,9 @@
   "baseFontSize": 17,
   "showViewHeader": false,
   "nativeMenus": false,
-  "interfaceFontFamily": "Iosevka,Iosevka Nerd Font",
+  "interfaceFontFamily": "Iosevka,Iosevka Nerd Font,JetBrainsMono Nerd Font",
   "monospaceFontFamily": "JetBrainsMono Nerd Font",
-  "textFontFamily": "Iosevka,Iosevka Nerd Font",
+  "textFontFamily": "Iosevka,Iosevka Nerd Font,JetBrainsMono Nerd Font",
   "showRibbon": false,
   "baseFontSizeAction": true
 }
