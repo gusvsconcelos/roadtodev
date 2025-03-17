@@ -38,9 +38,19 @@ Os requisitos, definidos em parceria com os usuários finais, incluem:
 O cliente deve fornecer a visão do produto e, junto com outras partes interessadas, realizar pesquisas para finalizar os requisitos, garantindo a aprovação de todos.
 
 Outro ponto importante a ser destacada é que um dos principios fundamentais da RAD é a capacidade de alterar os requisitos em qualquer momento do ciclo de desenvolvimento.
+
 - Levantamento de requisitos
-- Oficinas JAD
+- Oficinas JAD (São realizados revisões e detalhamento do escopo do sistema para garantir que as entregas ocorram dentro do prazo.)
 - Validações dos protótipos
 - Bancos de dados
-- Transição
+- Transição (São feitos treinamentos para o usuário utilizar o sistema antes que seja colocado em produção. Em seguida, o sistema é colocado em produção e, por fim, instalado no cliente)
 
+Após a definição do escopo do projeto, as equipes iniciam a construção dos modelos e protótipos. O objetivo é demonstrar para o cliente um design funcional o mais rápido possível.
+
+Observe os tópicos adiante:
+
+- Desenvolvedores e designers - que desenvolvem telas e componentes interativos
+- Durante a prototipagem, os desenvolvedores focam seus esforços em elementos essenciais do sistema para produzir um produto que seja aceitável pelo proprietário do produto
+- O uso de protótipos construídos rapidamente incentiva o envolvimento do usuário nos testes do sistema e, como consequência, são obtidos comentários que podem ser utilizados para aperfeiçoar o trabalho que está sendo executado, em vez de tentar fazer avaliações abstratas de um documento de design
+- Com esses comentários, os desenvolvedores podem ajustar os modelos de forma incremental, até que se atenda aos requisitos do projeto.
+- A liberação rápida de prototipos aumenta as chances de descobrir erros precocemente, o que leva ao aumento da confiabilidade do sistema.
