@@ -37,47 +37,51 @@ Os métodos tradicionais de desenvolvimento de software, como a metodologia de d
 ---
 ## 2. Conceitos da RAD
 
-A RAD se destaca por sua ediciência em produzir software de alta qualidade de forma ágil e econômica, sendo caracterizado por seu modelo adaptativo e iterativo. A correta aplicação dessa metodologia permite a mobilização de equipes mais enxutas e eficientes, o que consiste em um importante diferencial para organizações que necessitam entregar produtos em ciclos cada vez menores.
+A RAD se destaca por sua eficiência em produzir software de alta qualidade de forma ágil e econômica, sendo caracterizada por seu modelo adaptativo e iterativo. A correta aplicação dessa metodologia permite a mobilização de equipes mais enxutas e eficientes.
 
 >*A RAD pode ser considerada um tipo de técnica ágil.*
 
-Outra forma pela qual a RAD é conhecida é como construção rápida de aplicações, do inglês Rapid Application Building (RAB). Um dos principais elementos da RAD é o desenvolvimento de protótipos para chegar ao sistema final. Trate-se de um modelo adaptativo, uma vez que o desenvolvimento é feito em iterações em que mudanças podem ser realizadas a partir dos comentários do usuário.
+Um dos principais elementos da RAD é o desenvolvimento de protótipos para chegar ao sistema final. ==Trate-se de um modelo adaptativo, uma vez que o desenvolvimento é feito em iterações em que mudanças podem ser realizadas a partir dos comentários do usuário.==
 
-A metodologia RAD possui quatro elementos fundamentais. Vejamos!
-- Uso de ferramentas para dar suporte ao desenvolvimento (Ferramentas CASE)
+**Elementos fundamentais da RAD:**
+
+- Uso de ferramentas de desenvolvimento - Ferramentas CASE
 - Metodologia bem definida
-- Pessoas (Deve haver treinamento das pessoas)
-- Gestão (O gerenciamento do projeto deve ser feito com rapidez.)
+- Pessoas
+- Gestão
 
-*Timebox é o tempo máximo estabelecido para atingir as metas, tomar uma decisão ou executar um conjunto de tarefas.*
+>*==Timebox== é o tempo máximo estabelecido para atingir as metas, tomar uma decisão ou executar um conjunto de tarefas.*
 
-Existem dois tipos de projetos RAD
-- Intensivo (Uma equipe de desenvolvedores e usuários trabalham por um curto período (algumas semanas) e, ao final desse tempo, espera-se que produza um produto que seja utilizável.)
-- Faseado (Projeto distribuido por um longo período. É normalmente iniciado por um workshop JAD.)
+**Tipos de projetos RAD:**
+
+- **Intensivo:** Uma equipe de desenvolvedores e usuários trabalham por um curto período e, ao final desse tempo, espera-se que produza um produto que seja utilizável.
+- **Faseado:** Projeto distribuido por um longo período. ==É normalmente iniciado por um workshop JAD.==
 
 ---
 ## 3.Princípios, ferramentas e técnicas
 
-A RAD reduz significativamente o tempo de desenvolvimento e aumenta a qualidade do software.
+>*A RAD reduz significativamente o tempo de desenvolvimento e aumenta a qualidade do software.*
 
 ### Princípios
-Alguns requisitos relacionados aos recursos humanos são os seguintes:
+
 - Equipe de desenvolvedores qualificada e motivada
 - Usuários comprometidos com a participação ativa ao longo do projeto
 - Comprometimento para atingir o resultado satisfatório
 
-Segundo Fitzgerald (1998), a RAD é baseado nos seguintes princípios básicos:
+**A RAD é baseado nos seguintes princípios básicos:**
+
 - Envolvimento ativo dos usuários
 - Equipes pequenas com poder de decisão
 - Entrega frequente de produtos
 - Desenvolvimento incremental e iterativo
-- Abordagem top-down (Os sistemas são elaborados e confeccionados à medida que o conhecimento cresce.)
-- Utilização de ferramentas de automação (case)
+- Abordagem top-down
+- Utilização de ferramentas de automação
 
-Partes interessadas: patrocinadores, desenvolvedores e usuários ao longo da vida de um projeto.
+>***Partes interessadas:** patrocinadores, desenvolvedores e usuários ao longo da vida de um projeto.*
 
 ### Ferramentas e técnicas
-Entre as categorias de ferramentas que dão suporte à RAD para desenvolver projetos de software estão:
+
+**Ferramentas de suporte de desenvolvimento:**
 
 - Integração de dados
 - Ambientes de desenvolvimento
@@ -85,14 +89,13 @@ Entre as categorias de ferramentas que dão suporte à RAD para desenvolver proj
 - Ferramentas de modelagem de dados
 - Ferramentas de geração de código
 
-Cada uma das técnicas desenvolvidas tem suas particularidades, mas mantém a essência da RAD. Aqui estão algumas dessas técnicas
+**Técnicas:**
 
-- Modelo CBD (Trata-se o método que descreve como componentes antigos podem ser reutilizados com os novos.)
-- RepoGuard (É um framework para integração de ferramentas de desenvolvimento com repositórios de código-fonte.)
+- Modelo CBD
+- RepoGuard
 - Adição dinâmica ágil
 - Método baseado em camadas para desenvolvimento rápido de software
 - Análise de projeto de sistema baseado em situação
 - Uso de Ajax na RAD
 - Desenvolvimento de aplicativos multiusuário em ambiente distribuído rapidamente
 - Programação extrema
-
