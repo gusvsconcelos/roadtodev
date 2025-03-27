@@ -1,11 +1,12 @@
 {
   "cssTheme": "Tokyo Night",
-  "baseFontSize": 17,
+  "baseFontSize": 16,
   "showViewHeader": false,
   "nativeMenus": false,
-  "interfaceFontFamily": "Iosevka,Iosevka Nerd Font,JetBrainsMono Nerd Font",
+  "interfaceFontFamily": "Cascadia Code,Cascadia Mono",
   "monospaceFontFamily": "JetBrainsMono Nerd Font",
-  "textFontFamily": "Iosevka,Iosevka Nerd Font,JetBrainsMono Nerd Font",
+  "textFontFamily": "Cascadia Mono,Cascadia Code",
   "showRibbon": false,
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "accentColor": ""
 }
