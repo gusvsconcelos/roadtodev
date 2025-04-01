@@ -5,5 +5,7 @@
   "vimMode": true,
   "promptDelete": false,
   "spellcheck": false,
-  "tabSize": 2
+  "tabSize": 2,
+  "foldIndent": true,
+  "showIndentGuide": false
 }
