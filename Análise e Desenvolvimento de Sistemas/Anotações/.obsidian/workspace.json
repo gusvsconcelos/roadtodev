@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025.1/Desenvolvimento Rápido de Aplicações em Python/2.Manipulação de Dados em Arquivos/Módulo 2.md",
+                "file": "2025.1/Desenvolvimento Rápido de Aplicações em Python/2.Manipulação de Dados em Arquivos/Módulo 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Módulo 2"
+              "title": "Módulo 3"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5
+    "width": 263.5
   },
   "right": {
     "id": "38d6d89cc8c648f9",
@@ -166,16 +166,17 @@
   "active": "6a287ec2e0f04928",
   "lastOpenFiles": [
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/2.Manipulação de Dados em Arquivos/Módulo 1.md",
+    "2025.1/Desenvolvimento Rápido de Aplicações em Python/2.Manipulação de Dados em Arquivos/Módulo 3.md",
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/2.Manipulação de Dados em Arquivos/Módulo 2.md",
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/1.RAD (Rapid Applications Development)/Módulo 4.md",
-    "2025.1/Desenvolvimento Rápido de Aplicações em Python/1.RAD (Rapid Applications Development)/Módulo 1.md",
-    "2025.1/Desenvolvimento Rápido de Aplicações em Python/1.RAD (Rapid Applications Development)/Módulo 2.md",
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/1.RAD (Rapid Applications Development)/Módulo 3.md",
+    "2025.1/Desenvolvimento Rápido de Aplicações em Python/1.RAD (Rapid Applications Development)/Módulo 2.md",
+    "2024.1/Pensamento Computacional/2.Fundamentos de softwares de computadores/Módulo 1.md",
+    "2025.1/Desenvolvimento Rápido de Aplicações em Python/1.RAD (Rapid Applications Development)/Módulo 1.md",
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/2.Manipulação de Dados em Arquivos",
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/Untitled.md",
     "2024.1/Pensamento Computacional/2.Fundamentos de softwares de computadores/Módulo 3.md",
     "2024.1/Pensamento Computacional/2.Fundamentos de softwares de computadores/Módulo 2.md",
-    "2024.1/Pensamento Computacional/2.Fundamentos de softwares de computadores/Módulo 1.md",
     "2024.1/Pensamento Computacional/1.Introdução aos princípios fundamentais da computação/Módulo 3.md",
     "2024.1/Pensamento Computacional/1.Introdução aos princípios fundamentais da computação/Módulo 2.md",
     "2024.1/Pensamento Computacional/1.Introdução aos princípios fundamentais da computação/Módulo 1.md",
@@ -199,7 +200,6 @@
     "2024.2/Engenharia de Usabilidade/4.Acessibilidade à Web/Módulo 2.md",
     "2024.2/Engenharia de Usabilidade/4.Acessibilidade à Web/Módulo 1.md",
     "2024.2/Engenharia de Usabilidade/4.Acessibilidade à Web",
-    "2024.2/Engenharia de Usabilidade/1.Ergonomia em Interação Humano Computador/Módulo 3.md",
-    "2024.2/Engenharia de Usabilidade/1.Ergonomia em Interação Humano Computador/Módulo 2.md"
+    "2024.2/Engenharia de Usabilidade/1.Ergonomia em Interação Humano Computador/Módulo 3.md"
   ]
 }

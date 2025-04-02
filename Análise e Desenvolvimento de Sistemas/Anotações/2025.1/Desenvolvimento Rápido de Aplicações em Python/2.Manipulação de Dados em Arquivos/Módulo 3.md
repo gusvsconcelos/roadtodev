@@ -1,0 +1,1 @@
+# **Tratamento de exceções na manipulação de arquivos**
