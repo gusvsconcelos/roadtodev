@@ -11,13 +11,13 @@ O Sistema Operacional é um conjunto de tipos de programas administrativos e de 
 
 ### Exemplos de Sistemas Operacionais
 
-#### Computadores pessoais (PC):
+#### *Computadores pessoais (PC):*
 
 - *Microsoft Windows*: Proprietário, pago. ==Usado em cerca de 80% dos desktops/laptops.==
 - *Linux*: Aberto, gratuito. ==Usado em cerca de 80% dos servidores em ambientes de computação em nuvem.== Em desktops e laptops, é usado principalmente por entusiastas e projetos de inclusão social.
 - *Mac OS X*: Proprietário, pago, ==específico para computadores Apple==. Usado por cerca de 5% dos desktops/laptops.
 
-#### Smartphone:
+#### *Smartphone:*
 
 - *IOS*: Proprietário, ==específico para Apple iPhone==.
 - *Android*: Aberto, usado pelos demais fabricantes (Samsung, Motorola, LG, Sony, etc.). ==Projeto baseado no Linux==.

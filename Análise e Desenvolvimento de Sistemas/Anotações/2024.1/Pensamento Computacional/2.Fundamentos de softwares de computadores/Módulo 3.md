@@ -52,17 +52,17 @@ Essas três categorias se referem a como o código-fonte de um programa é tradu
  
 - **Exemplos**: C, C++, Rust, Go.
 
-#### Características:
+#### *Características*:
 
 - O programa gerado é um arquivo executável independente.
 - Execução geralmente mais rápida, pois o código já está traduzido para a linguagem da máquina.
 - Menor flexibilidade para mudanças durante a execução.
   
-#### Vantagens:
+#### *Vantagens*:
 
 - Alto desempenho.
 - Não depende de um interpretador durante a execução.
-#### Desvantagens:
+#### *Desvantagens*:
 
 - O processo de compilação pode ser lento.
 - Não é fácil depurar ou alterar sem recompilar.
@@ -73,18 +73,18 @@ Essas três categorias se referem a como o código-fonte de um programa é tradu
 
 - **Exemplos**: Python, Ruby, JavaScript.
 
-#### Características:
+#### *Características*:
 
 - Não há um arquivo executável pré-compilado.
 - Mais lento em execução, já que a tradução acontece durante o uso.
 - Maior flexibilidade para mudanças no código.
 
-#### Vantagens:
+#### *Vantagens*:
 
 - Fácil de testar e depurar.
 - Multiplataforma sem necessidade de recompilação.
 
-#### Desvantagens:
+#### *Desvantagens*:
 
 - Desempenho geralmente inferior ao de linguagens compiladas.
 - Requer um interpretador instalado no ambiente de execução.
@@ -95,17 +95,17 @@ Essas três categorias se referem a como o código-fonte de um programa é tradu
 
 - **Exemplos**: Java (com a JVM), C# (com o .NET CLR), Kotlin.
 
-#### Características:
+#### *Características*:
 
 - O código é inicialmente convertido em um formato intermediário (bytecode) e depois, no momento da execução, o bytecode é compilado em código de máquina.
 - Combina a portabilidade de linguagens interpretadas com o desempenho das compiladas.
 
-#### Vantagens:
+#### *Vantagens*:
 
 - Melhor desempenho em relação às linguagens interpretadas puras.
 - Otimizações específicas para o hardware no momento da execução.
 
-#### Desvantagens:
+#### *Desvantagens*:
 
 - Introduz uma sobrecarga durante a execução inicial.
 - Depende de uma máquina virtual ou ambiente JIT (ex.: JVM, CLR).

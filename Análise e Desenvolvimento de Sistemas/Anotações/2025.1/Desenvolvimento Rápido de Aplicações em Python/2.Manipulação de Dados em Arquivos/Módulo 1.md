@@ -11,12 +11,12 @@ A manipulação de arquivos em Python é essencial para executar tarefas comuns 
 
 ### Abrindo um arquivo
 
-O método principal para acessar arquivos é por meio da função `open()`, que retorna um objeto representando o arquivo. O argumento `caminho` especifica a localização do arquivo no sistema:
+O método principal para acessar arquivos é por meio da função `open()`, que ==retorna um objeto representando o arquivo.== O argumento `caminho` especifica a localização do arquivo no sistema:
 
 - **Absoluto**: Indica o endereço completo (ex.: `/home/user/documento.txt`).
 - **Relativo**: Refere-se ao caminho em relação ao diretório atual.
 
-Funções adicionais como `path.relpath` e `path.abspath` ajudam a manipular caminhos.
+>*Funções adicionais como `path.relpath` e `path.abspath` ajudam a manipular caminhos.*
 
 ### Modos de acesso a arquivos
 
@@ -86,4 +86,4 @@ O uso de arquivos texto é comum para automação, geração de relatórios e pr
 ---
 ## 4. Lidando com dados binários em arquivos
 
-Arquivos binários permitem manipular dados como imagens e vídeos de forma compacta. Usando modos como **rb** e **wb**, é possível realizar operações eficientes em baixo nível, integrando sistemas legados ou aplicações multimídia.
+Arquivos binários permitem manipular dados como imagens e vídeos de forma compacta. ==Usando modos como **rb** e **wb**, é possível realizar operações eficientes em baixo nível, integrando sistemas legados ou aplicações multimídia.==

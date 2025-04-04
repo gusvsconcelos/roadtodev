@@ -2,11 +2,9 @@
 
 ## 1. Tratamento de Exceções
 
-O tratamento de exceções na manipulação de arquivos é fundamental para evitar falhas inesperadas e garantir que o programa continue funcionando de maneira controlada. Problemas como arquivos inexistentes ou falta de permissão podem ser resolvidos usando **blocos try/except**, permitindo um gerenciamento eficiente dos erros.
+O tratamento de exceções na manipulação de arquivos é fundamental para evitar falhas inesperadas e garantir que o programa continue funcionando de maneira controlada. ==Problemas como arquivos inexistentes ou falta de permissão podem ser resolvidos usando **blocos try/except**, permitindo um gerenciamento eficiente dos erros.==
 
-Ao executar operações com arquivos, erros como **FileNotFoundError** e **PermissionError** podem surgir. Esses problemas ocorrem em tempo de execução e, sem tratamento adequado, podem interromper o fluxo do programa.
-
-O Python permite verificar na documentação oficial quais exceções podem ser lançadas por determinadas funções. O tratamento dessas exceções consiste em orientar o interpretador sobre qual ação tomar em caso de erro.
+Ao executar operações com arquivos, erros como **FileNotFoundError** e **PermissionError** podem surgir. ==Esses problemas ocorrem em tempo de execução e, sem tratamento adequado, podem interromper o fluxo do programa.==
 
 - Se um arquivo que deveria ser lido não existir, o Python lançará um **FileNotFoundError**, interrompendo o programa.
 
@@ -23,7 +21,7 @@ except FileNotFoundError:
 
 Dessa forma, o Python identifica a falha e executa o código alternativo definido no `except`.
 
-Isso garante que o programa siga funcionando mesmo quando ocorre um erro.
+==Isso garante que o programa siga funcionando mesmo quando ocorre um erro.==
 
 ### Exceções Específicas Relacionadas a Arquivos
 
@@ -33,7 +31,7 @@ Isso garante que o programa siga funcionando mesmo quando ocorre um erro.
 
 Essas exceções herdam da classe **OSError**, que por sua vez herda de **Exception**.
 
-**Boa prática:** Evite usar exceções genéricas como `except Exception`, pois isso pode ocultar erros inesperados.
+**Boa prática:** Evite usar exceções genéricas como `except Exception`, pois ==isso pode ocultar erros inesperados.==
 
 ### Exemplo de PermissionError
 
@@ -48,8 +46,6 @@ except PermissionError:
 
 ---
 ## 2. Operações Adicionais em Arquivos
-
-Manipular arquivos em Python envolve não apenas leitura e escrita, mas também operações como remoção e renomeação. Essas ações são essenciais para organização de dados e automação de tarefas, garantindo um fluxo de trabalho mais eficiente e seguro.
 
 ### Removendo Arquivos
 
@@ -91,8 +87,6 @@ Possíveis Exceções:
 
 ---
 ## 3. Manipulação de Diretórios em Python
-
-A organização de diretórios é essencial para estruturar arquivos e automatizar processos. Python oferece funções para criar, remover e listar diretórios, garantindo um ambiente eficiente para desenvolvimento.
 
 ### Criando e Removendo Diretórios
 

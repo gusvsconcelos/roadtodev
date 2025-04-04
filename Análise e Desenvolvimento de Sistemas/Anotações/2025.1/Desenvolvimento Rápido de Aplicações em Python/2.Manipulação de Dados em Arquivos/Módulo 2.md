@@ -11,9 +11,9 @@ Operações como remoção de espaços, conversão entre maiúsculas e minúscul
 
 ### Método *strip*
 
-`strip()` remove espaços extras e caracteres de fim de linha no início e final de uma string. É útil, por exemplo, para limpar dados ao processar linhas de um arquivo.  
+`strip()` remove espaços extras e caracteres de fim de linha no início e final de uma string. ==É útil, por exemplo, para limpar dados ao processar linhas de um arquivo.==  
 
-**Uso prático do `strip()`:** linhas lidas frequentemente possuem espaços extras ou quebras de linha indesejadas. O método `strip()` ajuda a "limpar" essas linhas antes de armazená-las ou processá-las.
+**Uso prático do `strip()`:** linhas lidas frequentemente possuem espaços extras ou quebras de linha indesejadas. ==O método `strip()` ajuda a "limpar" essas linhas antes de armazená-las ou processá-las.==
 
 ### Método *count*
 
@@ -31,14 +31,14 @@ O método `count()` é usado para contar o número de vezes que uma palavra ou t
 
 O método `split()` divide uma string em uma lista de partes menores com base em um delimitador (ou separador).  
 
-- Sem delimitador: usa espaço como separador padrão.
-- Com delimitador: ignora o separador na lista resultante.
+- **Sem delimitador:** usa espaço como separador padrão.
+- **Com delimitador:** ignora o separador na lista resultante.
 
 **Frase**: `"Carro,moto,avião"`
 
 - Resultado de `split(',')`: `["Carro", "moto", "avião"]`
 
-#### Comparação *count* vs. *split* na contagem de palavras
+#### *Comparação count vs. split na contagem de palavras*
 
 Ao contar palavras específicas, o método `split()`, combinado com uma comparação, pode ser mais preciso.
 
@@ -142,7 +142,7 @@ Introduzidas no Python 3.6, as f-strings facilitam a formatação de strings usa
 
 - Use f-strings para clareza e simplicidade.
 - Para datas, explore o módulo `datetime` para opções avançadas de formatação.
-- Prefira f-strings em Python 3.6 ou superior para substituir métodos mais trabalhosos.
+- ==Prefira f-strings em Python 3.6 ou superior para substituir métodos mais trabalhosos.==
 
 ---
 ## 3. Codificando mensagens com Python
