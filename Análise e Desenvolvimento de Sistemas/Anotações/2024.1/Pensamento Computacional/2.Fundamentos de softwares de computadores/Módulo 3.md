@@ -29,10 +29,10 @@
 
 ### Paradigmas de Programação
 
-- **Imperativo**: Baseado em comandos sequenciais (Ex.: C, Python).
-- **Orientado a Objetos**: Organizado em torno de objetos e classes (Ex.: Java, C#).
-- **Funcional**: Foca em funções matemáticas e imutabilidade (Ex.: Haskell, Scala).
-- **Declarativo**: Foco em "o que fazer" em vez de "como fazer" (Ex.: SQL, Prolog).
+- **Imperativo**: ==Baseado em comandos sequenciais== (Ex.: C, Python).
+- **Orientado a Objetos**: ==Organizado em torno de objetos e classes== (Ex.: Java, C#).
+- **Funcional**: ==Foca em funções matemáticas e imutabilidade== (Ex.: Haskell, Scala).
+- **Declarativo**: ==Foco em "o que fazer" em vez de "como fazer"== (Ex.: SQL, Prolog).
 
 ### Exemplos de Linguagens Populares
 
@@ -48,21 +48,21 @@ Essas três categorias se referem a como o código-fonte de um programa é tradu
 
 ### Linguagens Compiladas
 
- ==O código-fonte é transformado (compilado) em código de máquina antes de ser executado.== Essa tradução é feita por um *compilador*.
+ ==O código-fonte é transformado (compilado) em código de máquina antes de ser executado.== Essa tradução é feita por um **compilador**.
  
 - **Exemplos**: C, C++, Rust, Go.
 
-#### *Características*:
+#### *Características*
 
 - O programa gerado é um arquivo executável independente.
-- Execução geralmente mais rápida, pois o código já está traduzido para a linguagem da máquina.
+- ==Execução geralmente mais rápida, pois o código já está traduzido para a linguagem da máquina.==
 - Menor flexibilidade para mudanças durante a execução.
   
-#### *Vantagens*:
+#### *Vantagens*
 
 - Alto desempenho.
 - Não depende de um interpretador durante a execução.
-#### *Desvantagens*:
+#### *Desvantagens*
 
 - O processo de compilação pode ser lento.
 - Não é fácil depurar ou alterar sem recompilar.
@@ -73,18 +73,18 @@ Essas três categorias se referem a como o código-fonte de um programa é tradu
 
 - **Exemplos**: Python, Ruby, JavaScript.
 
-#### *Características*:
+#### *Características*
 
 - Não há um arquivo executável pré-compilado.
-- Mais lento em execução, já que a tradução acontece durante o uso.
+- ==Mais lento em execução, já que a tradução acontece durante o uso.==
 - Maior flexibilidade para mudanças no código.
 
-#### *Vantagens*:
+#### *Vantagens*
 
 - Fácil de testar e depurar.
 - Multiplataforma sem necessidade de recompilação.
 
-#### *Desvantagens*:
+#### *Desvantagens*
 
 - Desempenho geralmente inferior ao de linguagens compiladas.
 - Requer um interpretador instalado no ambiente de execução.
@@ -95,17 +95,17 @@ Essas três categorias se referem a como o código-fonte de um programa é tradu
 
 - **Exemplos**: Java (com a JVM), C# (com o .NET CLR), Kotlin.
 
-#### *Características*:
+#### *Características*
 
-- O código é inicialmente convertido em um formato intermediário (bytecode) e depois, no momento da execução, o bytecode é compilado em código de máquina.
+- ==O código é inicialmente convertido em um formato intermediário (bytecode) e depois, no momento da execução, o bytecode é compilado em código de máquina.==
 - Combina a portabilidade de linguagens interpretadas com o desempenho das compiladas.
 
-#### *Vantagens*:
+#### *Vantagens*
 
 - Melhor desempenho em relação às linguagens interpretadas puras.
 - Otimizações específicas para o hardware no momento da execução.
 
-#### *Desvantagens*:
+#### *Desvantagens*
 
 - Introduz uma sobrecarga durante a execução inicial.
 - Depende de uma máquina virtual ou ambiente JIT (ex.: JVM, CLR).

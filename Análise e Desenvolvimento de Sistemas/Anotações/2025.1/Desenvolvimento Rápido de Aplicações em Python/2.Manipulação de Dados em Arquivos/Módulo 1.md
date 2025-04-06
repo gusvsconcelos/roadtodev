@@ -2,7 +2,9 @@
 
 ## 1. Operações básicas
 
-A manipulação de arquivos em Python é essencial para executar tarefas comuns como o armazenamento de informações, processamento de dados e geração de logs. As operações básicas incluem:
+A manipulação de arquivos em Python é essencial para executar tarefas comuns como o armazenamento de informações, processamento de dados e geração de logs.
+
+**As operações básicas incluem**:
 
 - **Abrir** arquivos para manipulação.
 - **Fechar** arquivos após o uso.
@@ -11,7 +13,7 @@ A manipulação de arquivos em Python é essencial para executar tarefas comuns 
 
 ### Abrindo um arquivo
 
-O método principal para acessar arquivos é por meio da função `open()`, que ==retorna um objeto representando o arquivo.== O argumento `caminho` especifica a localização do arquivo no sistema:
+==O método principal para acessar arquivos é por meio da função `open()`, que retorna um objeto representando o arquivo.== O argumento `caminho` especifica a localização do arquivo no sistema:
 
 - **Absoluto**: Indica o endereço completo (ex.: `/home/user/documento.txt`).
 - **Relativo**: Refere-se ao caminho em relação ao diretório atual.
@@ -20,7 +22,7 @@ O método principal para acessar arquivos é por meio da função `open()`, que 
 
 ### Modos de acesso a arquivos
 
-O acesso ao arquivo é configurado com diferentes modos, como:
+**O acesso ao arquivo é configurado com diferentes modos, como**:
 
 - **r**: Modo de leitura (padrão).
 - **w**: Escreve no arquivo e apaga o conteúdo existente.
@@ -33,7 +35,7 @@ O acesso ao arquivo é configurado com diferentes modos, como:
 ---
 ## 2. Atributos do objeto tipo arquivo
 
-Os atributos do objeto arquivo (`name`, `mode`, `closed`) são úteis para entender o estado do arquivo e gerenciar operações de forma eficiente, reduzindo erros e melhorando a estabilidade de aplicativos.
+==Os atributos do objeto arquivo (`name`, `mode`, `closed`) são úteis para entender o estado do arquivo e gerenciar operações de forma eficiente==, reduzindo erros e melhorando a estabilidade de aplicativos.
 
 ### Fechando um arquivo
 
@@ -41,7 +43,7 @@ O método `close()` libera recursos alocados para o arquivo, tornando-o acessív
 
 ### Lendo arquivos
 
-Python oferece métodos para ler conteúdos:
+**Python oferece métodos para ler conteúdos**:
 
 - `read()`: Lê todo o conteúdo como uma string.
 - `readline()`: Lê uma única linha e avança para a próxima.
@@ -49,7 +51,7 @@ Python oferece métodos para ler conteúdos:
 
 ### Escrevendo em arquivos
 
-Métodos para escrita:
+**Métodos para escrita**:
 
 - `write()`: Insere um texto no arquivo.
 - `writelines()`: Grava uma coleção de strings, como uma lista.
@@ -68,13 +70,15 @@ with open(caminho, modo) as arquivo:
 ---
 ## 3. Manipulando arquivo-texto em Python
 
-O uso de arquivos texto é comum para automação, geração de relatórios e processamento de informações. Para ilustrar:
+==O uso de arquivos texto é comum para automação, geração de relatórios e processamento de informações.==
+
+**Para ilustrar**:
 
 - Capturamos dados via console, armazenando em um arquivo.
 - Convertendo conteúdos para maiúsculas com `.upper()` para padronização.
 - Sobrescrevemos o arquivo com os dados formatados.
 
-**Exemplo prático:**
+**Exemplo prático**:
 
 1. Usuário insere textos em loop (terminando ao digitar "sair").
 2. Dados são salvos no arquivo `meu_arquivo.txt`.

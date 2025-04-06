@@ -2,15 +2,15 @@
 
 ## 1. Introdução à metodologia RAD
 
-As empresas precisam satisfazer algumas condições para que a metodologia RAD seja aplicada de forma eficiente.
+==As empresas precisam satisfazer algumas condições para que a metodologia RAD seja aplicada de forma eficiente.==
 
-- **Pessoas:** Profissionais qualificados e com rápida adaptação, trabalhando bem em equipe.
-- **Gerenciamento:** Equipes com poder de decisão para evitar perda de tempo
-- **Uso de ferramentas computacionais (CASE):** Programas que facilitem a criação de diagramas e interface com usuário, componentes reutilizáveis e de fácil manutenção.
+- **Pessoas**: Profissionais qualificados e com rápida adaptação, trabalhando bem em equipe.
+- **Gerenciamento**: Equipes com poder de decisão para evitar perda de tempo
+- **Uso de ferramentas computacionais (CASE)**: Programas que facilitem a criação de diagramas e interface com usuário, componentes reutilizáveis e de fácil manutenção.
 
 ### Atenção!
 
-A RAD nem sempre é adequada para ser aplicada a um projeto. Existem casos em que métodos tradicionais são mais pertinentes.
+==A RAD nem sempre é adequada para ser aplicada a um projeto. Existem casos em que métodos tradicionais são mais pertinentes.==
 
 >A RAD é mais adequada para softwares de baixa complexidade.
 
@@ -37,18 +37,18 @@ A RAD nem sempre é adequada para ser aplicada a um projeto. Existem casos em qu
 
 ### Quando aplicar
 
-A metodologia RAD é adequada para projetos de pequena escala com equipes otimizadas de quatro a oito pessoas.
+==A metodologia RAD é adequada para projetos de pequena escala com equipes otimizadas de quatro a oito pessoas.==
 
 ### Quando não aplicar
 
 ==A RAD não é adequada para desenvolvimento de sistemas críticos em tempo real==; sistemas de infraestrutura muito grandes e quando os requisitos funcionais precisam ser especificados detalhadamente ainda no início do projeto.
 
-Também não é adequada quando o sistema deve interagir com outros sistemas já existentes.
+==Também não é adequada quando o sistema deve interagir com outros sistemas já existentes.==
 
 ### Condições para aplicação
 
-- Disponibilidade de profissionais experientes.
-- Comprometimento do cliente para participar efetivamente do desenvolvimento do projeto.
-- Todas as partes interessadas devem estar presentes para aplicar efetivamente essa metodologia.
-- O sistema deve ser capaz de ser dividido em módulos.
-- Ter à disposição programas e infraestrutura adequada para aplicar a RAD.
+- ==Disponibilidade== de profissionais experientes.
+- ==Comprometimento== do cliente para participar efetivamente do desenvolvimento do projeto.
+- ==Todas as partes interessadas devem estar presentes== para aplicar efetivamente essa metodologia.
+- O sistema deve ser capaz de ser ==dividido em módulos==.
+- Ter à disposição ==programas e infraestrutura adequada para aplicar a RAD==.

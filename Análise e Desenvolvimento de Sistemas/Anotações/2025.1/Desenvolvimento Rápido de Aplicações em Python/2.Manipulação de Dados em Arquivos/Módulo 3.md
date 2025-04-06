@@ -31,7 +31,7 @@ Dessa forma, o Python identifica a falha e executa o código alternativo definid
 
 Essas exceções herdam da classe **OSError**, que por sua vez herda de **Exception**.
 
-**Boa prática:** Evite usar exceções genéricas como `except Exception`, pois ==isso pode ocultar erros inesperados.==
+**Boa prática**: Evite usar exceções genéricas como `except Exception`, pois ==isso pode ocultar erros inesperados.==
 
 ### Exemplo de PermissionError
 
@@ -56,9 +56,9 @@ import os
 os.remove("teste.txt")  # Remove o arquivo especificado
 ```
 
-Se o arquivo não estiver no diretório atual, é necessário informar o caminho completo.
+==Se o arquivo não estiver no diretório atual, é necessário informar o caminho completo.==
 
-Possíveis Exceções:
+**Possíveis Exceções**:
 
 - **FileNotFoundError** – O arquivo não existe.
 - **PermissionError** – O acesso ao arquivo é restrito.
@@ -75,9 +75,9 @@ import os
 os.rename("teste_alfa.txt", "teste_beta.txt")  # Renomeia o arquivo
 ```
 
-O primeiro argumento é o nome original, e o segundo é o novo nome.
+==O primeiro argumento é o nome original, e o segundo é o novo nome.==
 
-Possíveis Exceções:
+**Possíveis Exceções**:
 
 - **FileNotFoundError** – O arquivo de origem não existe.
 - **FileExistsError** – O nome de destino já existe.
@@ -90,7 +90,7 @@ Possíveis Exceções:
 
 ### Criando e Removendo Diretórios
 
-O módulo `os` fornece funções para gerenciar diretórios:
+**O módulo `os` fornece funções para gerenciar diretórios**:
 
 #### ***Criar um diretório** – `mkdir()`*
 
@@ -99,7 +99,7 @@ import os
 os.mkdir("meu_diretorio")  # Cria um diretório
 ```
 
-Possíveis erros:
+**Possíveis erros**:
 
 - **PermissionError** – Sem permissão para criar o diretório.
 - **FileExistsError** – O diretório já existe.
@@ -110,7 +110,7 @@ Possíveis erros:
 os.rmdir("meu_diretorio")  # Remove um diretório vazio
 ```
 
-Possíveis erros:
+**Possíveis erros**:
 
 - **PermissionError** – Sem permissão para remoção.
 - **FileNotFoundError** – O diretório não existe.
@@ -120,7 +120,7 @@ Possíveis erros:
 
 ### Listando Conteúdo de Diretórios
 
-Para visualizar arquivos e subdiretórios, utilizamos `scandir()`:
+**Para visualizar arquivos e subdiretórios, utilizamos `scandir()`**:
 
 ```python
 entradas = os.scandir("meu_diretorio")
@@ -128,7 +128,7 @@ for entrada in entradas:
     print(entrada.name, "é diretório?" , entrada.is_dir())
 ```
 
-A função retorna objetos `os.DirEntry`, que possuem métodos úteis:
+**A função retorna objetos `os.DirEntry`, que possuem métodos úteis**:
 
 - **name** – Nome do arquivo ou diretório.
 - **path** – Caminho completo.

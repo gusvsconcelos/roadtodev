@@ -4,9 +4,9 @@
 
 A RAD (Rapid Applications Development) é ==uma metodologia de desenvolvimento de software focada na entrega em um período muito mais curto do que o ciclo tradicional.==
 
-Não se trata da entrega final, mas de um modelo funcional que equivale funcionalmente a um componente do produto. Ou seja, ==simula apenas alguns aspectos e é útil para o entendimento e a evolução do sistema final.==
+==Não se trata da entrega final, mas de um modelo funcional que equivale funcionalmente a um componente do produto.== Ou seja, simula apenas alguns aspectos e é útil para o entendimento e a evolução do sistema final.
 
-O modelo RAD foi introduzido pelo consultor de tecnologia e autor James Martin em 1991. Surgiu como o reconhecimento da necessidade de atender o competitivo mercado de software, que tem uma demanda contínua por novas aplicações.
+==O modelo RAD foi introduzido pelo consultor de tecnologia e autor James Martin em 1991.== Surgiu como o reconhecimento da necessidade de atender o competitivo mercado de software, que tem uma demanda contínua por novas aplicações.
 
 - É um modelo iterativo e incremental que favorece a reutilização de ==protótipos== e a integração contínua de feedback dos usuários.
 - Trata-se de uma combinação de sessões JAD, desenvolvimento de protótipos, equipes SWAT, entregas com prazo e ferramentas CASE.
@@ -20,42 +20,38 @@ O modelo RAD foi introduzido pelo consultor de tecnologia e autor James Martin e
 - É mais flexível para mudanças.
 - Quando está mais evoluído, pode ser integrado ao produto para uma completa entrega mais rápida da versão final.
 
-==A ideia é que o software seja criado em ciclos curtos==, com introdução de funcionalidades, coleta de feedback e revisão.
+A ideia é que o software seja criado em ciclos curtos, com introdução de funcionalidades, coleta de feedback e revisão.
 
 ### Como iniciar um projeto RAD
 
-**Aplicação da metodologia JAD:** Aplicar a metodologia Joint Application Development (JAD), na qual usuários e analistas projetam o sistema juntos, sob uma liderança em oficinas de trabalho.
+**Aplicação da metodologia JAD**: Aplicar a metodologia Joint Application Development (JAD), na qual usuários e analistas projetam o sistema juntos, sob uma liderança em oficinas de trabalho.
 
-**Dinâmicas de grupo:** Potencializar o resultado do desenvolvimento através de dinâmicas de grupo
+**Dinâmicas de grupo**: Potencializar o resultado do desenvolvimento através de dinâmicas de grupo
 
-**Objetivos e aplicações do sistema:** Definir os objetivos e as aplicações do sistema, desde a geração de telas até a geração de relatórios.
+**Objetivos e aplicações do sistema**: Definir os objetivos e as aplicações do sistema, desde a geração de telas até a geração de relatórios.
 
-**Princípios:** Estabelecer a dinâmica de grupo, os recursos audiovisuais, o processo organizado e racional, a escolha do local e documentação com a abordagem WYSIWIG - "O que você vê é o que você obtém".
-
-Os métodos tradicionais de desenvolvimento de software, como a metodologia de desenvovimento em cascata, seguem modelos rígidos de processo. Isso significa que, ==nesses modelos tradicionais, os clientes são pressionados a estabelecer os requisitos antes do início do projeto.==
+**Princípios**: Estabelecer a dinâmica de grupo, os recursos audiovisuais, o processo organizado e racional, a escolha do local e documentação com a abordagem WYSIWIG - "O que você vê é o que você obtém".
 
 ---
 ## 2. Conceitos da RAD
 
-A RAD se destaca por sua eficiência em produzir software de alta qualidade de forma ágil e econômica, sendo caracterizada por seu modelo adaptativo e iterativo. A correta aplicação dessa metodologia permite a mobilização de equipes mais enxutas e eficientes.
-
 >*A RAD pode ser considerada um tipo de técnica ágil.*
 
-Um dos principais elementos da RAD é o desenvolvimento de protótipos para chegar ao sistema final. ==Trate-se de um modelo adaptativo, uma vez que o desenvolvimento é feito em iterações em que mudanças podem ser realizadas a partir dos comentários do usuário.==
+==Um dos principais elementos da RAD é o desenvolvimento de protótipos para chegar ao sistema final.== Trate-se de um modelo adaptativo, uma vez que o desenvolvimento é feito em iterações em que mudanças podem ser realizadas a partir dos comentários do usuário.
 
-**Elementos fundamentais da RAD:**
+**Elementos fundamentais da RAD**:
 
 - Uso de ferramentas de desenvolvimento - Ferramentas CASE
 - Metodologia bem definida
 - Pessoas
 - Gestão
 
->*==Timebox== é o tempo máximo estabelecido para atingir as metas, tomar uma decisão ou executar um conjunto de tarefas.*
+>***Timebox** é o tempo máximo estabelecido para atingir as metas, tomar uma decisão ou executar um conjunto de tarefas.*
 
-**Tipos de projetos RAD:**
+**Tipos de projetos RAD**:
 
-- **Intensivo:** Uma equipe de desenvolvedores e usuários trabalham por um curto período e, ao final desse tempo, espera-se que produza um produto que seja utilizável.
-- **Faseado:** Projeto distribuido por um longo período. ==É normalmente iniciado por um workshop JAD.==
+- **Intensivo**: ==Uma equipe de desenvolvedores e usuários trabalham por um curto período== e, ao final desse tempo, espera-se que produza um produto que seja utilizável.
+- **Faseado**: ==Projeto distribuido por um longo período.== É normalmente iniciado por um workshop JAD.
 
 ---
 ## 3.Princípios, ferramentas e técnicas
@@ -68,7 +64,7 @@ Um dos principais elementos da RAD é o desenvolvimento de protótipos para cheg
 - Usuários comprometidos com a participação ativa ao longo do projeto
 - Comprometimento para atingir o resultado satisfatório
 
-**A RAD é baseado nos seguintes princípios básicos:**
+**A RAD é baseado nos seguintes princípios básicos**:
 
 - Envolvimento ativo dos usuários
 - Equipes pequenas com poder de decisão
@@ -77,11 +73,11 @@ Um dos principais elementos da RAD é o desenvolvimento de protótipos para cheg
 - Abordagem top-down
 - Utilização de ferramentas de automação
 
->***Partes interessadas:** patrocinadores, desenvolvedores e usuários ao longo da vida de um projeto.*
+>***Partes interessadas**: patrocinadores, desenvolvedores e usuários ao longo da vida de um projeto.*
 
 ### Ferramentas e técnicas
 
-**Ferramentas de suporte de desenvolvimento:**
+**Ferramentas de suporte de desenvolvimento**:
 
 - Integração de dados
 - Ambientes de desenvolvimento
@@ -89,7 +85,7 @@ Um dos principais elementos da RAD é o desenvolvimento de protótipos para cheg
 - Ferramentas de modelagem de dados
 - Ferramentas de geração de código
 
-**Técnicas:**
+**Técnicas**:
 
 - Modelo CBD
 - RepoGuard

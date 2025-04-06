@@ -2,14 +2,14 @@
 
 ## 1. O que é um pixel?
 
-Um pixel (picture element) ==é a menor unidade de uma imagem digital==. É como um ponto em uma grade que compõe uma imagem.
+==Um pixel (picture element) é a menor unidade de uma imagem digital==. É como um ponto em uma grade que compõe uma imagem.
 
 - ==Cada pixel possui cor e brilho==. Em imagens coloridas, a cor é determinada por valores de componentes como **RGB** (vermelho, verde, azul).
 
 ---
 ## 2. Fundamentos sobre pixels
 
-Quando olhamos para uma imagem digital como um todo, sequer percebemos que ela é formada por esses pequenos quadrados. Isso ocorre porque ==os pixels são tão pequenos que geram uma ilusão de ótica, assemelhando-se a uma imagem natural e arredondada.==
+Quando olhamos para uma imagem digital como um todo, sequer percebemos que ela é formada por esses pequenos quadrados. ==Isso ocorre porque os pixels são tão pequenos que geram uma ilusão de ótica, assemelhando-se a uma imagem natural e arredondada.==
 
 ### Características fundamentais de imagens digitais
 

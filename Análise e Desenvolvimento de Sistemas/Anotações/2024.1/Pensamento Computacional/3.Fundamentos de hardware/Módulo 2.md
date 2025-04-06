@@ -19,7 +19,7 @@
 
 Normalmente, o armazenamento de dados em disco rígido ou unidade flash é organizado com esquemas convencionados, que são conhecidos como sistemas de arquivos.
 
-**Sistema de arquivos**: é uma maneira de organizar a grande área de bytes de dispositivos persistentes, dando a eles ==um tipo de estrutura familiar de arquivos e pastas.==
+==**Sistema de arquivos**: é uma maneira de organizar a grande área de bytes de dispositivos persistentes, dando a eles um tipo de estrutura familiar de arquivos e pastas.==
 
 ---
 ## 3. Microcontroladores

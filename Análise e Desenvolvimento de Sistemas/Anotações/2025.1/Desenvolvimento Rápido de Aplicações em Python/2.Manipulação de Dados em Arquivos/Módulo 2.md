@@ -2,7 +2,7 @@
 
 ## 1. Manipulação de strings
 
-Operações como remoção de espaços, conversão entre maiúsculas e minúsculas e substituição de caracteres são ferramentas essenciais para preparar e processar dados de forma eficiente e precisa.
+==Operações como remoção de espaços, conversão entre maiúsculas e minúsculas e substituição de caracteres são ferramentas essenciais para preparar e processar dados de forma eficiente e precisa.==
 
 - Método **strip**
 - Método **count**
@@ -19,28 +19,28 @@ Operações como remoção de espaços, conversão entre maiúsculas e minúscul
 
 O método `count()` é usado para contar o número de vezes que uma palavra ou trecho específico aparece em uma string.
 
-- É prático, mas pode apresentar resultados inesperados ao contar substrings que estão dentro de outras palavras.
+- ==É prático, mas pode apresentar resultados inesperados ao contar substrings que estão dentro de outras palavras.==
 
 **Frase**: `"Eu amo comer amoras no café da manhã"`
 
 - Contando `"amo"` com `count()`, o retorno será **2**, pois `"amo"` está em **"amo"** e **"amoras"**.
 
-**Solução para maior precisão:** É possível usar o método `split()`, quebrando a frase em palavras e verificando cada uma individualmente.
+**Solução para maior precisão**: É possível usar o método `split()`, quebrando a frase em palavras e verificando cada uma individualmente.
 
 ### Método *split*
 
 O método `split()` divide uma string em uma lista de partes menores com base em um delimitador (ou separador).  
 
-- **Sem delimitador:** usa espaço como separador padrão.
-- **Com delimitador:** ignora o separador na lista resultante.
+- **Sem delimitador**: usa espaço como separador padrão.
+- **Com delimitador**: ignora o separador na lista resultante.
 
 **Frase**: `"Carro,moto,avião"`
 
-- Resultado de `split(',')`: `["Carro", "moto", "avião"]`
+- **Resultado de `split(',')`**: `["Carro", "moto", "avião"]`
 
 #### *Comparação count vs. split na contagem de palavras*
 
-Ao contar palavras específicas, o método `split()`, combinado com uma comparação, pode ser mais preciso.
+==Ao contar palavras específicas, o método `split()`, combinado com uma comparação, pode ser mais preciso.==
 
 **Frase**: `"Eu amo comer amoras no café da manhã"`
 
@@ -50,7 +50,7 @@ Ao contar palavras específicas, o método `split()`, combinado com uma compara�
 	2. Itera sobre cada palavra e compara com `"amo"`.
 	3. Retorna **1** (somente `"amo"` é contado).
 
-**Resolução Alternativa com Python:** Uma abordagem eficiente para contar palavras em frases pode combinar `split()` e `count()`.
+**Resolução Alternativa com Python**: Uma abordagem eficiente para contar palavras em frases pode combinar `split()` e `count()`.
 
 ```python
 frase = "Eu amo comer amoras no café da manhã"
@@ -69,14 +69,14 @@ O método `join()` é utilizado para concatenar os elementos de um iterável (co
 conector.join(iteravel)
 ```
 
-Esta ferramenta é muito útil para organizar dados e transformar listas em strings formatadas de maneira eficiente.
+==Esta ferramenta é muito útil para organizar dados e transformar listas em strings formatadas de maneira eficiente.==
 
 ---
 ## 2. Formatação de Strings
 
-A formatação de strings em Python é essencial para personalizar e apresentar dados de forma clara e profissional. Ela permite incluir variáveis em mensagens, ajustar formatos numéricos e exibir datas adequadamente.
+A formatação de strings em Python é essencial para personalizar e apresentar dados de forma clara e profissional. ==Ela permite incluir variáveis em mensagens, ajustar formatos numéricos e exibir datas adequadamente.==
 
-Existem três formas principais de formatar strings:
+**Existem três formas principais de formatar strings**:
 
 - **F-strings**: Simplificam a inclusão de expressões e variáveis.
 - **Método `format()`**: Oferece maior controle sobre o conteúdo formatado.
@@ -84,30 +84,30 @@ Existem três formas principais de formatar strings:
 
 ### F-Strings
 
-Introduzidas no Python 3.6, as f-strings facilitam a formatação de strings usando a sintaxe `f"Texto {expressao}"`. O conteúdo dentro das chaves `{}` é avaliado e inserido na string.
+==Introduzidas no Python 3.6, as f-strings facilitam a formatação de strings usando a sintaxe `f"Texto {expressao}"`.== O conteúdo dentro das chaves `{}` é avaliado e inserido na string.
 
-#### *Exemplos:*
+#### *Exemplos*
 
-- Inclusão de variáveis:
+- **Inclusão de variáveis**:
     
     ```python
     nome = "Python"
     print(f"Aprendendo {nome}!")
     ```
     
-- Chamadas de métodos:
+- **Chamadas de métodos**:
     
     ```python
     print(f"{nome.upper()} é incrível!")
     ```
     
-- Operações matemáticas:
+- **Operações matemáticas**:
     
     ```python
     print(f"A soma de 2 + 3 é {2 + 3}.")
     ```
     
-- Avaliações booleanas:
+- **Avaliações booleanas**:
     
     ```python
     print(f"2 > 1 é {2 > 1}.")
@@ -147,7 +147,7 @@ Introduzidas no Python 3.6, as f-strings facilitam a formatação de strings usa
 ---
 ## 3. Codificando mensagens com Python
 
-A transformação e codificação de strings são habilidades essenciais para manipulação de dados e segurança. Estas práticas ajudam na integração de sistemas, proteção de informações sensíveis e internacionalização de softwares.
+A transformação e codificação de strings são habilidades essenciais para manipulação de dados e segurança. ==Estas práticas ajudam na integração de sistemas, proteção de informações sensíveis e internacionalização de softwares.==
 
 ### Codificação ZENIT POLAR
 
@@ -159,7 +159,7 @@ A cifra ZENIT POLAR é uma substituição bidirecional e simétrica, onde letras
 - **I** <> **A**
 - **T** <> **R**
 
-Letras fora dessas palavras permanecem inalteradas.
+==Letras fora dessas palavras permanecem inalteradas.==
 
 >*Apesar de simples e educacional, a cifra não é adequada para segurança robusta.*
 
