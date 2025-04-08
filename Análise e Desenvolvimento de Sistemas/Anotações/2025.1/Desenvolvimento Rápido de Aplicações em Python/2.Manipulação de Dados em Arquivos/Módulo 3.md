@@ -90,7 +90,7 @@ os.rename("teste_alfa.txt", "teste_beta.txt")  # Renomeia o arquivo
 
 ### Criando e Removendo Diretórios
 
-**O módulo `os` fornece funções para gerenciar diretórios**:
+O módulo `os` fornece funções para gerenciar diretórios:
 
 #### ***Criar um diretório** – `mkdir()`*
 
@@ -120,7 +120,7 @@ os.rmdir("meu_diretorio")  # Remove um diretório vazio
 
 ### Listando Conteúdo de Diretórios
 
-**Para visualizar arquivos e subdiretórios, utilizamos `scandir()`**:
+Para visualizar arquivos e subdiretórios, utilizamos `scandir()`:
 
 ```python
 entradas = os.scandir("meu_diretorio")
@@ -128,7 +128,7 @@ for entrada in entradas:
     print(entrada.name, "é diretório?" , entrada.is_dir())
 ```
 
-**A função retorna objetos `os.DirEntry`, que possuem métodos úteis**:
+A função retorna objetos `os.DirEntry`, que possuem métodos úteis:
 
 - **name** – Nome do arquivo ou diretório.
 - **path** – Caminho completo.

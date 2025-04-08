@@ -85,7 +85,7 @@ conexao.close()
 
 ### Principais Exceções dos Conectores
 
-**A DB-API 2.0 especifica algumas exceções que podem ser lançadas pelos conectores**:
+A DB-API 2.0 especifica algumas exceções que podem ser lançadas pelos conectores:
 
 - **Error**: Exceção base para todas as outras.
 - **IntegrityError**: Violação de integridade, como duplicação de chave primária.
@@ -113,7 +113,7 @@ finally:
 
 ### Flexibilidade e Portabilidade
 
-**Uma das vantagens dos conectores que seguem a DB-API 2.0 é a padronização. Isso permite**:
+Uma das vantagens dos conectores que seguem a DB-API 2.0 é a padronização. Isso permite:
 
 - **Troca de banco de dados sem grandes alterações no código**: Alterar apenas o módulo importado.
 - **Compatibilidade com diferentes SGBDs**: Seguindo o mesmo fluxo básico.

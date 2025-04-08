@@ -4,7 +4,7 @@
 
 Sempre que você baixa um programa ou vê um computador ligado, está presenciando algum software sendo executado.
 
-==**Software**: Software é o conjunto de funções executadas na programação de um computador.==
+**Software**: ==Software é o conjunto de funções executadas na programação de um computador.==
 
 **CPU (Central Processing Unit)**: Também chamada de processador, ==funciona como o "cérebro" do computador. É ela quem realmente executa o que chamamos de "instruções de código de máquina".==
 
@@ -17,7 +17,7 @@ Sempre que você baixa um programa ou vê um computador ligado, está presencian
 
 **Idioma de alto nível**: ==São instruções muito mais complexas do que uma instrução de código de máquina== individual que CPUs são capazes de executar.
 
-==**Hardware**: É o termo usado para se referir à parte física do computador.==
+**Hardware**: ==É o termo usado para se referir à parte física do computador.==
 
 ### Compatibilidade entre diferentes famílias de CPUs
 

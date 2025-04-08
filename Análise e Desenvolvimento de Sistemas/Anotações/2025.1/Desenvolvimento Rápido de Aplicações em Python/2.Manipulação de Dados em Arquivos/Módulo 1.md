@@ -22,7 +22,7 @@ A manipulação de arquivos em Python é essencial para executar tarefas comuns 
 
 ### Modos de acesso a arquivos
 
-**O acesso ao arquivo é configurado com diferentes modos, como**:
+O acesso ao arquivo é configurado com diferentes modos, como:
 
 - **r**: Modo de leitura (padrão).
 - **w**: Escreve no arquivo e apaga o conteúdo existente.
@@ -43,7 +43,7 @@ O método `close()` libera recursos alocados para o arquivo, tornando-o acessív
 
 ### Lendo arquivos
 
-**Python oferece métodos para ler conteúdos**:
+Python oferece métodos para ler conteúdos:
 
 - `read()`: Lê todo o conteúdo como uma string.
 - `readline()`: Lê uma única linha e avança para a próxima.

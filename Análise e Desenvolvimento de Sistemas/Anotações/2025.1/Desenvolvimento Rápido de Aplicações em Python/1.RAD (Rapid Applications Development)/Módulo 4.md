@@ -28,7 +28,7 @@ A utilização de frameworks Python é indispensável para profissionais de dese
 
 A Interface Gráfica do Usuário (GUI) é um aspecto essencial para que possa haver interação com o sistema; portanto, ==o desenvolvimento de recursos interativos, ainda nos protótipos, possibilita que o usuário tenha uma percepção mais clara de como o projeto está progredindo.==
 
-**Exemplos de frameworks GUI para Python**:
+Exemplos de **frameworks GUI** para Python:
 
 - Tkinter
 - PyQt
@@ -40,7 +40,7 @@ A Interface Gráfica do Usuário (GUI) é um aspecto essencial para que possa ha
 
 ==É um conjunto de pacotes que habilitam os desenvolvedores a desenvolver aplicações para web, ou serviços, sem ter de implementar excesso de detalhes==, como protocolos, soquetes ou gerenciamento de processos/threads.
 
-**Exitem diversos frameworks web para Python**:
+Exitem diversos **frameworks web** para Python:
 
 - Django
 - TurboGears
@@ -49,7 +49,7 @@ A Interface Gráfica do Usuário (GUI) é um aspecto essencial para que possa ha
 - CherryPy
 - Falcon
 
-**O Python possui muitos outros pacotes que servem para operações numéricas, manipulações de listas e impressão de gráfico**:
+O Python possui muitos outros pacotes que servem para operações numéricas, manipulações de listas e impressão de gráfico. Como:
 
 - Numpy
 - Pandas
