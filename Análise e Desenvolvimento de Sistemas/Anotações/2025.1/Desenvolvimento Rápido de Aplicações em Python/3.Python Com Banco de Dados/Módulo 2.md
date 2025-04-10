@@ -139,7 +139,7 @@ Use o **DB Browser for SQLite** para verificar as tabelas criadas:
 ---
 ## 2. Alteração e remoção de tabela
 
-Modificar e remover tabelas em bancos de dados é crucial para manter a estrutura flexível e adaptável ao longo do desenvolvimento. Os comandos `ALTER TABLE` e `DROP TABLE` permitem adicionar atributos e remover tabelas conforme necessário.
+Modificar e remover tabelas em bancos de dados é crucial para manter a estrutura flexível e adaptável ao longo do desenvolvimento. ==Os comandos `ALTER TABLE` e `DROP TABLE` permitem adicionar atributos e remover tabelas conforme necessário.==
 
 ### Adicionando um Novo Atributo
 
@@ -172,7 +172,7 @@ A coluna `motor` será adicionada ao final da tabela.
 
 ### Removendo e Recriando uma Tabela
 
-Se for necessário reordenar atributos na tabela, muitos SGBDs (incluindo SQLite) não suportam a mudança direta da ordem das colunas. Uma solução é **remover e recriar** a tabela.
+==Se for necessário reordenar atributos na tabela, muitos SGBDs (incluindo SQLite) não suportam a mudança direta da ordem das colunas. Uma solução é **remover e recriar** a tabela.==
 
 #### *Removendo a tabela*
 
@@ -223,7 +223,7 @@ conexao.close()
 
 ### Mapeamento Objeto-Relacional (ORM)
 
-Bibliotecas como **SQLAlchemy** e **Peewee** simplificam a interação com bancos de dados ao transformar tabelas em classes Python. Isso elimina a necessidade de escrever comandos SQL manualmente, permitindo operações por meio de métodos.
+==Bibliotecas como **SQLAlchemy** e **Peewee** simplificam a interação com bancos de dados ao transformar tabelas em classes Python. Isso elimina a necessidade de escrever comandos SQL manualmente, permitindo operações por meio de métodos.==
 
 ---
 ## 3. Desenvolvento um script Python com conexão a banco de dados
@@ -304,4 +304,4 @@ Após a execução do script:
 
 - O banco de dados `eventos.db` será criado.
 - As tabelas **Locais**, **Eventos** e **Participantes** serão geradas.
-- O console exibirá a mensagem **"Banco de dados inicializado com sucesso!"**.
+- Será exibida a mensagem **"Banco de dados inicializado com sucesso!"**.

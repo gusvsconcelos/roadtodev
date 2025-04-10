@@ -2,7 +2,9 @@
 
 ## 1. Tratamento de Exceções
 
-O tratamento de exceções na manipulação de arquivos é fundamental para evitar falhas inesperadas e garantir que o programa continue funcionando de maneira controlada. ==Problemas como arquivos inexistentes ou falta de permissão podem ser resolvidos usando **blocos try/except**, permitindo um gerenciamento eficiente dos erros.==
+O tratamento de exceções na manipulação de arquivos é fundamental para evitar falhas inesperadas e garantir que o programa continue funcionando de maneira controlada.
+
+==Problemas como arquivos inexistentes ou falta de permissão podem ser resolvidos usando **blocos try/except**, permitindo um gerenciamento eficiente dos erros.==
 
 Ao executar operações com arquivos, erros como **FileNotFoundError** e **PermissionError** podem surgir. ==Esses problemas ocorrem em tempo de execução e, sem tratamento adequado, podem interromper o fluxo do programa.==
 
