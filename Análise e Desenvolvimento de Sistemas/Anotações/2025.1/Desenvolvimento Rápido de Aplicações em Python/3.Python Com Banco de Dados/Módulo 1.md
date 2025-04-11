@@ -52,7 +52,7 @@ Esses padrões asseguram consistência e portabilidade entre diferentes bancos.
 
 ### Principais Métodos dos Conectores
 
-==Os conectores seguem um fluxo básico de trabalho, aplicável a qualquer integração com bancos de dados:==
+Os conectores seguem um fluxo básico de trabalho, aplicável a qualquer integração com bancos de dados:
 
 - **Conectar**: Criar uma conexão com o banco usando o método `connect()`.
 - **Executar**: Utilizar o método `execute()` para enviar comandos SQL.
@@ -120,14 +120,14 @@ Uma das vantagens dos conectores que seguem a DB-API 2.0 é a padronização. Is
 
 ==Apesar disso, conectores oferecem funcionalidades específicas para seus bancos.==
 
-- **Exemplo**: `bulk inserts` no MySQL, suporte avançado a transações no PostgreSQL.
+- **Exemplo**: *bulk inserts* no MySQL, suporte avançado a transações no PostgreSQL.
 
 ---
 ## 3. Tipos de dados
 
-==A escolha correta dos tipos de dados em um banco de dados é essencial para melhorar o desempenho, garantir a integridade dos dados e otimizar o armazenamento.==
+A escolha correta dos tipos de dados em um banco de dados é essencial para melhorar o desempenho, garantir a integridade dos dados e otimizar o armazenamento.
 
-Além disso, cada SGBD pode ter particularidades nos tipos suportados, sendo crucial consultar sua documentação.
+Além disso, ==cada SGBD pode ter particularidades nos tipos suportados==, sendo crucial consultar sua documentação.
 
 ### Principais Tipos de Dados
 

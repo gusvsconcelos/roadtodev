@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025.1/Desenvolvimento Rápido de Aplicações em Python/3.Python Com Banco de Dados/Módulo 3.md",
+                "file": "2025.1/Desenvolvimento Rápido de Aplicações em Python/4.Interface Gráfica com Python/Módulo 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Módulo 3"
+              "title": "Módulo 1"
             }
           }
         ]
@@ -165,9 +165,12 @@
   },
   "active": "3014a01f55e8ecfb",
   "lastOpenFiles": [
+    "2025.1/Desenvolvimento Rápido de Aplicações em Python/3.Python Com Banco de Dados/Módulo 4.md",
+    "2025.1/Desenvolvimento Rápido de Aplicações em Python/4.Interface Gráfica com Python/Módulo 1.md",
+    "2025.1/Desenvolvimento Rápido de Aplicações em Python/4.Interface Gráfica com Python",
+    "2025.1/Desenvolvimento Rápido de Aplicações em Python/3.Python Com Banco de Dados/Módulo 3.md",
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/3.Python Com Banco de Dados/Módulo 2.md",
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/3.Python Com Banco de Dados/Módulo 1.md",
-    "2025.1/Desenvolvimento Rápido de Aplicações em Python/3.Python Com Banco de Dados/Módulo 3.md",
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/1.RAD (Rapid Applications Development)/Módulo 4.md",
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/1.RAD (Rapid Applications Development)/Módulo 3.md",
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/1.RAD (Rapid Applications Development)/Módulo 2.md",
@@ -197,9 +200,6 @@
     "2024.1/Pensamento Computacional/3.Fundamentos de hardware",
     "2024.1/Pensamento Computacional/2.Fundamentos de softwares de computadores",
     "2024.2/Estrutura de Dados",
-    "2024.2/Nova pasta",
-    "Sem título.md",
-    "2024.1/Pensamento Computacional/Drawing 2024-11-07 18.50.58.excalidraw.md",
-    "2024.2/Engenharia de Usabilidade/4.Acessibilidade à Web/Módulo 4.md"
+    "Sem título.md"
   ]
 }
