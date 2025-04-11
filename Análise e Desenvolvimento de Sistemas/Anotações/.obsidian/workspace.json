@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025.1/Desenvolvimento Rápido de Aplicações em Python/4.Interface Gráfica com Python/Módulo 1.md",
+                "file": "2025.1/Desenvolvimento Rápido de Aplicações em Python/4.Interface Gráfica com Python/Módulo 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Módulo 1"
+              "title": "Módulo 2"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261.5,
-    "collapsed": true
+    "width": 261.5
   },
   "right": {
     "id": "38d6d89cc8c648f9",
@@ -166,8 +165,9 @@
   },
   "active": "3014a01f55e8ecfb",
   "lastOpenFiles": [
-    "2025.1/Desenvolvimento Rápido de Aplicações em Python/3.Python Com Banco de Dados/Módulo 4.md",
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/4.Interface Gráfica com Python/Módulo 1.md",
+    "2025.1/Desenvolvimento Rápido de Aplicações em Python/4.Interface Gráfica com Python/Módulo 2.md",
+    "2025.1/Desenvolvimento Rápido de Aplicações em Python/3.Python Com Banco de Dados/Módulo 4.md",
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/4.Interface Gráfica com Python",
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/3.Python Com Banco de Dados/Módulo 3.md",
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/3.Python Com Banco de Dados/Módulo 2.md",
@@ -200,7 +200,6 @@
     "2024.1/Pensamento Computacional/4.Representação de imagens em computadores",
     "2024.1/Pensamento Computacional/3.Fundamentos de hardware",
     "2024.1/Pensamento Computacional/2.Fundamentos de softwares de computadores",
-    "2024.2/Estrutura de Dados",
-    "Sem título.md"
+    "2024.2/Estrutura de Dados"
   ]
 }
