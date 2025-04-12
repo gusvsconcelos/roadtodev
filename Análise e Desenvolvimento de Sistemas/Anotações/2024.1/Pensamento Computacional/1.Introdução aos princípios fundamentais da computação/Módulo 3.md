@@ -2,23 +2,24 @@
 
 ## 1. Interação entre código-fonte, computador e programador
 
-Nos computadores, todas as instruções são baseadas em códigos escritos em linguagens de programação, que são compiladas para linguagem de máquina, tornando possível para o computador entender e executar essas instruções.
+Instruções em computadores são escritas em linguagens de programação.  
+Essas instruções são **compiladas** para linguagem de máquina, que o computador entende e executa.
 
-**Compiladores**: ==São um tipo de software responsável por interpretar e "traduzir" o código-fonte em linguagem de máquina.==
+**Compiladores**: ==Programas que traduzem o código-fonte para linguagem de máquina.==
 
 ---
 ## 2. Lidando com erros de sintaxe
 
-**Sintaxe**: ==São as regras e as estruturas gramaticais específicas que devem ser seguidas ao escrever códigos em uma linguagem de programação.==
+**Sintaxe**: ==Conjunto de regras que definem como escrever corretamente em uma linguagem de programação.==
 
-- Cada linguagem de programação tem uma sintaxe única.
+- Cada linguagem tem sua própria sintaxe.
 
-As interfaces de desenvolvimento modernas fazem sugestões de sintaxe e uma verificação prévia, a qual já aponta os erros e possíveis soluções, minimizando os erros de sintaxe.
+Ambientes modernos de desenvolvimento ajudam detectando e sugerindo correções de sintaxe automaticamente.
 
 ---
 ## 3. Demonstrando o uso de variáveis
 
-**Variáveis**: ==São um espaço na memória do computador, usados para guardar valores para uso posterior.==
+**Variáveis**: ==Espaços na memória usados para armazenar valores que podem ser reutilizados.==
 
-- Variáveis são como caixas, onde você pode guardar alguma coisa para usar depois quando for necessário.
-- Oferecem flexibilidade ao programador para ajustar e adaptar o software conforme necessário.
+- Funcionam como caixas onde você guarda dados para usar mais tarde.
+- Permitem flexibilidade na construção e adaptação do software.

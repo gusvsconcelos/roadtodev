@@ -2,25 +2,25 @@
 
 ## 1. Sistema Operacional
 
-==O Sistema Operacional é um conjunto de tipos de programas administrativos e de supervisão que organizam todo o sistema.==
+==Sistema Operacional é um conjunto de programas que gerenciam e organizam todo o sistema.==
 
-- Responsável por coordenar operações invisíveis aos usuários.
-- O SO é responsável por intermediar as solicitações que os usuário fazem a programas/aplicações, gerenciando como tudo isso deve ser demandado do hardware.
-- O SO mantém as coisas organizadas em segundo plano para que vários programas possam ser executados ao mesmo tempo.
-- Fornece a cada programa a sua própria área de memória, de modo que cada programa acessa apenas seus próprios recursos.
+- Coordena operações internas que o usuário não vê.
+- Intermedia pedidos do usuário entre software e hardware.
+- Organiza e controla a execução simultânea de múltiplos programas.
+- Garante que cada programa use apenas sua própria área de memória.
 
 ### Exemplos de Sistemas Operacionais
 
 #### *Computadores pessoais (PC)*
 
-- **Microsoft Windows**: Proprietário, pago. Usado em cerca de 80% dos desktops/laptops.
-- **Linux**: Aberto, gratuito. Usado em cerca de 80% dos servidores em ambientes decomputação em nuvem.
-- **Mac OS X**: Proprietário, pago, ==específico para computadores Apple==. Usado por cerca de 5% dos desktops/laptops.
+- **Windows**: Sistema proprietário e pago.
+- **Linux**: Sistema aberto e gratuito.
+- **macOS (Mac OS X)**: Sistema proprietário, pago e exclusivo da Apple.
 
 #### *Smartphone*
 
-- **IOS**: Proprietário, ==específico para Apple iPhone==.
-- **Android**: Aberto, usado pelos demais fabricantes (Samsung, Motorola, LG, Sony, etc.). ==Projeto baseado no Linux==.
+- **iOS**: Proprietário, exclusivo para iPhone da Apple.
+- **Android**: Aberto, usado por diversos fabricantes.
 
 ---
 ## 2. Firmware

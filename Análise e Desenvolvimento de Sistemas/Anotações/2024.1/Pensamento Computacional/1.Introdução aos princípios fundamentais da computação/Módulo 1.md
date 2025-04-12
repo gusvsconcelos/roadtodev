@@ -2,12 +2,14 @@
 
 ## 1. Equação fundamental
 
-**O computador é igual a**: Alto poder de processamento de instruções **X** Incapacidade de pensar e raciocinar
+>*Computador = Alto poder de processamento × Incapacidade de pensar*
 
-- ==Apesar do alto poder de processamento, o computador é capaz apenas de processar e realizar instruções simples, como executar operações matemáticas básicas.==
-- Desde 2005, processadores são capazes de realizar mais de 1 bilhão de instruções por segundo. A partir de 2019, esse número já havia ultrapassado 48 bilhões.
+- ==Apesar do alto desempenho, o computador só executa instruções simples, como operações matemáticas básicas.==
+- Desde 2005, processadores fazem mais de 1 bilhão de instruções por segundo. Em 2019, já ultrapassavam 48 bilhões.
 
 ---
 ## 2. Relação entre homem e máquina
 
-==Como o computador não é capaz de pensar, ele depende unicamente do programador==, cuja habilidade de abstração e pensamento lógico organiza instruções de forma que o computador consiga, de maneira muito rápida e mecânica, realizar tarefas complexas, como jogar xadrez.
+Através da abstração e do raciocínio lógico, o programador organiza instruções que o computador executa rapidamente, tornando possível até tarefas complexas, como jogar xadrez.
+
+==Como o computador não pensa, depende totalmente do programador==.

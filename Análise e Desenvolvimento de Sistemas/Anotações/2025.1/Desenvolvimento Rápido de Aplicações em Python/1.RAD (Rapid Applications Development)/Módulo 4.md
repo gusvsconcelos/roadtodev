@@ -18,7 +18,7 @@ Python também oferece uma excelente integração com várias plataformas e sist
 
 A utilização de frameworks Python é indispensável para profissionais de desenvolvimento que empregam a metodologia RAD, ==pois eles aceleram significativamente o tempo de entrega e padronizam o desenvolvimento dos sistemas.==
 
-**Tipos de frameworks suportados pelo Python**:
+Tipos de frameworks suportados pelo Python:
 
 - **Full-Stack**: Fornece uma solução completa de todos os requisitos para o desenvolvedor.
 - **Microframework**: Oferecem uma quantidade mínima de serviços.

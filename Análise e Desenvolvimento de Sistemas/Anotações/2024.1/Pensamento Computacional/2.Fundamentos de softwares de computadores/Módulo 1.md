@@ -2,62 +2,62 @@
 
 ## 1. Conhecendo o software
 
-Sempre que você baixa um programa ou vê um computador ligado, está presenciando algum software sendo executado.
+**Software**: ==Conjunto de instruções que fazem o computador funcionar.==
 
-**Software**: ==Software é o conjunto de funções executadas na programação de um computador.==
+**CPU (Unidade Central de Processamento)**: ==O "cérebro" do computador.==
 
-**CPU (Central Processing Unit)**: Também chamada de processador, ==funciona como o "cérebro" do computador. É ela quem realmente executa o que chamamos de "instruções de código de máquina".==
+Sempre que você usa um programa, está vendo um software em ação.
 
 ---
 ## 2. Representação e armazenamento das instruções em hardware
 
-**Código de máquina**: ==São instruções extremamente simples e constituídas apenas dos números zero e um==, também conhecido como **código binário**.
+**Hardware**: ==Parte física do computador (CPU, memória, placa-mãe etc).==
 
-**Idioma de baixo nível**: Podemos pensar no conjunto de instruções de código de máquina que uma CPU é capaz de executar como sendo um idioma de baixo nível.
+**Código de máquina**: ==Instruções básicas representadas em 0 e 1 (binário).==
 
-**Idioma de alto nível**: ==São instruções muito mais complexas do que uma instrução de código de máquina== individual que CPUs são capazes de executar.
+**Idioma de baixo nível**: Instruções simples que a CPU entende diretamente.
 
-**Hardware**: ==É o termo usado para se referir à parte física do computador.==
+**Idioma de alto nível**: Instruções mais complexas e fáceis de entender para humanos.
 
-### Compatibilidade entre diferentes famílias de CPUs
+### Compatibilidade entre famílias de CPUs
 
-Cada família de CPUs compatíveis possui seu próprio código de máquina especifico.
+Cada tipo de CPU entende um código de máquina diferente.
 
-- **Exemplo**: Os programas de PC não rodam em smartphones, pois os idiomas de baixo nível dessas CPUs são incompatíveis.
+- **Exemplo**: Software de PC não roda em celular porque as CPUs têm instruções diferentes.
 
 ### Compilação
 
-As instruções de alto nível são facilmente compreensíveis pelos humanos, mas os computadores não são capazes de executá-las. O que ocorre, então, é que antes de ser executada, a instrução de alto nível será expandida em uma sequência de instruções de baixo nível (código de máquina).
+O computador só entende baixo nível. Por isso, o **compilador** converte o código de alto nível em código de máquina.
 
-- ==O compilador traduz linhas de código escritas pelo programador em instruções de código de máquina compreensíveis à CPU.==
-
->*Código-fonte **>** Compilador **>** Código de Máquina **>** Execução do programa.*
+> _Código-fonte → Compilador → Código de Máquina → Execução_
 
 ---
 ## 3. Software de código aberto
 
-==Esse modelo de distribuição de software oferece o programa compilado e concede acesso ao seu código-fonte original==, permitindo que os usuários explorem, modifiquem e adaptem o software de acordo com suas necessidades e preferências.
+==Modelo onde o programa e seu código-fonte são distribuídos livremente.==
 
-**Código aberto**: Também conhecido como "software livre". ==Você tem acesso ao código-fonte do programa e pode realizar modificações.==
+**Código aberto (software livre)**: ==Qualquer um pode ver, modificar e redistribuir.==
 
-**Código fechado**: Também conhecido como "software proprietário". ==Só o fornecedor do programa tem acesso ao código-fonte==, e só ele é capaz de realizar ajustes e correções.
+**Código fechado (proprietário)**: ==Somente o desenvolvedor tem acesso e pode alterar o código.==
 
 ---
 ## 4. O que é um programa?
 
-Um programa é um arquivo que possui muitos bytes. Na maioria dos casos, esses bytes são apenas as instruções que compõem o programa, além de alguns ícones e fotos.
+>*Programa = executável com várias instruções.*
 
-- Ao serem instalados, programas são colocados em um dispositivo de armazenamento persistente, como HD, SSD ou pendrive.
+- É armazenado em um dispositivo persistente (HD, SSD, pendrive).
 
-### Principais instruções que compõem um programa:
+### Instruções básicas de um programa:
 
-- **GOTO**: Instrução para alterar a ordem de execução de instruções. ==Significa: vá para a linha indicada e siga executando o código a partir desse local.==
-- **IF**: Instrução que testa alguma condição. ==É uma instrução que olhará para alguma condição; assim, se a condição for verdadeira, uma sequência de instruções especificas será executada, se for falsa, então executará uma sequência diferente.==
+- **GOTO**: Muda a ordem da execução do código.  
+    ==“Pule para outra linha e continue de lá.”==
+- **IF**: Verifica uma condição.  
+    ==Executa instruções diferentes dependendo se a condição for verdadeira ou falsa.==
 
-==A CPU processa uma sequência de instruções presentes na memória RAM==, esse processo, conhecido como *ciclo busca-execução*, envolve a CPU buscando e executando cada instrução uma após a outra.
+==A CPU executa as instruções da RAM usando o ciclo busca-execução: busca uma instrução, executa, repete.==
 
 ### Como o programa vai parar na memória RAM?
 
-1. Cópia do instruções que compõem o programa no dispositivo de armazenamento persistente para uma área desocupada da memória RAM.
-2. Após o carregamento, a CPU já é capaz de realizar o ciclo busca-execução para rodar o programa.
-3. A CPU começa o processo de rodar/executar as instruções de forma incrivelmente rápida.
+1. As instruções são copiadas do armazenamento para a RAM.
+2. A CPU lê essas instruções da RAM.
+3. O ciclo busca-execução começa, rodando o programa rapidamente.

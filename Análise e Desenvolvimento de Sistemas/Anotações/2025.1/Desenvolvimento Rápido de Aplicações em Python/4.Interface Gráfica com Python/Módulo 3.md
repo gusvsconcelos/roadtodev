@@ -2,8 +2,6 @@
 
 ## 1. Conceitos de integração com banco de dados
 
-A capacidade de executar operações CRUD (Create, Read, Update, Delete) diretamente do Python para gerenciar dados em um banco otimiza processos e facilita a gestão de grandes volumes de informações.
-
 ### Conceitos
 
 Para entender como Python interage com PostgreSQL, trabalharemos na seguinte aplicação:
@@ -176,7 +174,7 @@ VALUES (1, 'Pessoa 1', '02199999999')
 """)
 ```
 
-**Cuidados**: Use aspas duplas para nomes de tabelas e colunas no PostgreSQL.
+==**Cuidados**: Use aspas duplas para nomes de tabelas e colunas no PostgreSQL.==
 
 #### *3. Seleção de Dados*
 

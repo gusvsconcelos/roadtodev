@@ -51,4 +51,4 @@
 - ==Comprometimento== do cliente para participar efetivamente do desenvolvimento do projeto.
 - ==Todas as partes interessadas devem estar presentes== para aplicar efetivamente essa metodologia.
 - O sistema deve ser capaz de ser ==dividido em módulos==.
-- Ter à disposição ==programas e infraestrutura adequada para aplicar a RAD==.
+- Ter à disposição ==programas/infraestrutura adequada para aplicar a RAD==.
