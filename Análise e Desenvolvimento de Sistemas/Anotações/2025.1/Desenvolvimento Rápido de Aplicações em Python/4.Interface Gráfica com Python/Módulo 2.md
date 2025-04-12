@@ -75,6 +75,3 @@ Cada widget possui propriedades que permitem personalizar:
 - **Tamanho**: Definir largura e altura do widget.
 - **Fonte**: Alterar estilo, cor e tamanho do texto.
 - **Cor**: Configurar a aparência visual do widget.
-
----
-## 2. Exemplos de aplicações GUI
