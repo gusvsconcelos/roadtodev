@@ -1,278 +1,205 @@
-# **Recuperação de registros em tabelas do banco de dados**
+# **Recuperação de Registros no SQLite com Python**
 
-## 1. Seleção de registros de uma tabela
+## 1. Seleção Simples com `SELECT`
 
-Selecionar registros em um banco de dados é essencial para obter informações relevantes. ==O comando `SQL SELECT` é utilizado para realizar essas consultas, podendo incluir filtros e manipulações para facilitar o trabalho com os dados.==
+### Conceito
 
-### Sintaxe Básica do Comando SELECT
+- O comando `SELECT` é usado para consultar dados em tabelas.
+- Permite filtros, projeções e manipulações.
+
+### Sintaxe Geral
 
 ```sql
 SELECT colunas FROM tabela WHERE condição;
 ```
 
-- **`colunas`**: Especifica as colunas que você deseja recuperar. ==Use `*` para selecionar todas as colunas.==
-- **`tabela`**: O nome da tabela de onde os dados serão selecionados.
-- **`condição` (opcional)**: Filtra os registros retornados.
+- `*` seleciona todas as colunas.
+- `WHERE` é opcional, mas essencial para filtros.
 
-### Exemplo 1: Recuperando Todos os Registros
+### Exemplo 1: Recuperando Campos Específicos
 
-#### *SQL:*
+**SQL**
 
 ```sql
 SELECT Nome, Oculos FROM Pessoa;
 ```
 
-#### *Python:*
+**Python**
 
 ```python
-import sqlite3
-
-# Conectar ao banco de dados
 conexao = sqlite3.connect("meu_banco.db")
 cursor = conexao.cursor()
 
-# Executar consulta
 cursor.execute("SELECT Nome, Oculos FROM Pessoa;")
 registros = cursor.fetchall()
 
-# Imprimir resultados
-for registro in registros:
-    print(f"Nome: {registro[0]}, Óculos: {registro[1]}")
+for nome, oculos in registros:
+    print(f"Nome: {nome}, Óculos: {oculos}")
 
-# Fechar conexão
 cursor.close()
 conexao.close()
 ```
 
-#### *Resultado:*
+**Saída**
 
-```plaintext
+```
 Nome: Maria, Óculos: 0
 Nome: João, Óculos: 1
 Nome: Silva, Óculos: 1
 ```
 
-### Exemplo 2: Utilizando Filtros com WHERE
-
-#### *Objetivo: Retornar apenas pessoas que usam óculos.*
-
-#### *SQL:*
+### Exemplo 2: Aplicando Filtro com `WHERE`
 
 ```sql
 SELECT * FROM Pessoa WHERE Oculos = 1;
 ```
 
-#### *Python:*
+**Python**
 
 ```python
-# Definir consulta SQL com filtro
 cursor.execute("SELECT * FROM Pessoa WHERE Oculos = ?;", (1,))
-pessoas_com_oculos = cursor.fetchall()
+resultados = cursor.fetchall()
 
-# Imprimir resultados
-for pessoa in pessoas_com_oculos:
-    print(f"CPF: {pessoa[0]}, Nome: {pessoa[1]}, Nascimento: {pessoa[2]}, Óculos: {pessoa[3]}")
+for cpf, nome, nascimento, oculos in resultados:
+    print(f"{nome} ({cpf}) - Óculos: {oculos}")
 ```
-
-#### *Resultado:*
-
-```plaintext
-CPF: 12345678900, Nome: João, Nascimento: 2000-01-31, Óculos: 1
-CPF: 30000000099, Nome: Silva, Nascimento: 1990-03-30, Óculos: 1
-```
-
-### Trabalhando com Conversão de Tipos (Datas e Booleanos)
-
-#### *Motivação: Convertendo tipos como `BOOLEAN` e `DATE` para os tipos Python correspondentes.*
-
-1. **Ajuste na Conexão**: Use o argumento `PARSE_DECLTYPES` na função `sqlite3.connect`:
-    
-    ```python
-    conexao = sqlite3.connect("meu_banco.db", detect_types=sqlite3.PARSE_DECLTYPES)
-    ```
-    
-2. **Configurar Conversor**: Adicione conversores personalizados para tipos não nativamente suportados, como `BOOLEAN`:
-    
-    ```python
-    def conv_bool(valor):
-        return True if valor == 1 else False
-    
-    sqlite3.register_converter("BOOLEAN", conv_bool)
-    ```
-    
-3. **Script Completo para Conversões**
-    
-    ```python
-    conexao = sqlite3.connect("meu_banco.db", detect_types=sqlite3.PARSE_DECLTYPES)
-    cursor = conexao.cursor()
-    
-    # Consulta
-    cursor.execute("SELECT * FROM Pessoa WHERE Oculos = ?", (1,))
-    pessoas = cursor.fetchall()
-    
-    for pessoa in pessoas:
-        print(f"CPF: {pessoa[0]}, Nome: {pessoa[1]}, Nascimento: {pessoa[2]}, Óculos: {pessoa[3]}")
-    
-    cursor.close()
-    conexao.close()
-    ```
-    
-
-#### *Saída Esperada:*
-
-- Datas formatadas como `datetime.date`.
-- Atributos booleanos representados como `True` ou `False`.
-
-### Conclusão
-
-==O comando `SELECT` é extremamente versátil, permitindo não só a recuperação de dados, mas também a aplicação de filtros e manipulações.== A integração com Python facilita a exibição e o processamento desses registros.
 
 ---
-## 2. Seleção de registros utilizando junção e de registros relacionados
+## 2. Conversão de Tipos com Python
 
-==Ao usar o comando `JOIN` em SQL, podemos combinar dados de múltiplas tabelas, formando uma visão completa sobre os relacionamentos entre entidades.== Esse método permite, por exemplo, listar veículos com suas respectivas marcas ou mostrar todas as pessoas com seus veículos e marcas.
+### Objetivo
 
-### Seleção de Registros Utilizando Junção
+- Converter tipos SQLite (`DATE`, `BOOLEAN`) em objetos Python.
 
-#### *Sintaxe do Comando JOIN*
+### Configuração
+
+```python
+import sqlite3
+
+def conv_bool(valor):
+    return valor == 1
+
+sqlite3.register_converter("BOOLEAN", conv_bool)
+
+conexao = sqlite3.connect("meu_banco.db", detect_types=sqlite3.PARSE_DECLTYPES)
+```
+
+### Consulta com Tipagem Convertida
+
+```python
+cursor = conexao.cursor()
+cursor.execute("SELECT * FROM Pessoa WHERE Oculos = ?", (1,))
+pessoas = cursor.fetchall()
+
+for pessoa in pessoas:
+    print(pessoa)  # Boolean convertido, data como datetime.date
+```
+
+> *📌 Use `detect_types=sqlite3.PARSE_DECLTYPES` + `register_converter` para conversões automáticas.*
+
+---
+## 3. Junções com `JOIN` (Relacionamentos)
+
+### Conceito
+
+- `JOIN` permite combinar dados de múltiplas tabelas relacionadas.
+
+### Sintaxe Base
 
 ```sql
 SELECT tabela1.coluna1, tabela2.coluna2
 FROM tabela1
 JOIN tabela2
-ON tabela1.colunaX = tabela2.colunaY;
+ON tabela1.chave = tabela2.chave;
 ```
 
-- **`tabela1.colunaX` e `tabela2.colunaY`**: Atributos usados para alinhar os registros.
+### Exemplo 1: Veículos e suas Marcas
 
-#### *Exemplo 1: Veículos com suas Marcas*
-
-Desejamos substituir o ID da marca por seu nome ao listar veículos.
-
-- **SQL**:
+**SQL**
 
 ```sql
 SELECT Veiculo.Placa, Marca.Nome
 FROM Veiculo
-JOIN Marca
-ON Veiculo.Marca = Marca.Id;
+JOIN Marca ON Veiculo.Marca = Marca.Id;
 ```
 
-- **Python**:
+**Python**
 
 ```python
-import sqlite3
-
-# Conectar ao banco de dados
-conexao = sqlite3.connect("meu_banco.db")
-cursor = conexao.cursor()
-
-# Executar consulta com junção
 cursor.execute("""
-    SELECT Veiculo.Placa, Marca.Nome
-    FROM Veiculo
-    JOIN Marca
-    ON Veiculo.Marca = Marca.Id;
+SELECT Veiculo.Placa, Marca.Nome
+FROM Veiculo
+JOIN Marca ON Veiculo.Marca = Marca.Id;
 """)
 
-# Recuperar resultados
-registros = cursor.fetchall()
-
-# Imprimir resultados
-for registro in registros:
-    print(f"Placa: {registro[0]} , Marca: {registro[1]}")
-
-# Fechar conexão
-cursor.close()
-conexao.close()
+for placa, marca in cursor.fetchall():
+    print(f"Placa: {placa}, Marca: {marca}")
 ```
 
-#### *Exemplo 2: Veículos com Objetos de Marca*
-
-Para criar um objeto da classe `Marca` relacionado a cada veículo:
-
-- **Python**:
+### Exemplo 2: Junção com Objetos Python
 
 ```python
-# Criar comando SQL com junção
 cursor.execute("""
-    SELECT Veiculo.*, Marca.*
-    FROM Veiculo
-    JOIN Marca
-    ON Veiculo.Marca = Marca.Id;
+SELECT Veiculo.*, Marca.*
+FROM Veiculo
+JOIN Marca ON Veiculo.Marca = Marca.Id;
 """)
 
-# Recuperar registros
-registros = cursor.fetchall()
-
-for registro in registros:
-    # Criar objeto Marca
-    marca = Marca(*registro[6:9])
-    
-    # Criar objeto Veiculo com referência à Marca
-    veiculo = Veiculo(*registro[:5], marca)
-    
-    print(f"Placa: {veiculo.Placa}, Marca: {veiculo.Marca.Nome}")
+for registro in cursor.fetchall():
+    marca = Marca(*registro[6:9])  # Marca: colunas 6 a 8
+    veiculo = Veiculo(*registro[:5], marca)  # Veiculo: colunas 0 a 4
+    print(f"{veiculo.Placa} - {veiculo.Marca.Nome}")
 ```
 
->*Nesse exemplo, usamos **array slicing** para dividir os atributos de cada tabela.*
+> *🧩 Usamos array slicing para separar os campos de cada entidade.*
 
-### Seleção de Registros Relacionados
+---
+## 4. Seleção de Registros Relacionados por Pessoa
 
-#### *Objetivo: Mostrar todas as pessoas cadastradas com seus veículos e marcas.*
+### Objetivo
 
-**Estratégia**:
+- Exibir todas as pessoas com seus veículos e respectivas marcas.
 
-1. Criar uma função que retorna os veículos de uma pessoa.
-2. Utilizar essa função em um script principal para listar pessoas e seus veículos.
-
-#### *Função para Recuperar Veículos*
+### Função Auxiliar: Veículos de uma Pessoa
 
 ```python
 def recuperar_veiculos(conexao, cpf):
     cursor = conexao.cursor()
     cursor.execute("""
-        SELECT Veiculo.Placa, Marca.Nome
-        FROM Veiculo
-        JOIN Marca
-        ON Veiculo.Marca = Marca.Id
-        WHERE Veiculo.Proprietario = ?;
+    SELECT Veiculo.Placa, Marca.Nome
+    FROM Veiculo
+    JOIN Marca ON Veiculo.Marca = Marca.Id
+    WHERE Veiculo.Proprietario = ?;
     """, (cpf,))
     
-    veiculos = []
-    for registro in cursor.fetchall():
-        veiculos.append(Veiculo(registro[0], registro[1]))
+    veiculos = [Veiculo(placa, marca) for placa, marca in cursor.fetchall()]
     cursor.close()
     return veiculos
 ```
 
-#### *Script Principal*
+### Script Principal
 
 ```python
 conexao = sqlite3.connect("meu_banco.db")
 cursor = conexao.cursor()
 
-# Recuperar pessoas
 cursor.execute("SELECT * FROM Pessoa;")
-pessoas_registradas = cursor.fetchall()
+pessoas = cursor.fetchall()
 
-# Processar pessoas e seus veículos
-for pessoa in pessoas_registradas:
-    pessoa_obj = Pessoa(*pessoa)
-    pessoa_obj.veiculos = recuperar_veiculos(conexao, pessoa[0])
-    print(pessoa_obj.Nome)
-    for veiculo in pessoa_obj.veiculos:
-        print(f"{veiculo.Placa} {veiculo.Marca}")
+for dados in pessoas:
+    pessoa = Pessoa(*dados)
+    pessoa.veiculos = recuperar_veiculos(conexao, pessoa.cpf)
+    print(f"{pessoa.Nome}")
+    for v in pessoa.veiculos:
+        print(f"{v.Placa} {v.Marca}")
 
 cursor.close()
 conexao.close()
 ```
 
-### *Resultado Final*
+### Saída Esperada
 
-A saída será uma lista de pessoas, seguida por seus veículos e respectivas marcas:
-
-```plaintext
+```
 Maria
 AAA0001 Marca A
 BAA0002 Marca A
@@ -283,5 +210,3 @@ CAA0003 Marca B
 Silva
 DAA0004 Marca B
 ```
-
->*A ordem dos elementos em uma cláusula **JOIN** não afeta o resultado final da consulta.*

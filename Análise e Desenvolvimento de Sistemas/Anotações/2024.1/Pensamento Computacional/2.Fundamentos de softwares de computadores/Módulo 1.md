@@ -2,18 +2,18 @@
 
 ## 1. Conhecendo o software
 
-**Software**: ==Conjunto de instruções que fazem o computador funcionar.==
+**Software**: Conjunto de instruções que fazem o computador funcionar.
 
-**CPU (Unidade Central de Processamento)**: ==O "cérebro" do computador.==
+**CPU (Unidade Central de Processamento)**: O "cérebro" do computador.
 
-Sempre que você usa um programa, está vendo um software em ação.
+- Sempre que você usa um programa, está vendo um software em ação.
 
 ---
 ## 2. Representação e armazenamento das instruções em hardware
 
-**Hardware**: ==Parte física do computador (CPU, memória, placa-mãe etc).==
+**Hardware**: Parte física do computador (CPU, memória, placa-mãe etc).
 
-**Código de máquina**: ==Instruções básicas representadas em 0 e 1 (binário).==
+**Código de máquina**: Instruções básicas representadas em 0 e 1 (binário).
 
 **Idioma de baixo nível**: Instruções simples que a CPU entende diretamente.
 
@@ -29,32 +29,30 @@ Cada tipo de CPU entende um código de máquina diferente.
 
 O computador só entende baixo nível. Por isso, o **compilador** converte o código de alto nível em código de máquina.
 
-> _Código-fonte → Compilador → Código de Máquina → Execução_
+> *🔄️ Código-fonte → Compilador → Código de Máquina → Execução*
 
 ---
 ## 3. Software de código aberto
 
-==Modelo onde o programa e seu código-fonte são distribuídos livremente.==
+Modelo onde o programa e seu código-fonte são distribuídos livremente.
 
-**Código aberto (software livre)**: ==Qualquer um pode ver, modificar e redistribuir.==
+**Código aberto (software livre)**: Qualquer um pode ver, modificar e redistribuir.
 
-**Código fechado (proprietário)**: ==Somente o desenvolvedor tem acesso e pode alterar o código.==
+**Código fechado (proprietário)**: Somente o desenvolvedor tem acesso e pode alterar o código.
 
 ---
 ## 4. O que é um programa?
 
->*Programa = executável com várias instruções.*
+>*📝 Programa = executável com várias instruções.*
 
 - É armazenado em um dispositivo persistente (HD, SSD, pendrive).
 
 ### Instruções básicas de um programa:
 
 - **GOTO**: Muda a ordem da execução do código.  
-    ==“Pule para outra linha e continue de lá.”==
 - **IF**: Verifica uma condição.  
-    ==Executa instruções diferentes dependendo se a condição for verdadeira ou falsa.==
 
-==A CPU executa as instruções da RAM usando o ciclo busca-execução: busca uma instrução, executa, repete.==
+A CPU executa as instruções da RAM usando o ciclo busca-execução: busca uma instrução, executa, repete.
 
 ### Como o programa vai parar na memória RAM?
 

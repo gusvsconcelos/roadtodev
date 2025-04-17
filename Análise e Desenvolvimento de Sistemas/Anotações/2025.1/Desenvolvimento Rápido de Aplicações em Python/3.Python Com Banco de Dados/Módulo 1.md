@@ -1,188 +1,155 @@
-# **Frameworks e bibliotecas para gerenciamento de dados**
+# **Frameworks e Bibliotecas para Gerenciamento de Dados**
 
-## 1. Conectores para banco de dados
+## 1. Conectores para Banco de Dados
 
-==Conectores para bancos de dados são bibliotecas essenciais em Python para integrar aplicações com diferentes *SGBDs*== (Sistemas de Gerenciamento de Bancos de Dados).
+Conectores são bibliotecas que permitem que aplicações Python se comuniquem com diferentes SGBDs, seguindo a especificação PEP 249 (DB-API 2.0).
 
-==Eles garantem uma comunicação eficiente, segura e seguem a especificação **PEP 249 (DB-API 2.0)**, que estabelece padrões como:==
+### Padrões Definidos pela DB-API 2.0:
 
-- **Nomes de métodos**: `close`, `commit`, `cursor`.
-- **Nomes de classes**: `Connection`, `Cursor`.
-- **Tipos de exceção**: `IntegrityError`, `InternalError`.
-
-Esses padrões asseguram consistência e portabilidade entre diferentes bancos.
+- **Métodos**: `connect()`, `cursor()`, `commit()`, `close()`.
+- **Classes**: `Connection`, `Cursor`.
+- **Exceções**: `IntegrityError`, `OperationalError`, `DatabaseError`, etc.
 
 ### Principais Conectores
 
-#### *PostgreSQL*
+**PostgreSQL**
 
-- **Psycopg2**: Conector mais utilizado para PostgreSQL, com suporte a recursos avançados e alta eficiência.
+- `psycopg2` - Alta performance, suporte a recursos nativos.
 
-#### *MySQL*
+**MySQL**
 
-- **mysqlclient**: Desempenho eficiente, mas depende de pacotes nativos.
-- **PyMySQL**: Fácil de instalar, embora menos performático.
-- **MySQL Connector/Python**: Combina facilidade de uso e suporte oficial.
+- `mysqlsclient` - Rápido, requer dependências nativas.
+- `PyMySQL` - 100% Python, fácil instalação.
+- `mysql-connector-python` - Suporte oficial da Oracle.
 
-#### **SQLite**
+**SQLite**
 
-- **sqlite3**: Adaptador padrão do Python, ideal para bancos locais e pequenas aplicações.
+- `sqlite3` - Integrado ao Python, ideal para apps locais.
 
 ### Por Que Usar Conectores?
 
-- **Criação de conexões**: Estabelecem comunicação com o banco de dados.
-- **Execução de operações CRUD**: Simplificam tarefas como inserir, atualizar, deletar e consultar dados.
-- **Compatibilidade**: Adotam interfaces padronizadas, reduzindo esforço ao mudar de SGBD.
+- **Interface padronizada** entre Python e o banco.
+- **Portabilidade entre SGBDs**.
+- **Execução simplificada de operações CRUD**.
 
-### Escolhendo o Conector Adequado
+### Critérios de Escolha
 
-**Ao selecionar um conector, considere**:
-
-- **Compatibilidade** com o banco de dados.
-- **Facilidade de instalação e uso**.
-- **Desempenho** em operações específicas.
-- **Recursos oferecidos**, como suporte a transações ou recursos exclusivos do banco.
-
->*Conectores são cruciais para projetos que necessitam de integração com bancos de dados, sejam locais (SQLite) ou remotos (PostgreSQL, MySQL).*
+- Compatibilidade com o SGBD.
+- Facilidade de instalação.
+- Suporte oficial e comunidade.
+- Recursos específicos (ex: transações, prepared statements).
 
 ---
-## 2. Principais métodos e exceções dos conectores em Python
+## 2. Métodos e Exceções dos Conectores
 
-==Conectores fornecem métodos para interagir com bancos de dados e também lançam exceções que ajudam a identificar e tratar erros durante as operações.==
+==Todos os conectores seguem um fluxo operacional básico e disparam exceções específicas para controle de erros.==
 
-### Principais Métodos dos Conectores
-
-Os conectores seguem um fluxo básico de trabalho, aplicável a qualquer integração com bancos de dados:
-
-- **Conectar**: Criar uma conexão com o banco usando o método `connect()`.
-- **Executar**: Utilizar o método `execute()` para enviar comandos SQL.
-- **Enviar comandos**: Comando SQL é processado no banco.
-- **Confirmar**: Salvar as alterações usando `commit()`.
-- **Fechar**: Encerrar a conexão com o banco.
-
-#### *Exemplo com SQLite*
+### Fluxo Padrão de Uso
 
 ```python
-import sqlite3 as conector
+import sqlite3
 
-# Criando conexão e cursor
-conexao = conector.connect("meu_banco.db")
-cursor = conexao.cursor()
+con = sqlite3.connect("banco.db")
+cur = con.cursor()
 
-# Executando comandos SQL
-cursor.execute("CREATE TABLE IF NOT EXISTS exemplo (id INTEGER PRIMARY KEY, nome TEXT)")
-cursor.execute("INSERT INTO exemplo (nome) VALUES ('Python')")
+cur.execute("CREATE TABLE exemplo (id INTEGER, nome TEXT)")
+cur.execute("INSERT INTO exemplo VALUES (1, 'Python')")
 
-# Confirmando alterações
-conexao.commit()
-
-# Fechando conexão
-cursor.close()
-conexao.close()
+con.commit()
+cur.close()
+con.close()
 ```
 
->*Esse fluxo de trabalho é replicado para outros conectores, como `mysql.connector` e `psycopg2`, bastando alterar o módulo importado.*
+### Principais Exceções
 
-### Principais Exceções dos Conectores
+| **Exceção**         | **Situação**                                  |
+| ------------------- | --------------------------------------------- |
+| `Error`             | Base para todas as exceções.                  |
+| `IntegrityError`    | Violação de restrições (ex: chave duplicada). |
+| `OperationalError`  | Falhas de conexão ou problemas operacionais.  |
+| `DatabaseError`     | Erros gerais do banco.                        |
+| `ProgrammingError`  | SQL inválido ou sintaxe errada.               |
+| `NotSupportedError` | Função não suportada pelo SGBD.               |
 
-A DB-API 2.0 especifica algumas exceções que podem ser lançadas pelos conectores:
-
-- **Error**: Exceção base para todas as outras.
-- **IntegrityError**: Violação de integridade, como duplicação de chave primária.
-- **OperationalError**: Problemas operacionais, como falha de conexão.
-- **DatabaseError**: Erros gerais relacionados ao banco de dados.
-- **ProgrammingError**: Comandos SQL inválidos ou sintaxes incorretas.
-- **NotSupportedError**: Função ou operação não suportada pelo banco.
-
-#### *Exemplo de Tratamento de Exceções*
+### Tratamento de Erros
 
 ```python
 try:
-    conexao = conector.connect("meu_banco.db")
+    conexao = sqlite3.connect("banco.db")
     cursor = conexao.cursor()
-    cursor.execute("INSERT INTO exemplo (id, nome) VALUES (1, 'Python')")
+    cursor.execute("INSERT INTO exemplo VALUES (1, 'Python')")
     conexao.commit()
-except conector.IntegrityError:
-    print("Erro: Chave primária duplicada!")
-except conector.OperationalError as erro:
-    print(f"Erro operacional: {erro}")
+except sqlite3.IntegrityError:
+    print("Erro: dado duplicado.")
+except sqlite3.OperationalError as e:
+    print(f"Erro operacional: {e}")
 finally:
     if conexao:
         conexao.close()
 ```
 
-### Flexibilidade e Portabilidade
+### Portabilidade e Flexibilidade
 
-Uma das vantagens dos conectores que seguem a DB-API 2.0 é a padronização. Isso permite:
-
-- **Troca de banco de dados sem grandes alterações no código**: Alterar apenas o módulo importado.
-- **Compatibilidade com diferentes SGBDs**: Seguindo o mesmo fluxo básico.
-
-==Apesar disso, conectores oferecem funcionalidades específicas para seus bancos.==
-
-- **Exemplo**: *bulk inserts* no MySQL, suporte avançado a transações no PostgreSQL.
+- O mesmo fluxo funciona com `psycopg2`, `mysql.connector`, `PyMySQL`, etc.
+- Alterar o conector = mudar só a importação.
 
 ---
-## 3. Tipos de dados
+## 3. Tipos de Dados
 
-A escolha correta dos tipos de dados em um banco de dados é essencial para melhorar o desempenho, garantir a integridade dos dados e otimizar o armazenamento.
+O uso correto dos tipos de dados impacta diretamente a performance, integridade e compatibilidade do banco.
 
-Além disso, ==cada SGBD pode ter particularidades nos tipos suportados==, sendo crucial consultar sua documentação.
+### Tipos Comuns
 
-### Principais Tipos de Dados
+| **Tipo**  | **Uso**                            |
+| --------- | ---------------------------------- |
+| `INTEGER` | Números inteiros                   |
+| `REAL`    | Ponto flutuante                    |
+| `TEXT`    | Strings e dados alfanuméricos      |
+| `BLOB`    | Dados binários (imagens, arquivos) |
+| `NULL`    | Valores indefinidos                |
 
-**Os tipos mais comuns incluem**:
+---
+## 4. Particularidades do SQLite
 
-- **INTEGER**: Números inteiros.
-- **REAL**: Números de ponto flutuante.
-- **TEXT**: Dados alfanuméricos.
-- **BLOB**: Dados binários, como imagens ou arquivos.
-- **NULL**: Representa valores nulos.
+O SQLite é mais permissivo e utiliza o conceito de _afinidade de tipos_.
 
-### O Caso do SQLite
+### Classes de Armazenamento
 
-O SQLite opera com uma abordagem distinta, usando **classes de armazenamento** e **afinidades de tipo**:
+- `NULL`
+- `INTEGER`
+- `REAL`
+- `TEXT`
+- `BLOB`
 
-1. **Classes de armazenamento**:
+### Afinidade de Tipos
 
-    - **NULL**: Valores nulos.
-    - **INTEGER**: Números inteiros.
-    - **REAL**: Números de ponto flutuante.
-    - **TEXT**: Dados alfanuméricos.
-    - **BLOB**: Dados armazenados exatamente como foram fornecidos.
-		
-1. **Afinidades de tipo**:
+| **Afinidade** | **Tipos Convertidos**                   |
+| ------------- | --------------------------------------- |
+| TEXT          | `CHAR`, `VARCHAR`, `TEXT`, `CLOB`       |
+| NUMERIC       | `BOOLEAN`, `DATE`, `DECIMAL`, `NUMERIC` |
+| INTEGER       | `INT`, `TINYINT`, `BIGINT`              |
+| REAL          | `FLOAT`, `DOUBLE`                       |
+| NONE          | Sem conversão, aceita qualquer tipo     |
 
-    - ==Permitem armazenar diferentes tipos de dados em uma mesma coluna.==
-    - **As afinidades suportadas são**:
-		
-        - **TEXT**: Para dados de texto, como VARCHAR, CLOB.
-        - **NUMERIC**: Para números com possibilidade de precisão, como DECIMAL, BOOLEAN, DATE.
-        - **INTEGER**: Para números inteiros.
-        - **REAL**: Para números de ponto flutuante.
-        - **NONE**: Sem tipo específico.
+### Exemplo de Mapeamento
 
-### Mapeamento e Afinidades no SQLite
+```sql
+CREATE TABLE produto (
+    id INTEGER PRIMARY KEY,
+    nome VARCHAR(100),
+    preco DECIMAL(10, 2),
+    imagem BLOB
+);
+```
 
-==O SQLite converte tipos não suportados para aqueles que reconhece, usando afinidades.==
+**SQLite interpreta isso como:**
 
-**Exemplos**:
+- `VARCHAR(100)` → `TEXT`
+- `DECIMAL(10,2)` → `NUMERIC`
+- `BLOB` → `BLOB`
 
-- Tipos como `VARCHAR`, `CHARACTER`, ou `NVARCHAR` são convertidos para **TEXT**.
-- Tipos como `DECIMAL` ou `BOOLEAN` são convertidos para **NUMERIC**.
-- Tipos como `DOUBLE` e `FLOAT` são convertidos para **REAL**.
-- Tipos como `BLOB` permanecem inalterados.
+### Em Desenvolvimento vs Produção
 
-#### *Tabela de Afinidades no SQLite:*
-
-| **Tipo no CREATE TABLE**       | **Afinidade** |
-| ------------------------------ | ------------- |
-| INT, INTEGER, TINYINT, BIGINT  | INTEGER       |
-| CHARACTER, VARCHAR, TEXT, CLOB | TEXT          |
-| BLOB                           | BLOB          |
-| REAL, DOUBLE, FLOAT            | REAL          |
-| NUMERIC, DECIMAL, BOOLEAN      | NUMERIC       |
-
-### Importância em Ambientes de Desenvolvimento e Produção
-
-==Mesmo ao usar o SQLite em desenvolvimento, é possível mapear tipos para garantir compatibilidade com bancos de produção (como MySQL ou PostgreSQL). Esse cuidado permite projetar tabelas que funcionarão de maneira consistente em diferentes ambientes.==
+Mesmo em dev com SQLite, defina tipos pensando no deploy (ex: PostgreSQL ou MySQL).
+    
+- Isso garante **compatibilidade futura** com bancos reais.

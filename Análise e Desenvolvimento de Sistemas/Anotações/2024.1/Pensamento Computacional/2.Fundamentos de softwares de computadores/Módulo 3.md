@@ -2,7 +2,7 @@
 
 ## 1. Conceito: Linguagens de programação
 
-==Uma linguagem de programação é um sistema de comunicação usado para criar instruções que um computador pode entender e executar.==
+Uma linguagem de programação é um sistema de comunicação usado para criar instruções que um computador pode entender e executar.
 
 ### Principais Características de uma Linguagem de Programação
 
@@ -17,22 +17,22 @@
 
 ### Linguagens de Baixo Nível
 
-- ==Mais próximas do hardware.==
+- Mais próximas do hardware.
 - **Exemplo**: Assembly, Linguagem de Máquina.
 - **Características**: Rápidas e eficientes, mas difíceis de programar.
 
 ### Linguagens de Alto Nível
 
-- ==Mais próximas da linguagem humana.==
+- Mais próximas da linguagem humana.
 - **Exemplo**: Python, Java, C++, JavaScript.
 - **Características**: Mais fáceis de aprender e usar, mas menos eficientes em termos de desempenho bruto.
 
 ### Paradigmas de Programação
 
-- **Imperativo**: ==Baseado em comandos sequenciais== (Ex.: C, Python).
-- **Orientado a Objetos**: ==Organizado em torno de objetos e classes== (Ex.: Java, C#).
-- **Funcional**: ==Foca em funções matemáticas e imutabilidade== (Ex.: Haskell, Scala).
-- **Declarativo**: ==Foco em "o que fazer" em vez de "como fazer"== (Ex.: SQL, Prolog).
+- **Imperativo**: Baseado em comandos sequenciais (Ex.: C, Python).
+- **Orientado a Objetos**: Organizado em torno de objetos e classes (Ex.: Java, C#).
+- **Funcional**: Foca em funções matemáticas e imutabilidade (Ex.: Haskell, Scala).
+- **Declarativo**: Foco em "o que fazer" em vez de "como fazer" (Ex.: SQL, Prolog).
 
 ### Exemplos de Linguagens Populares
 
@@ -48,14 +48,14 @@ Essas três categorias se referem a como o código-fonte de um programa é tradu
 
 ### Linguagens Compiladas
 
- ==O código-fonte é transformado (compilado) em código de máquina antes de ser executado.== Essa tradução é feita por um **compilador**.
+ O código-fonte é transformado (compilado) em código de máquina antes de ser executado. Essa tradução é feita por um **compilador**.
  
 - **Exemplos**: C, C++, Rust, Go.
 
 #### *Características*
 
 - O programa gerado é um arquivo executável independente.
-- ==Execução geralmente mais rápida, pois o código já está traduzido para a linguagem da máquina.==
+- Execução geralmente mais rápida, pois o código já está traduzido para a linguagem da máquina.
 - Menor flexibilidade para mudanças durante a execução.
   
 #### *Vantagens*
@@ -69,14 +69,14 @@ Essas três categorias se referem a como o código-fonte de um programa é tradu
 
 ### Linguagens Interpretadas
 
-==O código-fonte é traduzido e executado linha por linha por um *interpretador* em tempo de execução.==
+O código-fonte é traduzido e executado linha por linha por um *interpretador* em tempo de execução.
 
 - **Exemplos**: Python, Ruby, JavaScript.
 
 #### *Características*
 
 - Não há um arquivo executável pré-compilado.
-- ==Mais lento em execução, já que a tradução acontece durante o uso.==
+- Mais lento em execução, já que a tradução acontece durante o uso.
 - Maior flexibilidade para mudanças no código.
 
 #### *Vantagens*
@@ -91,13 +91,13 @@ Essas três categorias se referem a como o código-fonte de um programa é tradu
 
 ### Compilação Just-in-Time (JIT)
 
-==Uma combinação dos dois métodos anteriores. O código é compilado em tempo de execução==, gerando código de máquina "sob demanda".
+Uma combinação dos dois métodos anteriores. O código é compilado em tempo de execução, gerando código de máquina "sob demanda".
 
 - **Exemplos**: Java (com a JVM), C# (com o .NET CLR), Kotlin.
 
 #### *Características*
 
-- ==O código é inicialmente convertido em um formato intermediário (bytecode) e depois, no momento da execução, o bytecode é compilado em código de máquina.==
+- O código é inicialmente convertido em um formato intermediário (bytecode) e depois, no momento da execução, o bytecode é compilado em código de máquina.
 - Combina a portabilidade de linguagens interpretadas com o desempenho das compiladas.
 
 #### *Vantagens*

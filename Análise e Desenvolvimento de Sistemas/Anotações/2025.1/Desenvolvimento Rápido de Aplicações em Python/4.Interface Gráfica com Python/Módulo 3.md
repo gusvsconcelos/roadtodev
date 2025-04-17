@@ -1,51 +1,47 @@
-# **Integração com banco de dados**
+# **Integração com Banco de Dados usando PostgreSQL + psycopg2**
 
-## 1. Conceitos de integração com banco de dados
+## 1. Visão Geral da Integração
 
-### Conceitos
+Você vai criar um CRUD de agenda telefônica com Python e PostgreSQL, usando a biblioteca **psycopg2** para gerenciar os dados via SQL.
 
-Para entender como Python interage com PostgreSQL, trabalharemos na seguinte aplicação:
+> *📞 Objetivo: cadastrar, consultar, atualizar e remover nomes e telefones de uma agenda.*
 
-**Objetivo**: Um programa CRUD para gerenciar uma agenda telefônica (com nomes e números de telefone) utilizando PostgreSQL como banco de dados.
+---
+## 2. Ferramentas Utilizadas
 
-### Ferramentas e Tecnologias Utilizadas
+- **PostgreSQL**: SGBD relacional robusto e gratuito.
+- **psycopg2**: Adaptador que conecta Python ao PostgreSQL.
 
-1. **PostgreSQL**: Instale a versão recomendada (ex.: 4.24).
-2. **Biblioteca psycopg2**: Adaptador para conectar Python ao PostgreSQL.
-
-#### *Instalação do psycopg2*
-
-Para instalar, digite na linha de comando:
+### Instalação
 
 ```bash
 pip install psycopg2
 ```
 
-### APIs e Operações no PostgreSQL com psycopg2
-
-#### *Criar Conexão e Cursor*
-
-Antes de executar qualquer operação, crie uma conexão com o banco e um cursor para realizar as instruções SQL:
+---
+## 3. Conectando ao Banco
 
 ```python
 import psycopg2
 
-# Estabelecendo a conexão com o banco de dados
-connection = psycopg2.connect(
+conexao = psycopg2.connect(
     host="localhost",
-    database="seu_banco",
-    user="seu_usuario",
-    password="sua_senha"
+    database="nome_do_banco",
+    user="usuario",
+    password="senha"
 )
 
-# Criando um cursor
-cursor = connection.cursor()
+cursor = conexao.cursor()
 ```
 
-#### *Criar uma Tabela*
+> *🔐 Você precisa estar com o servidor PostgreSQL rodando localmente.*
+
+---
+## 4. Operações CRUD com psycopg2
+
+### Criar Tabela
 
 ```python
-# Criando uma tabela
 cursor.execute("""
 CREATE TABLE agenda (
     id SERIAL PRIMARY KEY,
@@ -53,162 +49,127 @@ CREATE TABLE agenda (
     telefone VARCHAR(15)
 )
 """)
-
-# Confirmando a transação
-connection.commit()
+conexao.commit()
 ```
 
-#### *Inserir Dados*
+### Inserir Dados
 
 ```python
-# Inserindo dados na tabela
 cursor.execute("""
 INSERT INTO agenda (nome, telefone)
 VALUES (%s, %s)
 """, ("João Silva", "123456789"))
-
-# Confirmando a transação
-connection.commit()
+conexao.commit()
 ```
 
-#### *Consultar Dados*
+> *⚠️ Use parâmetros (%s) para evitar SQL Injection.*
+
+### Consultar Dados
 
 ```python
-# Consultando dados
-cursor.execute("""
-SELECT * FROM agenda
-""")
-
-# Obtendo todos os resultados
+cursor.execute("SELECT * FROM agenda")
 resultados = cursor.fetchall()
+
 for linha in resultados:
     print(linha)
 ```
 
-#### *Atualizar Dados*
+### Atualizar Dados
 
 ```python
-# Atualizando dados
 cursor.execute("""
 UPDATE agenda
 SET telefone = %s
 WHERE nome = %s
 """, ("987654321", "João Silva"))
-
-# Confirmando a transação
-connection.commit()
+conexao.commit()
 ```
 
-#### *Deletar Dados*
+### Deletar Dados
 
 ```python
-# Deletando dados
 cursor.execute("""
 DELETE FROM agenda
 WHERE nome = %s
 """, ("João Silva",))
-
-# Confirmando a transação
-connection.commit()
+conexao.commit()
 ```
 
-#### *Fechar Cursor e Conexão*
-
-```python
-# Fechar cursor e conexão
-cursor.close()
-connection.close()
-```
-
-### Principais Funções e Rotinas
-
-- **cursor.callproc**: Chama funções/procedimentos armazenados.
-- **cursor.rowcount**: Total de linhas afetadas pela última operação.
-- **connection.commit()**: Confirma a transação.
-- **connection.rollback()**: Reverte alterações desde o último commit.
-- **cursor.fetchone()**: Retorna a próxima linha do resultado.
-- **cursor.fetchmany(size)**: Retorna várias linhas (tamanho definido).
-- **cursor.fetchall()**: Retorna todas as linhas restantes do resultado.
+> 🗑️ _Use `rowcount` para verificar quantos registros foram excluídos._
 
 ---
-## 2. Integração com banco de dados com psycopg2
+## 5. Encerrando a Conexão
 
-### Principais Benefícios
+```python
+cursor.close()
+conexao.close()
+```
 
-- **Manipulação direta** de dados via scripts Python.
-- **Automatização** de tarefas repetitivas.
-- Ideal para criar **soluções complexas** com persistência de dados.
+> *🧼 Fechar conexão = boa prática obrigatória.*
 
-### Exemplo Completo de Operações CRUD
+---
+## 6. Funções Extras do psycopg2
 
-#### *1. Criação de Tabela*
+- `cursor.callproc(nome_funcao, args)` → Chama função armazenada.
+- `cursor.rowcount` → Retorna linhas afetadas.
+- `cursor.fetchone()` → Retorna uma linha.
+- `cursor.fetchmany(n)` → Retorna n linhas.
+- `cursor.fetchall()` → Retorna todas as linhas restantes.
+- `connection.commit()` → Salva mudanças.
+- `connection.rollback()` → Cancela mudanças pendentes.
+
+---
+## 7. Exemplo Prático Completo
 
 ```python
 import psycopg2
 
-conexao = psycopg2.connect(
-    dbname="nome_do_banco",
-    user="usuario",
-    password="senha",
+con = psycopg2.connect(
+    dbname="sua_agenda",
+    user="seu_usuario",
+    password="sua_senha",
     host="localhost"
 )
-cursor = conexao.cursor()
+
+cursor = con.cursor()
 
 cursor.execute("""
-CREATE TABLE Agenda (
-    ID SERIAL PRIMARY KEY,
-    Nome VARCHAR(50),
-    Telefone VARCHAR(15)
+CREATE TABLE IF NOT EXISTS agenda (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(50),
+    telefone VARCHAR(15)
 )
 """)
-conexao.commit()
-conexao.close()
-```
+con.commit()
 
-#### *2. Inserção de Dados*
-
-```python
 cursor.execute("""
-INSERT INTO Agenda (ID, Nome, Telefone)
-VALUES (1, 'Pessoa 1', '02199999999')
+INSERT INTO agenda (nome, telefone)
+VALUES ('Pessoa 1', '02199999999')
 """)
-```
 
-==**Cuidados**: Use aspas duplas para nomes de tabelas e colunas no PostgreSQL.==
+cursor.execute("SELECT * FROM agenda WHERE nome = 'Pessoa 1'")
+print(cursor.fetchone())
 
-#### *3. Seleção de Dados*
-
-```python
-cursor.execute("SELECT * FROM Agenda WHERE ID = 1")
-registro = cursor.fetchone()
-print(registro)
-```
-
-**Resultado esperado**: `(1, 'Pessoa 1', '02199999999')`
-
-#### *4. Atualização de Dados*
-
-```python
 cursor.execute("""
-UPDATE Agenda
-SET Telefone = '02198888888'
-WHERE ID = 1
+UPDATE agenda
+SET telefone = '02198888888'
+WHERE nome = 'Pessoa 1'
 """)
-conexao.commit()
+con.commit()
+
+cursor.execute("DELETE FROM agenda WHERE nome = 'Pessoa 1'")
+print(f"{cursor.rowcount} registro(s) excluído(s).")
+
+cursor.close()
+con.close()
 ```
 
-#### *5. Exclusão de Dados*
+---
+## 8. Outras Bibliotecas para Outros SGBDs
 
-```python
-cursor.execute("""
-DELETE FROM Agenda WHERE ID = 1
-""")
-print(f"{cursor.rowcount} Registro excluído com sucesso!")
-```
+> *🧰 Use a ferramenta certa para o banco certo:*
 
-### Outras Bibliotecas Populares para Banco de Dados
-
-- **pyMySQL**: Para MySQL.
-- **cx_Oracle**: Para Oracle.
-- **PySQLite**: Para SQLite.
-- **PyMongo**: Para MongoDB (NoSQL).
+- `pyMySQL` → MySQL/MariaDB
+- `cx_Oracle` → Oracle
+- `sqlite3` (nativo) → SQLite
+- `PyMongo` → MongoDB (NoSQL)

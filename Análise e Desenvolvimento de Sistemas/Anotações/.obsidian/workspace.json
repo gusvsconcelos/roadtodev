@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "997e6f8b5063c1ad",
+        "id": "ae58d1812ee7d699",
         "type": "tabs",
         "children": [
           {
-            "id": "4a14be9523f77fdd",
+            "id": "e7d0d4b4ae406100",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025.1/Desenvolvimento Rápido de Aplicações em Python/3.Python Com Banco de Dados/Módulo 1.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Módulo 1"
+              "title": "Nova aba"
             }
           }
         ]
@@ -163,34 +159,34 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "4a14be9523f77fdd",
+  "active": "e7d0d4b4ae406100",
   "lastOpenFiles": [
-    "2025.1/Desenvolvimento Rápido de Aplicações em Python/2.Manipulação de Dados em Arquivos/Módulo 3.md",
-    "2025.1/Desenvolvimento Rápido de Aplicações em Python/2.Manipulação de Dados em Arquivos/Módulo 2.md",
-    "2025.1/Desenvolvimento Rápido de Aplicações em Python/2.Manipulação de Dados em Arquivos/Módulo 1.md",
-    "2025.1/Desenvolvimento Rápido de Aplicações em Python/1.RAD (Rapid Applications Development)/Módulo 4.md",
-    "2025.1/Desenvolvimento Rápido de Aplicações em Python/1.RAD (Rapid Applications Development)/Módulo 3.md",
-    "2025.1/Desenvolvimento Rápido de Aplicações em Python/1.RAD (Rapid Applications Development)/Módulo 2.md",
-    "2025.1/Desenvolvimento Rápido de Aplicações em Python/1.RAD (Rapid Applications Development)/Módulo 1.md",
+    "2024.1/Pensamento Computacional/4.Representação de imagens em computadores/Módulo 2.md",
+    "2024.1/Pensamento Computacional/4.Representação de imagens em computadores/Módulo 1.md",
+    "2024.1/Pensamento Computacional/3.Fundamentos de hardware/Módulo 3.md",
+    "2025.1/Desenvolvimento Rápido de Aplicações em Python/4.Interface Gráfica com Python/Módulo 2.md",
+    "2024.1/Pensamento Computacional/3.Fundamentos de hardware/Módulo 2.md",
+    "2024.1/Pensamento Computacional/3.Fundamentos de hardware/Módulo 1.md",
+    "2024.1/Pensamento Computacional/2.Fundamentos de softwares de computadores/Módulo 3.md",
+    "2024.1/Pensamento Computacional/2.Fundamentos de softwares de computadores/Módulo 2.md",
+    "2024.1/Pensamento Computacional/1.Introdução aos princípios fundamentais da computação/Módulo 2.md",
+    "2024.1/Pensamento Computacional/1.Introdução aos princípios fundamentais da computação/Módulo 3.md",
+    "2024.1/Pensamento Computacional/2.Fundamentos de softwares de computadores/Módulo 1.md",
+    "2024.1/Pensamento Computacional/1.Introdução aos princípios fundamentais da computação/Módulo 1.md",
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/5.Aplicando RAD/Módulo 4.md",
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/5.Aplicando RAD/Módulo 3.md",
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/5.Aplicando RAD/Módulo 2.md",
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/5.Aplicando RAD/Módulo 1.md",
-    "2024.1/Pensamento Computacional/2.Fundamentos de softwares de computadores/Módulo 1.md",
-    "2024.1/Pensamento Computacional/1.Introdução aos princípios fundamentais da computação/Módulo 3.md",
-    "2024.1/Pensamento Computacional/1.Introdução aos princípios fundamentais da computação/Módulo 2.md",
-    "2024.1/Pensamento Computacional/1.Introdução aos princípios fundamentais da computação/Módulo 1.md",
-    "2025.1/Desenvolvimento Rápido de Aplicações em Python/3.Python Com Banco de Dados/Módulo 1.md",
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/4.Interface Gráfica com Python/Módulo 3.md",
-    "2025.1/Desenvolvimento Rápido de Aplicações em Python/4.Interface Gráfica com Python/Módulo 2.md",
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/4.Interface Gráfica com Python/Módulo 1.md",
-    "2024.1/Pensamento Computacional/4.Representação de imagens em computadores/Módulo 2.md",
-    "2024.1/Pensamento Computacional/4.Representação de imagens em computadores/Módulo 1.md",
-    "2024.1/Pensamento Computacional/3.Fundamentos de hardware/Módulo 3.md",
-    "2024.1/Pensamento Computacional/3.Fundamentos de hardware/Módulo 1.md",
-    "2024.1/Pensamento Computacional/3.Fundamentos de hardware/Módulo 2.md",
-    "2024.1/Pensamento Computacional/2.Fundamentos de softwares de computadores/Módulo 3.md",
-    "2024.1/Pensamento Computacional/2.Fundamentos de softwares de computadores/Módulo 2.md",
+    "2025.1/Desenvolvimento Rápido de Aplicações em Python/3.Python Com Banco de Dados/Módulo 4.md",
+    "2025.1/Desenvolvimento Rápido de Aplicações em Python/3.Python Com Banco de Dados/Módulo 3.md",
+    "2025.1/Desenvolvimento Rápido de Aplicações em Python/3.Python Com Banco de Dados/Módulo 2.md",
+    "2025.1/Desenvolvimento Rápido de Aplicações em Python/3.Python Com Banco de Dados/Módulo 1.md",
+    "2025.1/Desenvolvimento Rápido de Aplicações em Python/2.Manipulação de Dados em Arquivos/Módulo 2.md",
+    "2025.1/Desenvolvimento Rápido de Aplicações em Python/2.Manipulação de Dados em Arquivos/Módulo 3.md",
+    "2025.1/Desenvolvimento Rápido de Aplicações em Python/2.Manipulação de Dados em Arquivos/Módulo 1.md",
+    "2025.1/Desenvolvimento Rápido de Aplicações em Python/1.RAD (Rapid Applications Development)/Módulo 4.md",
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/5.Aplicando RAD",
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/4.Interface Gráfica com Python",
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/3.Python Com Banco de Dados",
