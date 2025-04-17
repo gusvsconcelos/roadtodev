@@ -2,55 +2,57 @@
 
 ## 1. Python
 
-==A linguagem Python, com sua sintexe simples e vasta coleção de pacotes e frameworks, possui uma excelente sinergia com os aspectos da metodologia RAD.==
+> *🐍 Python tem sinergia total com RAD: simples, rápido e multiplataforma.*
 
-Python também oferece uma excelente integração com várias plataformas e sistemas, ==tornando-se uma escolha versátil para projetos de softwares que necessitam de agilidade e eficiência na entrega.==
+**Vantagens do Python em projetos RAD**:
 
-**Motivos para escolher Python em projetos RAD**:
-
-- Portabilidade
-- Licença de código aberto
-- Integração com outros sistemas
-- Desenvolvimento rápido
+- Sintaxe simples e legível
+- Portável entre sistemas
+- Código aberto e comunidade ativa
+- Integração fácil com outras plataformas
+- Agilidade no desenvolvimento com pacotes prontos
 
 ---
 ## 2. Ferramentas para o desenvolvimento RAD
 
-A utilização de frameworks Python é indispensável para profissionais de desenvolvimento que empregam a metodologia RAD, ==pois eles aceleram significativamente o tempo de entrega e padronizam o desenvolvimento dos sistemas.==
+> *⚙️ Frameworks aceleram o desenvolvimento, reduzem retrabalho e padronizam o processo.*
 
-Tipos de frameworks suportados pelo Python:
+### Tipos de frameworks Python:
 
-- **Full-Stack**: Fornece uma solução completa de todos os requisitos para o desenvolvedor.
-- **Microframework**: Oferecem uma quantidade mínima de serviços.
-- **Framework assíncronos**: Trata-se de um tipo de microframework que permite lidar com grande conjunto de conexões simultâneas.
+- **Full-Stack**: Solução completa (backend + frontend)
+- **Microframework**: Minimalista, foco no essencial
+- **Assíncronos**: Escalam com muitas conexões simultâneas
 
-### Frameworks GUI para Python
+---
+## 3. Frameworks GUI (Interface Gráfica)
 
-A Interface Gráfica do Usuário (GUI) é um aspecto essencial para que possa haver interação com o sistema; portanto, ==o desenvolvimento de recursos interativos, ainda nos protótipos, possibilita que o usuário tenha uma percepção mais clara de como o projeto está progredindo.==
+> *🧩 Interfaces visuais ajudam o usuário a visualizar o sistema desde o protótipo.*
 
-Exemplos de **frameworks GUI** para Python:
+**Principais frameworks GUI em Python**:
 
-- Tkinter
-- PyQt
-- PySide
-- Kivy
-- wxPython
+- **Tkinter** – Nativo e simples
+- **PyQt** / **PySide** – Potentes e baseados em Qt
+- **Kivy** – Foco em apps multitouch
+- **wxPython** – Estilo nativo do sistema
 
-### Frameworks web para Python
+---
+## 4. Frameworks Web
 
-==É um conjunto de pacotes que habilitam os desenvolvedores a desenvolver aplicações para web, ou serviços, sem ter de implementar excesso de detalhes==, como protocolos, soquetes ou gerenciamento de processos/threads.
+> *🌐 Facilitam o desenvolvimento de aplicações web sem reinventar a roda.*
 
-Exitem diversos **frameworks web** para Python:
+**Frameworks web populares em Python**:
 
-- Django
-- TurboGears
-- Flask
-- Bottle
-- CherryPy
-- Falcon
+- **Django** – Full-stack, completo e robusto
+- **Flask** – Microframework leve e flexível
+- **Bottle** / **CherryPy** – Minimalistas e diretos
+- **TurboGears** – Híbrido entre micro e full-stack
+- **Falcon** – Ideal para APIs de alta performance
 
-O Python possui muitos outros pacotes que servem para operações numéricas, manipulações de listas e impressão de gráfico. Como:
+---
+## 5. Bibliotecas de apoio
 
-- Numpy
-- Pandas
-- Matplotlib
+> *📊 Complementam o desenvolvimento com recursos prontos para dados e visualizações.*
+
+- **NumPy** – Operações numéricas rápidas
+- **Pandas** – Manipulação de dados em tabelas
+- **Matplotlib** – Criação de gráficos e visualizações

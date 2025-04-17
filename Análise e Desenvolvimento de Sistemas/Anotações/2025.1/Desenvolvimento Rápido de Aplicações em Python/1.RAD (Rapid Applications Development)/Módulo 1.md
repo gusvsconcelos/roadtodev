@@ -2,96 +2,72 @@
 
 ## 1. Contextualização
 
-A RAD (Rapid Applications Development) é ==uma metodologia de desenvolvimento de software focada na entrega em um período muito mais curto do que o ciclo tradicional.==
+A **RAD (Rapid Application Development)** é uma metodologia ágil voltada para entregas rápidas de software, com ciclos curtos e prototipagem funcional.
 
-==Não se trata da entrega final, mas de um modelo funcional que equivale funcionalmente a um componente do produto.== Ou seja, simula apenas alguns aspectos e é útil para o entendimento e a evolução do sistema final.
-
-==O modelo RAD foi introduzido pelo consultor de tecnologia e autor James Martin em 1991.== Surgiu como o reconhecimento da necessidade de atender o competitivo mercado de software, que tem uma demanda contínua por novas aplicações.
-
-- É um modelo iterativo e incremental que favorece a reutilização de ==protótipos== e a integração contínua de feedback dos usuários.
-- Trata-se de uma combinação de sessões JAD, desenvolvimento de protótipos, equipes SWAT, entregas com prazo e ferramentas CASE.
+- ==Não visa a entrega final imediata, mas sim modelos funcionais para validação.==
+- Foi criada por **James Martin (1991)** para atender à demanda ágil do mercado.
+- Usa ciclos iterativos com protótipos e feedback contínuo do usuário.
+- ==Combina **sessões JAD**, **prototipação**, **equipes enxutas**, **entregas rápidas** e **ferramentas CASE**.==
 
 ### Protótipo
 
-==A RAD facilita a entrega rápida de protótipos==, um requisito importante em um mercado competitivo que exige soluções consistentes e adaptáveis.
-
-- É muito útil para a compreensão do sistema.
-- Serve de demonstração para os clientes.
-- É mais flexível para mudanças.
-- Quando está mais evoluído, pode ser integrado ao produto para uma completa entrega mais rápida da versão final.
-
-A ideia é que o software seja criado em ciclos curtos, com introdução de funcionalidades, coleta de feedback e revisão.
+- Protótipos ajudam no entendimento e validação do sistema.
+- São flexíveis, ajustáveis e podem ser evoluídos até o produto final.
+- Funcionam como uma simulação funcional parcial do sistema.
 
 ### Como iniciar um projeto RAD
 
-**Aplicação da metodologia JAD**: Aplicar a metodologia Joint Application Development (JAD), na qual usuários e analistas projetam o sistema juntos, sob uma liderança em oficinas de trabalho.
-
-**Dinâmicas de grupo**: Potencializar o resultado do desenvolvimento através de dinâmicas de grupo
-
-**Objetivos e aplicações do sistema**: Definir os objetivos e as aplicações do sistema, desde a geração de telas até a geração de relatórios.
-
-**Princípios**: Estabelecer a dinâmica de grupo, os recursos audiovisuais, o processo organizado e racional, a escolha do local e documentação com a abordagem WYSIWIG - "O que você vê é o que você obtém".
+- Aplicar **JAD (Joint Application Development)** para desenvolver junto com os usuários.
+- Usar **dinâmicas de grupo** para acelerar decisões e engajamento.
+- Definir **objetivos, telas e relatórios** desde o início.
+- Estabelecer princípios como WYSIWYG e processos organizados.
 
 ---
 ## 2. Conceitos da RAD
 
->*A RAD pode ser considerada um tipo de técnica ágil.*
+- ==A RAD é **adaptativa** e permite mudanças a partir de **iterações com feedback**.==
+- Prototipação é o elemento central da metodologia.
 
-==Um dos principais elementos da RAD é o desenvolvimento de protótipos para chegar ao sistema final.== Trate-se de um modelo adaptativo, uma vez que o desenvolvimento é feito em iterações em que mudanças podem ser realizadas a partir dos comentários do usuário.
+### Elementos fundamentais
 
-**Elementos fundamentais da RAD**:
+- **Ferramentas CASE** para automação e agilidade.
+- **Metodologia bem definida**, com etapas claras.
+- **Pessoas capacitadas** e colaborativas.
+- **Gestão ativa** do ciclo de desenvolvimento.
 
-- Uso de ferramentas de desenvolvimento - Ferramentas CASE
-- Metodologia bem definida
-- Pessoas
-- Gestão
+> ***⏳ Timebox**: tempo limite para entregar uma funcionalidade ou decisão.*
 
->***Timebox** é o tempo máximo estabelecido para atingir as metas, tomar uma decisão ou executar um conjunto de tarefas.*
+### Tipos de Projeto RAD
 
-**Tipos de projetos RAD**:
-
-- **Intensivo**: ==Uma equipe de desenvolvedores e usuários trabalham por um curto período== e, ao final desse tempo, espera-se que produza um produto que seja utilizável.
-- **Faseado**: ==Projeto distribuido por um longo período.== É normalmente iniciado por um workshop JAD.
+- **Intensivo**: time e usuários trabalham em curto prazo para um produto funcional.
+- **Faseado**: projeto longo, dividido por fases e iniciado com workshop JAD.
 
 ---
-## 3.Princípios, ferramentas e técnicas
+## 3. Princípios, Ferramentas e Técnicas
 
->*A RAD reduz significativamente o tempo de desenvolvimento e aumenta a qualidade do software.*
+==A RAD reduz o tempo de desenvolvimento e aumenta a qualidade via feedback contínuo.==
 
 ### Princípios
 
-- Equipe de desenvolvedores qualificada e motivada
-- Usuários comprometidos com a participação ativa ao longo do projeto
-- Comprometimento para atingir o resultado satisfatório
+- Equipe capacitada, motivada e com autonomia.
+- Usuários participando ativamente do processo.
+- Entregas frequentes e incrementais.
+- Desenvolvimento **top-down** e iterativo.
+- Uso de **ferramentas automáticas** para acelerar a produção.
 
-**A RAD é baseado nos seguintes princípios básicos**:
+> ***👥 Stakeholders**: incluem patrocinadores, desenvolvedores e usuários ativos no processo.*
 
-- Envolvimento ativo dos usuários
-- Equipes pequenas com poder de decisão
-- Entrega frequente de produtos
-- Desenvolvimento incremental e iterativo
-- Abordagem top-down
-- Utilização de ferramentas de automação
+### Ferramentas de suporte
 
->***Partes interessadas**: patrocinadores, desenvolvedores e usuários ao longo da vida de um projeto.*
+- Ferramentas de **modelagem**, **requisitos**, **integração**, **geração de código** e **ambientes de dev**.
 
-### Ferramentas e técnicas
+### Técnicas utilizadas
 
-**Ferramentas de suporte de desenvolvimento**:
-
-- Integração de dados
-- Ambientes de desenvolvimento
-- Ferramentas de coleta de requisitos
-- Ferramentas de modelagem de dados
-- Ferramentas de geração de código
-
-**Técnicas**:
-
-- Modelo CBD
-- RepoGuard
-- Adição dinâmica ágil
-- Método baseado em camadas para desenvolvimento rápido de software
-- Análise de projeto de sistema baseado em situação
-- Uso de Ajax na RAD
-- Desenvolvimento de aplicativos multiusuário em ambiente distribuído rapidamente
-- Programação extrema
+- **CBD (Component-Based Development)**.
+- **RepoGuard**.
+- **Adição dinâmica ágil**.
+- **Desenvolvimento baseado em camadas**.
+- **Análise de projeto baseada em situação**.
+- **Uso de Ajax para dinamismo**.
+- **Sistemas multiusuários distribuídos**.
+- **Programação extrema (XP)**.

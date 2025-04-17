@@ -1,138 +1,118 @@
-# **Tratamento de exceções na manipulação de arquivos**
+# **Tratamento de Exceções na Manipulação de Arquivos**
 
 ## 1. Tratamento de Exceções
 
-O tratamento de exceções na manipulação de arquivos é fundamental para evitar falhas inesperadas e garantir que o programa continue funcionando de maneira controlada.
+> *🎯 Evitar crashes por erro de leitura/escrita é questão de sobrevivência em sistemas reais.*
 
-==Problemas como arquivos inexistentes ou falta de permissão podem ser resolvidos usando **blocos try/except**, permitindo um gerenciamento eficiente dos erros.==
+**Cenários comuns de erro**:
 
-Ao executar operações com arquivos, erros como **FileNotFoundError** e **PermissionError** podem surgir. ==Esses problemas ocorrem em tempo de execução e, sem tratamento adequado, podem interromper o fluxo do programa.==
+- Arquivo inexistente → `FileNotFoundError`
+- Falta de permissão → `PermissionError`
+- Arquivo já existe → `FileExistsError`
 
-- Se um arquivo que deveria ser lido não existir, o Python lançará um **FileNotFoundError**, interrompendo o programa.
-
-### Uso de try/except
-
-Para evitar interrupções indesejadas, utilizamos a estrutura:
+### Try/Except Básico
 
 ```python
 try:
-    arquivo = open("teste.txt", "r")
+    arquivo = open("teste.txt", "r")
 except FileNotFoundError:
-    print("Arquivo inexistente")
+    print("Arquivo inexistente.")
 ```
 
-Dessa forma, o Python identifica a falha e executa o código alternativo definido no `except`.
+> *✅ Garante continuidade do programa mesmo após erro.*
 
-==Isso garante que o programa siga funcionando mesmo quando ocorre um erro.==
+### Exceções específicas
 
-### Exceções Específicas Relacionadas a Arquivos
+| Erro                | Quando acontece                    |
+| ------------------- | ---------------------------------- |
+| `FileNotFoundError` | Arquivo não existe                 |
+| `PermissionError`   | Sem permissão para abrir/modificar |
+| `FileExistsError`   | Arquivo/diretório já existe        |
 
-- **PermissionError**: Quando não há permissão para modificar ou acessar um arquivo.
-- **FileExistsError**: Quando tentamos criar um arquivo ou diretório que já existe.
-- **FileNotFoundError**: Quando tentamos abrir um arquivo que não existe.
+- Todas são subclasses de `OSError`
 
-Essas exceções herdam da classe **OSError**, que por sua vez herda de **Exception**.
+> *🧼 Evite `except Exception` genérico. Isso esconde bugs feios.*
 
-**Boa prática**: Evite usar exceções genéricas como `except Exception`, pois ==isso pode ocultar erros inesperados.==
-
-### Exemplo de PermissionError
-
-Caso um arquivo esteja sendo usado por outro programa, a tentativa de escrita pode falhar, gerando um **PermissionError**. Para lidar com isso:
+### Exemplo: `PermissionError`
 
 ```python
 try:
-    arquivo = open("bloqueado.pdf", "w")
+    open("arquivo_trancado.txt", "w")
 except PermissionError:
-    print("Permissão negada para modificar o arquivo.")
+    print("Permissão negada.")
 ```
 
 ---
-## 2. Operações Adicionais em Arquivos
+## 2. Operações Adicionais com Arquivos
 
 ### Removendo Arquivos
 
-A função `remove` do módulo `os` permite excluir arquivos do sistema. Sua sintaxe é:
-
 ```python
 import os
-os.remove("teste.txt")  # Remove o arquivo especificado
+os.remove("teste.txt")
 ```
 
-==Se o arquivo não estiver no diretório atual, é necessário informar o caminho completo.==
+**Possíveis exceções**:
 
-**Possíveis Exceções**:
+- `FileNotFoundError`
+- `PermissionError`
+- `IsADirectoryError`
 
-- **FileNotFoundError** – O arquivo não existe.
-- **PermissionError** – O acesso ao arquivo é restrito.
-- **IsADirectoryError** – A função foi usada em um diretório, em vez de um arquivo.
-
-> *Para remover diretórios, use `os.rmdir()`.*
+> *📦 Para remover diretórios: `os.rmdir()`.*
 
 ### Renomeando Arquivos
 
-A função `rename` do módulo `os` permite renomear arquivos. Sua sintaxe é:
-
 ```python
-import os
-os.rename("teste_alfa.txt", "teste_beta.txt")  # Renomeia o arquivo
+os.rename("alfa.txt", "beta.txt")
 ```
 
-==O primeiro argumento é o nome original, e o segundo é o novo nome.==
+**Exceções**:
 
-**Possíveis Exceções**:
+- Arquivo não existe → `FileNotFoundError`
+- Nome já existe → `FileExistsError`
+- Sem permissão → `PermissionError`
 
-- **FileNotFoundError** – O arquivo de origem não existe.
-- **FileExistsError** – O nome de destino já existe.
-- **PermissionError** – Sem permissão para modificar o arquivo.
-
-> *Caso seja necessário substituir o arquivo de destino, utilize `os.replace()`.*
+> *🔁 Para substituir um arquivo existente: `os.replace()`.*
 
 ---
-## 3. Manipulação de Diretórios em Python
+## 3. Manipulação de Diretórios
 
-### Criando e Removendo Diretórios
-
-O módulo `os` fornece funções para gerenciar diretórios:
-
-#### ***Criar um diretório** – `mkdir()`*
+### Criar Diretório
 
 ```python
-import os
-os.mkdir("meu_diretorio")  # Cria um diretório
+os.mkdir("novo_diretorio")
+```
+
+**Erros comuns**:
+
+- `PermissionError`
+- `FileExistsError`
+
+### Remover Diretório (vazio)
+
+```python
+os.rmdir("diretorio_vazio")
 ```
 
 **Possíveis erros**:
 
-- **PermissionError** – Sem permissão para criar o diretório.
-- **FileExistsError** – O diretório já existe.
+- `PermissionError`
+- `FileNotFoundError`
+- `OSError` (caso não esteja vazio)
 
-#### ***Remover um diretório** – `rmdir()`*
+> *🔍 Se for `OSError`, use `errno` para diagnosticar.*
 
-```python
-os.rmdir("meu_diretorio")  # Remove um diretório vazio
-```
-
-**Possíveis erros**:
-
-- **PermissionError** – Sem permissão para remoção.
-- **FileNotFoundError** – O diretório não existe.
-- **OSError** – O diretório não está vazio.
-
->*Caso o erro seja **OSError**, é necessário verificar seu código por meio do atributo `errno` para entender sua causa.*
-
-### Listando Conteúdo de Diretórios
-
-Para visualizar arquivos e subdiretórios, utilizamos `scandir()`:
+### Listar Conteúdo de Diretório
 
 ```python
 entradas = os.scandir("meu_diretorio")
 for entrada in entradas:
-    print(entrada.name, "é diretório?" , entrada.is_dir())
+    print(entrada.name, "é diretório?", entrada.is_dir())
 ```
 
-A função retorna objetos `os.DirEntry`, que possuem métodos úteis:
+**Métodos úteis de `DirEntry`**:
 
-- **name** – Nome do arquivo ou diretório.
-- **path** – Caminho completo.
-- **is_dir()** – Verifica se é um diretório.
-- **is_file()** – Verifica se é um arquivo.
+- `.name` – Nome do item
+- `.path` – Caminho completo
+- `.is_dir()` – É diretório?
+- `.is_file()` – É arquivo?

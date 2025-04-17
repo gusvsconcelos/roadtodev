@@ -1,93 +1,91 @@
-# **Funções de manipulação de arquivos**
+# **Funções de Manipulação de Arquivos**
 
 ## 1. Operações básicas
 
-A manipulação de arquivos em Python é essencial para executar tarefas comuns como o armazenamento de informações, processamento de dados e geração de logs.
+> *📁 Manipulação de arquivos é essencial para armazenar, processar e registrar dados.*
 
-**As operações básicas incluem**:
+**Operações principais**:
 
-- **Abrir** arquivos para manipulação.
-- **Fechar** arquivos após o uso.
-- **Ler** informações gravadas.
-- **Escrever** novos conteúdos.
+- `open()` abre arquivos
+- `close()` fecha arquivos
+- `read()` lê conteúdo
+- `write()` insere conteúdo
 
-### Abrindo um arquivo
+**Tipos de caminho**:
 
-==O método principal para acessar arquivos é por meio da função `open()`, que retorna um objeto representando o arquivo.== O argumento `caminho` especifica a localização do arquivo no sistema:
+- **Absoluto**: Caminho completo (ex: `/user/docs/arquivo.txt`)
+- **Relativo**: Com base no diretório atual
 
-- **Absoluto**: Indica o endereço completo (ex.: `/home/user/documento.txt`).
-- **Relativo**: Refere-se ao caminho em relação ao diretório atual.
+> *📌 Use `os.path.abspath()` e `os.path.relpath()` para manipular caminhos dinamicamente.*
 
->*Funções adicionais como `path.relpath` e `path.abspath` ajudam a manipular caminhos.*
+**Modos de acesso**:
 
-### Modos de acesso a arquivos
-
-O acesso ao arquivo é configurado com diferentes modos, como:
-
-- **r**: Modo de leitura (padrão).
-- **w**: Escreve no arquivo e apaga o conteúdo existente.
-- **a**: Adiciona informações no final do arquivo.
-- **b**: Manipula dados binários.
-- **t**: Manipula dados no formato texto (padrão).
-
->*Modos combinados como `r+` permitem ler e escrever ao mesmo tempo.*
+- `r`: leitura
+- `w`: escrita (sobrescreve)
+- `a`: append (adiciona no final)
+- `b`: binário
+- `t`: texto (padrão)
+- `r+`: leitura e escrita
 
 ---
-## 2. Atributos do objeto tipo arquivo
+## 2. Atributos e leitura/escrita
 
-==Os atributos do objeto arquivo (`name`, `mode`, `closed`) são úteis para entender o estado do arquivo e gerenciar operações de forma eficiente==, reduzindo erros e melhorando a estabilidade de aplicativos.
+> *🧠 Atributos ajudam a controlar estado e evitar erros em tempo de execução.*
 
-### Fechando um arquivo
+**Atributos úteis**:
 
-O método `close()` libera recursos alocados para o arquivo, tornando-o acessível a outros programas.
+- `.name`: nome do arquivo
+- `.mode`: modo de abertura
+- `.closed`: status do arquivo
 
-### Lendo arquivos
+**Leitura**:
 
-Python oferece métodos para ler conteúdos:
+- `read()`: lê tudo
+- `readline()`: lê linha atual
+- `readlines()`: retorna lista de linhas
 
-- `read()`: Lê todo o conteúdo como uma string.
-- `readline()`: Lê uma única linha e avança para a próxima.
-- `readlines()`: Retorna uma lista com cada linha do arquivo.
+**Escrita**:
 
-### Escrevendo em arquivos
+- `write()`: escreve string
+- `writelines()`: escreve lista de strings
 
-**Métodos para escrita**:
+> *⚠️ Adicione `\n` manualmente em `writelines()` se quiser quebras de linha.*
 
-- `write()`: Insere um texto no arquivo.
-- `writelines()`: Grava uma coleção de strings, como uma lista.
+**Boas práticas**:
 
->*É necessário inserir manualmente quebras de linha (`\n`) entre os elementos, caso necessário.*
-
-### Boas práticas
-
-A palavra-chave `with` é recomendada para garantir o fechamento automático dos arquivos após o uso:
+- Use `with open(...) as ...:` para fechar arquivos automaticamente
 
 ```python
-with open(caminho, modo) as arquivo:
-    # Código dentro do contexto
+with open('arquivo.txt', 'r') as f:
+    conteudo = f.read()
 ```
 
 ---
-## 3. Manipulando arquivo-texto em Python
+## 3. Manipulando arquivo-texto
 
-==O uso de arquivos texto é comum para automação, geração de relatórios e processamento de informações.==
+> *🛠️ Arquivos de texto são úteis em automações, relatórios e logs simples.*
 
-**Para ilustrar**:
+**Exemplo de uso**:
 
-- Capturamos dados via console, armazenando em um arquivo.
-- Convertendo conteúdos para maiúsculas com `.upper()` para padronização.
-- Sobrescrevemos o arquivo com os dados formatados.
+- Captura dados do usuário via `input()`
+- Armazena em `meu_arquivo.txt`
+- Converte conteúdo para maiúsculo com `.upper()`
+- Sobrescreve o arquivo com o novo conteúdo
 
-**Exemplo prático**:
-
-1. Usuário insere textos em loop (terminando ao digitar "sair").
-2. Dados são salvos no arquivo `meu_arquivo.txt`.
-3. O conteúdo é convertido para letras maiúsculas.
-4. O arquivo original é sobrescrito.
-
->*Utilize listas para armazenar entradas antes de escrevê-las, otimizando a manipulação.*
+> *💡 Use listas para coletar entradas antes de salvar: mais limpo, mais rápido.*
 
 ---
-## 4. Lidando com dados binários em arquivos
+## 4. Trabalhando com dados binários
 
-Arquivos binários permitem manipular dados como imagens e vídeos de forma compacta. ==Usando modos como **rb** e **wb**, é possível realizar operações eficientes em baixo nível, integrando sistemas legados ou aplicações multimídia.==
+> *💾 Modo binário é ideal para imagens, vídeos e integrações de baixo nível.*
+
+**Modos binários**:
+
+- `rb`: leitura binária
+- `wb`: escrita binária
+
+**Aplicações comuns**:
+
+- Manipular arquivos de mídia
+- Troca de dados com sistemas legados
+- Compactação e criptografia

@@ -1,54 +1,49 @@
 # **Metodologia RAD**
 
-## 1. Introdução à metodologia RAD
+## 1. Introdução
 
-==As empresas precisam satisfazer algumas condições para que a metodologia RAD seja aplicada de forma eficiente.==
+Para aplicar RAD de forma eficiente, é preciso:
 
-- **Pessoas**: Profissionais qualificados e com rápida adaptação, trabalhando bem em equipe.
-- **Gerenciamento**: Equipes com poder de decisão para evitar perda de tempo
-- **Uso de ferramentas computacionais (CASE)**: Programas que facilitem a criação de diagramas e interface com usuário, componentes reutilizáveis e de fácil manutenção.
+- **Pessoas**: equipe qualificada, adaptável e colaborativa.
+- **Gerenciamento**: decisões rápidas, sem burocracia.
+- **Ferramentas CASE**: suporte à prototipação, design e reaproveitamento de código.
 
-### Atenção!
+> *⚠️ RAD **não é universal**. Métodos tradicionais podem ser mais eficazes em certos contextos.*
 
-==A RAD nem sempre é adequada para ser aplicada a um projeto. Existem casos em que métodos tradicionais são mais pertinentes.==
-
->A RAD é mais adequada para softwares de baixa complexidade.
+> *✅ Ideal para **softwares de baixa complexidade**.*
 
 ---
-## 2. Vantagens e desvantagens da RAD
+## 2. Vantagens vs. Desvantagens
 
-### Principais vantagens
+### Vantagens
 
-- Integração antecipada do sistema e redução de riscos
-- Adaptabilidade e compartimentação dos componentes do sistema
-- Versões iterativas e menor tempo de colocação no mercado
-- Feedback constante do usuário
+- Redução de riscos com entregas antecipadas
+- Flexibilidade e modularidade
+- Ciclos iterativos com feedback contínuo
+- Time-to-market mais rápido
 
-### Principais desvantagens
+### Desvantagens
 
-- Necessidade de equipes tecnicamente muito qualificadas
-- Foco exigente na interface
-- Alto nível de comprometimento das partes interessadas
-- Sistemas modulares para projetos de grande escala
-- Comparação de RAD com outras metodologias
+- Exige equipe altamente qualificada
+- Forte dependência da interface
+- Alta demanda de envolvimento do cliente
+- Complexidade para sistemas grandes ou integrados
+- Difícil comparação com outras metodologias
 
 ---
-## 3. Aplicabilidade de metodologia RAD
+## 3. Aplicabilidade
 
 ### Quando aplicar
 
-==A metodologia RAD é adequada para projetos de pequena escala com equipes otimizadas de quatro a oito pessoas.==
+- Projetos pequenos
+- Equipe de 4 a 8 pessoas
+- Cliente disponível e engajado
+- Sistema modular
+- Boa infraestrutura e ferramentas à disposição
 
-### Quando não aplicar
+### Quando **não** aplicar
 
-==A RAD não é adequada para desenvolvimento de sistemas críticos em tempo real==; sistemas de infraestrutura muito grandes e quando os requisitos funcionais precisam ser especificados detalhadamente ainda no início do projeto.
-
-==Também não é adequada quando o sistema deve interagir com outros sistemas já existentes.==
-
-### Condições para aplicação
-
-- ==Disponibilidade== de profissionais experientes.
-- ==Comprometimento== do cliente para participar efetivamente do desenvolvimento do projeto.
-- ==Todas as partes interessadas devem estar presentes== para aplicar efetivamente essa metodologia.
-- O sistema deve ser capaz de ser ==dividido em módulos==.
-- Ter à disposição ==programas/infraestrutura adequada para aplicar a RAD==.
+- Sistemas críticos em tempo real
+- Grandes sistemas de infraestrutura
+- Necessidade de requisitos fixos desde o início
+- Integração com sistemas legados
