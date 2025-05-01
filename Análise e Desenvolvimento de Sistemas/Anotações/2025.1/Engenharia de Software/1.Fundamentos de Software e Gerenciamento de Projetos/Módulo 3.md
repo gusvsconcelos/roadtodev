@@ -19,7 +19,8 @@
 | Monitoramento/Controle | Medir, corrigir desvio                |
 | Encerramento           | Aceitar produto, liberar equipe       |
 
-**10 áreas de conhecimento (PMBOK 6ª)**:
+### 10 áreas de conhecimento (PMBOK 6ª)
+
 1. Integração
 2. Escopo
 3. Cronograma

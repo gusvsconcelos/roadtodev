@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "2025.1/Engenharia de Software/1.Fundamentos de Software e Gerenciamento de Projetos/Módulo 4.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 499.5
+    "width": 261.5
   },
   "right": {
     "id": "38d6d89cc8c648f9",
@@ -166,9 +166,9 @@
   "active": "517d8eec9840380d",
   "lastOpenFiles": [
     "2025.1/Engenharia de Software/1.Fundamentos de Software e Gerenciamento de Projetos/Módulo 3.md",
-    "2025.1/Engenharia de Software/1.Fundamentos de Software e Gerenciamento de Projetos/Módulo 4.md",
     "2025.1/Engenharia de Software/1.Fundamentos de Software e Gerenciamento de Projetos/Módulo 2.md",
     "2025.1/Engenharia de Software/1.Fundamentos de Software e Gerenciamento de Projetos/Módulo 1.md",
+    "2025.1/Engenharia de Software/1.Fundamentos de Software e Gerenciamento de Projetos/Módulo 4.md",
     "2025.1/Engenharia de Software/Sem título.md",
     "2025.1/Engenharia de Software/1.Fundamentos de Software e Gerenciamento de Projetos",
     "2025.1/Matemática e Lógica/1.Teoria Dos Conjuntos e Princípios de Contagem/Módulo 1.md",

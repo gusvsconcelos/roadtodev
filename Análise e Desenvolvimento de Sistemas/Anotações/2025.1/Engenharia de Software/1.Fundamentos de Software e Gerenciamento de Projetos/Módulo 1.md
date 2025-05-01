@@ -4,9 +4,9 @@
 
 ### Definição
 
-➡️ Instruções + estruturas de dados + documentação que entregam funções (Pressman 2016).
+> *Instruções + estruturas de dados + documentação que entregam funções.*
 
-### Categorias
+### Categorias de Software
 
 1. Sistema
 2. Aplicação
@@ -16,9 +16,9 @@
 6. Web/Mobile
 7. IA
 
-### Desafios
+### Desafios no Desenvolvimento de Software
 
-- “Crise do Software”: hardware potente ⇒ software mais complexo (Dijkstra 1972).
+- **Crise do Software**: hardware potente ⇒ software mais complexo.
 - Exige práticas de engenharia.
 
 ---

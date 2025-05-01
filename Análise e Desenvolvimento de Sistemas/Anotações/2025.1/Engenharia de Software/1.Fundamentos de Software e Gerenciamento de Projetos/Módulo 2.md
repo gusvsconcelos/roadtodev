@@ -6,7 +6,7 @@
 - **Não funcionais**: restrições/qualidade.
 - **Domínio**: regras de negócio.  
   
-➡️ Resultado: *Documento de Requisitos* (define escopo e inicia rastreabilidade).
+**Resultado**: *Documento de Requisitos* (define escopo e inicia rastreabilidade).
 
 ---
 ## 2. Análise
