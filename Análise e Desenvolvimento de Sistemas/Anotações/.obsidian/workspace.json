@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6b0627a361aeb3e5",
+        "id": "ffd5420bccd44ef0",
         "type": "tabs",
         "children": [
           {
-            "id": "bd41e06cf1580188",
+            "id": "c06431db6a47170c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "2025.1/Engenharia de Software/4.Qualidade de Software/Resumo.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Resumo"
             }
           }
         ]
@@ -40,7 +44,7 @@
                 "autoReveal": true
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de arquivos"
             }
           },
           {
@@ -151,20 +155,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "43759332df85bd01",
+  "active": "c06431db6a47170c",
   "lastOpenFiles": [
-    "2025.1/Engenharia de Software/3.Modelos de Processos de Desenvolvimento de Software/Módulo 2.md",
-    "2025.1/Engenharia de Software/3.Modelos de Processos de Desenvolvimento de Software/Módulo 1.md",
+    "2025.1/Engenharia de Software/5.Gerenciamento de Configurações de Software/Resumo.md",
+    "2025.1/Engenharia de Software/4.Qualidade de Software/Resumo.md",
+    "2025.1/Engenharia de Software/5.Gerenciamento de Configurações de Software",
     "2025.1/Engenharia de Software/3.Modelos de Processos de Desenvolvimento de Software/Módulo 4.md",
     "2025.1/Engenharia de Software/3.Modelos de Processos de Desenvolvimento de Software/Módulo 3.md",
+    "2025.1/Engenharia de Software/3.Modelos de Processos de Desenvolvimento de Software/Módulo 1.md",
+    "2025.1/Engenharia de Software/4.Qualidade de Software",
+    "2025.1/Engenharia de Software/3.Modelos de Processos de Desenvolvimento de Software/Módulo 2.md",
     "2025.1/Engenharia de Software/2.Fases do Desenvolvimento de Software/Módulo 3.md",
     "2025.1/Engenharia de Software/3.Modelos de Processos de Desenvolvimento de Software",
     "2025.1/Engenharia de Software/2.Fases do Desenvolvimento de Software/Módulo 2.md",
@@ -190,12 +198,7 @@
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/1.RAD (Rapid Applications Development)/Módulo 1.md",
     "2025.1/Matemática e Lógica",
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/2.Manipulação de Dados em Arquivos/Módulo 3.md",
-    "2025.1/Desenvolvimento Rápido de Aplicações em Python/2.Manipulação de Dados em Arquivos/Módulo 2.md",
-    "2025.1/Desenvolvimento Rápido de Aplicações em Python/2.Manipulação de Dados em Arquivos/Módulo 1.md",
-    "2024.1/Pensamento Computacional/4.Representação de imagens em computadores/Módulo 2.md",
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/5.Aplicando RAD",
-    "2025.1/Desenvolvimento Rápido de Aplicações em Python/4.Interface Gráfica com Python",
-    "2025.1/Desenvolvimento Rápido de Aplicações em Python/3.Python Com Banco de Dados",
-    "2025.1/Desenvolvimento Rápido de Aplicações em Python/2.Manipulação de Dados em Arquivos"
+    "2025.1/Desenvolvimento Rápido de Aplicações em Python/4.Interface Gráfica com Python"
   ]
 }
