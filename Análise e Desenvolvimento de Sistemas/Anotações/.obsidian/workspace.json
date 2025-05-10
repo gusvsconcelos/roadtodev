@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c16a3d25d933d409",
+        "id": "725ec192567dad9d",
         "type": "tabs",
         "children": [
           {
-            "id": "b7ffa25db9165ae3",
+            "id": "4866ac86c8db2d8b",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {},
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Nova aba"
             }
           }
         ]
@@ -40,7 +40,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de arquivos"
             }
           },
           {
@@ -151,18 +151,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false
     }
   },
   "active": "43759332df85bd01",
   "lastOpenFiles": [
-    "2025.1/Engenharia de Software/4.Qualidade de Software/Resumo.md",
+    "2025.1/Sistemas Operacionais/1.Conceitos Básicos de SO/Resumo.md",
+    "2025.1/Sistemas Operacionais/2.Processos e Gerência de Processador/Resumo.md",
+    "2025.1/Sistemas Operacionais/2.Processos e Gerência de Processador",
+    "2025.1/Sistemas Operacionais/1.Conceitos Básicos de SO.md",
+    "2025.1/Sistemas Operacionais/1.Conceitos Básicos de SO",
     "2025.1/Engenharia de Software/5.Gerenciamento de Configurações de Software/Resumo.md",
+    "2025.1/Sistemas Operacionais",
+    "2025.1/Engenharia de Software/4.Qualidade de Software/Resumo.md",
     "2025.1/Engenharia de Software/5.Gerenciamento de Configurações de Software",
     "2025.1/Engenharia de Software/3.Modelos de Processos de Desenvolvimento de Software/Módulo 4.md",
     "2025.1/Engenharia de Software/3.Modelos de Processos de Desenvolvimento de Software/Módulo 3.md",
@@ -190,11 +196,6 @@
     "2025.1/Matemática e Lógica/Módulo 1.md",
     "2025.1/Matemática e Lógica/1.Teoria Dos Conjuntos e Princípios de Contagem",
     "2025.1/Desenvolvimento Rápido de Aplicações em Python/1.RAD (Rapid Applications Development)/Módulo 3.md",
-    "2025.1/Desenvolvimento Rápido de Aplicações em Python/1.RAD (Rapid Applications Development)/Módulo 2.md",
-    "2025.1/Desenvolvimento Rápido de Aplicações em Python/1.RAD (Rapid Applications Development)/Módulo 1.md",
-    "2025.1/Matemática e Lógica",
-    "2025.1/Desenvolvimento Rápido de Aplicações em Python/2.Manipulação de Dados em Arquivos/Módulo 3.md",
-    "2025.1/Desenvolvimento Rápido de Aplicações em Python/5.Aplicando RAD",
-    "2025.1/Desenvolvimento Rápido de Aplicações em Python/4.Interface Gráfica com Python"
+    "2025.1/Desenvolvimento Rápido de Aplicações em Python/1.RAD (Rapid Applications Development)/Módulo 2.md"
   ]
 }
