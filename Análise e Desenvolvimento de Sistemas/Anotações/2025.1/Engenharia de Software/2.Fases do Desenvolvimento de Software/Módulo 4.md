@@ -16,10 +16,10 @@
 
 ➡️ Garante controle de versões e alterações.
 
-| Tarefa                        | Função                           |
-| ----------------------------- | -------------------------------- |
-| **Controle de alterações**    | Avaliar e aplicar mudanças (ECO) |
-| **Gerenciamento de releases** | Quando, como e o que entregar    |
+| **Tarefa**                | **Função**                       |
+| ------------------------- | -------------------------------- |
+| Controle de alterações    | Avaliar e aplicar mudanças (ECO) |
+| Gerenciamento de releases | Quando, como e o que entregar    |
 
 ---
 ## 3. Manutenção

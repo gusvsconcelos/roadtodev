@@ -7,32 +7,32 @@
 ---
 ## 2. Atividades do Projeto
 
-### **Refinamento estrutural (modelo de classes)**
+### Refinamento estrutural (modelo de classes)
 
 - Adição de atributos, métodos, tipos.
 - Aplicação de **padrões de projeto** (ex.: Factory Method).
 
-### **Detalhamento dinâmico (interação)**
+### Detalhamento dinâmico (interação)
 
 - Diagramas de sequência e comunicação.
 - Mapeiam a troca de mensagens entre objetos.
 
 > *🧩 Métodos nas classes são extraídos dessas interações.*
 
-### **Projeto da Arquitetura**
+### Projeto da Arquitetura
 
 ➡️ Divisão do sistema em **subsistemas/coletivos lógicos**.
 
 **Abstrações:**
 
-| Tipo       | Conteúdo                                                     |
-| ---------- | ------------------------------------------------------------ |
-| **Lógica** | Camadas: Apresentação, Aplicação, Domínio, Serviços Técnicos |
-| **Física** | Infraestrutura: servidores, nós, redes                       |
+| **Tipo** | **Conteúdo**                                                 |
+| -------- | ------------------------------------------------------------ |
+| Lógica   | Camadas: Apresentação, Aplicação, Domínio, Serviços Técnicos |
+| Física   | Infraestrutura: servidores, nós, redes                       |
 
 ➡️ **Modelo em Camadas** (baixo acoplamento, alta coesão):
 
-| Camada            | Função                       |
+| **Camada**        | **Função**                   |
 | ----------------- | ---------------------------- |
 | Apresentação      | Interface com o usuário      |
 | Aplicação         | Controle entre camadas       |
@@ -45,7 +45,7 @@
 - **View**: exibição.
 - **Controller**: fluxo e ações.
 
-### **Mapeamento Objeto‑Relacional**
+### Mapeamento Objeto‑Relacional
 
 ➡️ Traduzir **objetos (UML)** em **tabelas (relacional)**.
 

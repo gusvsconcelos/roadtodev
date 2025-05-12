@@ -4,11 +4,11 @@
 
 A Engenharia de Software é estruturada em **camadas**:
 
-| Camada          | Descrição                                          |
+| **Camada**      | **Descrição**                                      |
 | --------------- | -------------------------------------------------- |
-| **Qualidade**   | Garante que os requisitos atendam às expectativas. |
-| **Processo**    | Define etapas do desenvolvimento.                  |
-| **Métodos**     | Técnicas e artefatos de software.                  |
+| Qualidade       | Garante que os requisitos atendam às expectativas. |
+| Processo        | Define etapas do desenvolvimento.                  |
+| Métodos         | Técnicas e artefatos de software.                  |
 | **Ferramentas** | Suporte com ferramentas CASE.                      |
 
 > *🧠 Processo é base da engenharia: sem processo, não há engenharia de software.*
@@ -48,19 +48,19 @@ A Engenharia de Software é estruturada em **camadas**:
 ---
 ## 4. Etapas do Processo de Requisitos
 
-### 1. **Concepção**
+### Concepção
 
 - Entendimento inicial do problema.
 - Identificação das partes interessadas.
 - Alinhamento preliminar com a equipe.
 
-### 2. **Levantamento**
+### Levantamento
 
 - Define escopo e visão compartilhada do problema.
 - Produz o **documento de requisitos**.
 - Permite **rastreabilidade**.
 
-### 3. **Elaboração**
+### Elaboração
 
 **Criação de modelos:**
 
@@ -68,19 +68,19 @@ A Engenharia de Software é estruturada em **camadas**:
 - Diagramas de classes
 - Diagramas de atividades e estados
 
-### 4. **Negociação**
+### Negociação
     
 - Resolver conflitos e priorizar requisitos.
 
-### 5. **Especificação**
+### Especificação
     
 - Consolidar requisitos e modelos num único documento.
 
-### 6. **Validação**
+### Validação
     
 - Garantir que os requisitos representem a necessidade do usuário.
         
-### 7. **Gestão de requisitos**
+### Gestão de requisitos
     
 - Gerenciar mudanças.
 - Usar **matriz de rastreabilidade**.

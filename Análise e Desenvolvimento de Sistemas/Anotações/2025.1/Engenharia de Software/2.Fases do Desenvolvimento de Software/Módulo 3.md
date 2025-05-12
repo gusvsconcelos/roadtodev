@@ -17,7 +17,7 @@
 ---
 ## 2. Qualidade de Software (ISO 9126)
 
-| Atributo         | Descrição                       |
+| **Atributo**     | **Descrição**                   |
 | ---------------- | ------------------------------- |
 | Funcionalidade   | Cumprimento dos requisitos      |
 | Confiabilidade   | Tempo de disponibilidade        |

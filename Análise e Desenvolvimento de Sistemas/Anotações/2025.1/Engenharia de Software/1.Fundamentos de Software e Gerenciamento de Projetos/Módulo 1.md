@@ -4,7 +4,7 @@
 
 ### Definição
 
-> *Instruções + estruturas de dados + documentação que entregam funções.*
+➡️ Instruções + estruturas de dados + documentação que entregam funções.
 
 ### Categorias de Software
 
@@ -18,7 +18,7 @@
 
 ### Desafios no Desenvolvimento de Software
 
-- **Crise do Software**: hardware potente ⇒ software mais complexo.
+- **Crise do Software**: hardware potente ➡️ software mais complexo.
 - Exige práticas de engenharia.
 
 ---
