@@ -3,7 +3,7 @@
 ---
 ### 📌 1. O QUE É QUALIDADE DE SOFTWARE?
 
-- ==Capacidade de atender aos requisitos especificados== com **confiabilidade**, **segurança**, **desempenho** e **facilidade** de **manutenção**.
+- ==Capacidade de atender aos requisitos especificados== com **confiabilidade**, **segurança**, **desempenho** e **facilidade de manutenção**.
 
 Abrange:
 
