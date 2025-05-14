@@ -1,212 +1,149 @@
 ## ✅ RESUMO PARA PROVAS – CONCEITOS BÁSICOS DE SISTEMAS OPERACIONAIS (SO)
 
 ---
-
 ### 🔹 1. CONCEITOS FUNDAMENTAIS
 
 - **Sistema Operacional (SO)**: Software que atua como intermediário entre os programas de aplicação e o hardware.
     
-- **Funções principais**:
+**Funções principais**:
     
-    - Gerenciar hardware e software
-        
-    - Coordenar execução de programas
-        
-    - Abstrair e proteger o hardware
-        
+- Gerenciar hardware e software
+- Coordenar execução de programas
+- Abstrair e proteger o hardware
 
 #### Componentes de um Sistema Computacional:
 
 - **Hardware**: CPU, memória, dispositivos de E/S
-    
 - **Software**: Aplicativos e o SO
-    
 - **Usuários**: Pessoas, sistemas ou outros computadores
-    
 
 #### Modos de Execução:
 
 - **Modo Usuário**: Acesso restrito, usado por programas
-    
 - **Modo Kernel (Supervisor)**: Acesso total ao hardware, reservado ao SO
-    
 
 #### Interface com o SO:
 
 - **CLI (Shell)**: Interface de linha de comando
-    
 - **GUI (Interface gráfica)**: Interface com ícones e menus
-    
 
 ---
-
 ### 🔹 2. EVOLUÇÃO DOS SISTEMAS OPERACIONAIS
 
 #### Primeira Geração (1945-1955):
 
 - Programados com **painéis físicos**
-    
 - Uso de **válvulas**
-    
 
 #### Segunda Geração (1955-1965):
 
 - Introdução dos **transistores**
-    
 - Aparecimento dos **sistemas em lote (batch)**
-    
 
 #### Terceira Geração (1965-1980):
 
-- Introdução de:
+Introdução de:
     
-    - **Multiprogramação**
-        
-    - **Time-sharing**
-        
-    - **Spooling**
-        
-    - **Memória virtual**
-        
-    - **UNIX**
-        
+- **Multiprogramação**
+- **Time-sharing**
+- **Spooling**
+- **Memória virtual**
+- **UNIX**
 
 #### Quarta Geração (1980 - atual):
 
 - **Computadores pessoais, TCP/IP, SOs multiusuários, interfaces gráficas, Internet, Open Source**
-    
 
 #### Unix e Windows:
 
 - **Unix**: Reescrito em C, multiusuário, multitarefa, influenciou o Linux
-    
 - **Windows**:
-    
     - Começou com o MS-DOS
-        
     - Evoluiu para Windows NT, XP, 7, 10, etc.
-        
 
 ---
-
 ### 🔹 3. TIPOS DE SISTEMAS OPERACIONAIS
 
-|Tipo|Características|
-|---|---|
-|**Monoprogramável**|Executa apenas um programa por vez. CPU ociosa durante operações de E/S.|
-|**Multiprogramável**|Executa vários programas alternadamente. Aumenta o uso da CPU.|
-|**Multiusuário**|Suporta vários usuários ao mesmo tempo.|
-|**Multiprocessador**|Usa vários processadores (SMP, NUMA, fracamente/fortemente acoplados).|
-|**Tempo Real**|Executa tarefas em tempo determinístico. Crítico ou não crítico.|
-|**Batch (em lote)**|Executa tarefas automaticamente sem interação do usuário.|
-|**Transação**|Processa grandes volumes de pequenas requisições (ex: banco, passagens).|
+| **Tipo**         | **Características**                                                      |
+| ---------------- | ------------------------------------------------------------------------ |
+| Monoprogramável  | Executa apenas um programa por vez. CPU ociosa durante operações de E/S. |
+| Multiprogramável | Executa vários programas alternadamente. Aumenta o uso da CPU.           |
+| Multiusuário     | Suporta vários usuários ao mesmo tempo.                                  |
+| Multiprocessador | Usa vários processadores (SMP, NUMA, fracamente/fortemente acoplados).   |
+| Tempo Real       | Executa tarefas em tempo determinístico. Crítico ou não crítico.         |
+| Batch (em lote)  | Executa tarefas automaticamente sem interação do usuário.                |
+| Transação        | Processa grandes volumes de pequenas requisições (ex: banco, passagens). |
 
 #### Softwares por Licença:
 
 - **Proprietário**: Código fechado
-    
 - **Software Livre (FSF)**: Liberdade de uso, modificação e distribuição
-    
 - **Open Source (OSI)**: Código aberto, mas não necessariamente livre
-    
 
 ---
-
 ### 🔹 4. ESTRUTURA DO SISTEMA OPERACIONAL
 
 #### Kernel
 
 - Parte central do SO
-    
 - Executado em modo kernel
-    
 - Responsável por:
-    
     - Criação/remoção de processos
-        
     - Gerenciamento de memória
-        
     - Escalonamento
-        
     - Suporte a redes
-        
     - Gerenciamento de E/S e arquivos
-        
 
 #### System Calls (Chamadas ao Sistema)
 
 - Interface entre programa e kernel
-    
 - Realiza:
-    
     - Acesso a arquivos
-        
     - Criação de processos
-        
     - Comunicação entre processos
-        
 
 #### Modos de Acesso
 
 - **Modo kernel**: executa instruções privilegiadas
-    
 - **Modo usuário**: instruções restritas, usa system calls
-    
 
 #### Arquiteturas de Kernel
 
-|Arquitetura|Características|
-|---|---|
-|**Monolítica**|Todo o SO está em um único módulo executável|
-|**Em Camadas**|SO dividido em níveis. Mais segurança, menor desempenho|
-|**Microkernel**|Apenas serviços essenciais no núcleo; outros em modo usuário|
-|**VM (Virtual Machine)**|Cria máquinas virtuais completas sobre o hardware real.|
-|**Exokernel**|Aloca recursos diretamente; cada VM usa parte definida do hardware|
+| **Arquitetura**      | **Características**                                                |
+| -------------------- | ------------------------------------------------------------------ |
+| Monolítica           | Todo o SO está em um único módulo executável                       |
+| Em Camadas           | SO dividido em níveis. Mais segurança, menor desempenho            |
+| Microkernel          | Apenas serviços essenciais no núcleo; outros em modo usuário       |
+| VM (Virtual Machine) | Cria máquinas virtuais completas sobre o hardware real.            |
+| Exokernel            | Aloca recursos diretamente; cada VM usa parte definida do hardware |
 
 ---
-
 ### 🔹 5. LINUX: INSTALAÇÃO, ESTRUTURA E COMANDOS
 
 #### Instalação e Distribuição:
 
 - Ex: **Ubuntu** (base Debian)
-    
 - Pode ser instalada ou executada via live CD/USB
-    
 - Versões como "20.04 LTS" indicam ano/mês e suporte
-    
 
 #### Diretórios do Linux:
 
 - `/`: Raiz
-    
 - `/home`: pastas dos usuários
-    
 - `/bin`: comandos essenciais
-    
 - `/etc`: configurações
-    
 - `/var`: logs e dados variáveis
-    
 - `/tmp`: arquivos temporários
-    
 - `/dev`: dispositivos
-    
 
 #### Comandos básicos:
 
 - `pwd`: mostra diretório atual
-    
 - `cd`: troca de diretório
-    
 - `ls`: lista arquivos
-    
 - `mv`: move/renomeia
-    
 - `cp`: copia arquivos
-    
 - `rm`: remove arquivos
-    
 
 ---
 
