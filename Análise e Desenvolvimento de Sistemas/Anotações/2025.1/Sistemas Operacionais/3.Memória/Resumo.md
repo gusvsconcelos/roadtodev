@@ -5,47 +5,32 @@
 ### 🔹 CONCEITOS BÁSICOS DE MEMÓRIA
 
 - **Memória**: Recurso essencial para execução de programas.
-    
 - **Hierarquia da memória**:
-    
     - **Registradores / Cache** (interno, volátil, rápido e caro)
-        
     - **Memória RAM** (primária, volátil)
-        
     - **Armazenamento secundário** (disco, SSD, etc., não volátil)
-        
-
 #### Tipos:
 
 - **Memória Física**: Espaço real acessado pelo hardware.
-    
 - **Memória Lógica (virtual)**: Espaço que o processo "enxerga".
-    
 
 #### MMU (Unidade de Gerenciamento de Memória)
 
 - Faz o mapeamento do endereço lógico para o físico.
-    
 - Usa registradores base e limite para proteção de memória.
-    
 
 ---
 
 ### 🔹 PROTEÇÃO E RELOCAÇÃO
 
 - **Registrador base**: endereço inicial da memória do processo.
-    
 - **Registrador limite**: tamanho da memória do processo.
-    
 
 #### Relocação
 
 - Permite que o processo seja carregado em diferentes endereços.
-    
 - **Estática**: feita na geração do módulo.
-    
 - **Dinâmica**: feita em tempo de execução pela MMU.
-    
 
 ---
 
@@ -54,135 +39,94 @@
 #### Alocação contígua
 
 - Processo ocupa bloco contínuo.
-    
 - Problema: fragmentação externa.
-    
 
 #### Overlay
 
 - Programa é dividido em módulos que usam o mesmo espaço de memória em momentos diferentes.
-    
 
 #### Partição fixa
 
 - Memória é dividida em partes fixas.
-    
 - Pode haver uma fila por partição ou uma única fila.
-    
 - Causa fragmentação interna.
-    
 
 #### Partição variável
 
 - Partições dinâmicas conforme o tamanho do processo.
-    
 - Pode gerar fragmentação externa.
-    
 
 #### Políticas de seleção:
 
 - **First Fit**: primeira partíção que cabe.
-    
 - **Best Fit**: menor partíção disponível.
-    
 - **Worst Fit**: maior partíção disponível.
-    
 
 #### Fragmentação
 
 - **Interna**: espaço desperdiçado dentro da partícia.
-    
 - **Externa**: espaços livres não contíguos.
-    
-
 #### Compactação
 
 - Reorganiza os blocos para formar espaço contíguo (custo alto).
-    
 
 ---
 
 ### 🔹 SWAPPING (PERMUTA)
 
 - Processo bloqueado pode ser retirado da memória e armazenado no disco.
-    
 - Libera espaço para outros processos.
-    
 - Exige **relocação dinâmica**.
-    
 - Desvantagem: tempo de transferência disco <-> memória é alto.
     
-
 ---
 
 ### 🔹 GERENCIAMENTO DE ESPAÇO LIVRE
 
 - **Mapa de bits**: um bit por unidade de memória (0 = livre, 1 = ocupada)
-    
 - **Lista encadeada**: cada nó indica segmento livre ou ocupado
-    
 
 ---
 
 ### 🔹 MEMÓRIA VIRTUAL
 
 - Espaço de endereçamento maior que a memória física.
-    
 - Parte do programa fica em disco, e é carregada sob demanda.
-    
 - Implementada via **paginação** ou **segmentação**.
-    
 
 #### Paginação
 
 - Divide memória em:
-    
     - **Páginas** (lógicas)
-        
     - **Molduras** (físicas)
-        
 - SO usa tabela de páginas para mapeamento.
-    
 - Page Fault: página requisitada não está na RAM → busca no disco.
-    
 
 #### Proteção:
 
 - Bits de acesso (leitura, gravação, válido/inválido) por quadro.
-    
 
 #### Algoritmos de substituição:
 
 - **FIFO**
-    
 - **LRU** (Least Recently Used)
-    
 - **NRU** (Not Recently Used)
-    
 - **LFU** (Least Frequently Used)
-    
 - **Aleatório**
-    
 - **Segunda chance (clock)**: baseado em bit de referência e modificado.
-    
 
 #### Working Set
 
 - Conjunto de páginas frequentemente acessadas por um processo.
-    
 
 ---
 
 ### 🔹 SEGMENTAÇÃO
 
 - Divide programa logicamente (código, dados, stack, etc.).
-    
 - Endereço lógico = (segmento, deslocamento)
-    
 - Tabela de segmentos usada para mapeamento.
-    
 - Protege e organiza logicamente o espaço.
-    
 
 ---
 
@@ -193,38 +137,27 @@
 - Dividida em zonas:
     
     - **ZONE_DMA**: <16MB
-        
     - **ZONE_DMA32**: <4GB
-        
     - **ZONE_NORMAL**: memória com acesso normal
-        
     - **ZONE_HIGHMEM**: memória não acessível diretamente (32 bits)
-        
 
 #### Memória virtual
 
 - Cada processo tem:
     
     - **Visão lógica**: regiões organizadas em árvore (layout de endereçamento)
-        
     - **Visão física**: mapeamento nas tabelas de páginas
-        
 
 #### Execução de programas
 
 - `exec()`: novo layout, novo programa
-    
 - `fork()`: cópia do espaço de endereçamento do pai
-    
 
 #### Paginação sob demanda
 
 - Páginas só são carregadas quando referenciadas
-    
 - Substituição: algoritmo do relógio (segunda chance)
-    
 - Kernel reserva regiões do espaço virtual para uso interno
-    
 
 ---
 
@@ -235,11 +168,8 @@
 **1.** Considere um processo com registrador base = 4000 e limite = 2000. Sobre os endereços lógicos abaixo:
 
 - 3800
-    
 - 5200
-    
 - 6200
-    
 
 Quais são acessos válidos?
 
