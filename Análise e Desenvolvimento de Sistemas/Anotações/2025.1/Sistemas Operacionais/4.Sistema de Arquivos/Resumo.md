@@ -9,27 +9,19 @@
 - **Finalidades**:
     
     - Persistência de dados
-        
     - Compartilhamento seguro
-        
     - Organização e controle
-        
 
 #### Componentes:
 
 - **Arquivos**: unidades lógicas de dados
-    
 - **Diretórios**: estruturas que organizam os arquivos
-    
 
 #### Requisitos:
 
 - Armazenamento persistente
-    
 - Acesso concorrente
-    
 - Gerência uniforme, independente do dispositivo
-    
 
 ---
 
@@ -38,38 +30,26 @@
 #### Tipos:
 
 - Texto (ASCII)
-    
 - Binários
-    
 
 #### Estrutura:
 
 - **Sequência de bytes** (sem estrutura imposta, comum em Linux e Windows)
-    
 - **Registros de tamanho fixo**
-    
 - **Árvore de registros** (busca rápida por chave)
-    
 
 #### Acesso:
 
 - **Sequencial**
-    
 - **Aleatório**
-    
 - **Indexado**
-    
 
 #### Tipos de arquivos:
 
 - **Regulares**: dados genéricos
-    
 - **Diretórios**: mantém organização
-    
 - **Especiais de caractere**: dispositivos seriais
-    
 - **Especiais de bloco**: discos
-    
 
 ---
 
@@ -78,25 +58,18 @@
 #### Modelos:
 
 - **Nível único**: todos os arquivos em um só diretório
-    
 - **Dois níveis**: um por usuário
-    
 - **Árvore (hierárquico)**: mais usado hoje
-    
 
 #### Caminhos:
 
 - **Absoluto**: inicia na raiz (/)
-    
 - **Relativo**: baseado no diretório de trabalho
-    
 
 #### Entradas especiais:
 
 - `.`: diretório atual
-    
 - `..`: diretório pai
-    
 
 ---
 
@@ -105,29 +78,23 @@
 #### Técnicas:
 
 - **Contígua**:
-    
     - Arquivo em blocos sequenciais
-        
     - ▶ Rápido, mas propenso à fragmentação
-        
+		
 - **Lista encadeada**:
     
     - Blocos ligados por ponteiros
-        
     - ▶ Permite fragmentação, acesso apenas sequencial
         
 - **Lista encadeada com índice (FAT)**:
     
     - Tabela em memória indica ordem dos blocos
-        
     - ▶ Mais rápido, mas tabela pode ser grande
         
 - **Alocação indexada (i-nodes)**:
     
     - Cada arquivo tem um i-node com endereços de blocos
-        
     - ▶ Eficiente e flexível
-        
 
 ---
 
@@ -138,33 +105,24 @@
 - Estrutura:
     
     - Superbloco
-        
     - Grupos de blocos
-        
     - Mapas de bits (blocos/i-nodes livres)
-        
     - i-nodes (metadados e blocos de dados)
         
 - Diretórios armazenam nomes de arquivos + nº do i-node
-    
 
 #### EXT3 (Journaling):
 
 - Introduz o **journaling**: transações gravadas em um diário antes de afetar o disco
-    
 - Melhora a confiabilidade e recuperação
-    
 
 ---
 
 ### 🔹 CACHE DE DISCO
 
 - Acesso a disco é lento → usa-se **memória cache**
-    
 - **Write-through**: grava disco imediatamente (mais seguro)
-    
 - **Write-back**: grava depois (mais rápido, maior risco)
-    
 
 ---
 
@@ -173,20 +131,15 @@
 #### Particionamento:
 
 - Disco dividido em partes independentes
-    
 - Cada partícia pode conter um sistema de arquivos
-    
 - **MBR**: setor inicial com tabela de partíção
-    
 
 #### Montagem:
 
 - Linux: partícia montada em um ponto da árvore de diretórios
-    
     - Ex: /mnt/usb, /media/cdrom
         
 - Windows: cada unidade possui uma letra (C:, D:, etc.)
-    
 
 ---
 
@@ -195,39 +148,24 @@
 #### Manipulação de diretórios:
 
 - `ls`: lista arquivos
-    
 - `pwd`: mostra diretório atual
-    
 - `cd`: altera diretório
-    
 - `mkdir`: cria diretório
-    
-- `rmdir`: remove diretório vazio
-    
 
 #### Manipulação de arquivos:
 
 - `rm`: remove arquivos
-    
 - `cp`: copia arquivos
-    
 - `mv`: move ou renomeia
-    
 - `cat`: mostra conteúdo
-    
 - `find`: busca arquivos
-    
 
 #### Gerenciamento:
 
 - `fsck`: verifica e corrige sistemas de arquivos
-    
 - `df`: mostra uso de disco
-    
 - `lsblk`: lista dispositivos de bloco
-    
 - `/etc/fstab`: configura partíções a serem montadas
-    
 
 ---
 
@@ -236,16 +174,12 @@
 #### Simbólicos (soft):
 
 - Apontam para outro caminho
-    
 - Não compartilham i-node
-    
 
 #### Hardlinks:
 
 - Apontam para o mesmo i-node
-    
 - Modificação afeta todos os links
-    
 
 ---
 
