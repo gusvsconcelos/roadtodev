@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025.1/Sistemas Operacionais/4.Sistema de Arquivos/Resumo.md",
+                "file": "2025.1/Sistemas Operacionais/5.Automatizando Tarefas no Linux/Resumo.md",
                 "mode": "source",
                 "source": false
               },
@@ -165,6 +165,9 @@
   },
   "active": "4866ac86c8db2d8b",
   "lastOpenFiles": [
+    "2025.1/Sistemas Operacionais/4.Sistema de Arquivos/Resumo.md",
+    "2025.1/Sistemas Operacionais/5.Automatizando Tarefas no Linux/Resumo.md",
+    "2025.1/Sistemas Operacionais/5.Automatizando Tarefas no Linux",
     "2025.1/Sistemas Operacionais/3.Memória/Resumo.md",
     "2025.1/Sistemas Operacionais/2.Processos e Gerência de Processador/Resumo.md",
     "2025.1/Sistemas Operacionais/1.Conceitos Básicos de SO/Resumo.md",
@@ -182,7 +185,6 @@
     "2025.1/Engenharia de Software/1.Fundamentos de Software e Gerenciamento de Projetos/Módulo 3.md",
     "2025.1/Engenharia de Software/1.Fundamentos de Software e Gerenciamento de Projetos/Módulo 2.md",
     "2025.1/Engenharia de Software/1.Fundamentos de Software e Gerenciamento de Projetos/Módulo 1.md",
-    "2025.1/Sistemas Operacionais/4.Sistema de Arquivos/Resumo.md",
     "2025.1/Sistemas Operacionais/4.Sistema de Arquivos/Untitled",
     "2025.1/Sistemas Operacionais/4.Sistema de Arquivos",
     "2025.1/Sistemas Operacionais/3.Memória/Untitled",
@@ -193,13 +195,11 @@
     "2025.1/Sistemas Operacionais",
     "2025.1/Engenharia de Software/5.Gerenciamento de Configurações de Software",
     "2025.1/Engenharia de Software/4.Qualidade de Software",
-    "2025.1/Engenharia de Software/3.Modelos de Processos de Desenvolvimento de Software",
     "2025.1/Engenharia de Software/Sem título.md",
     "2025.1/Matemática e Lógica/1.Teoria Dos Conjuntos e Princípios de Contagem/Módulo 1.md",
     "2025.1/Engenharia de Software.md",
     "2025.1/Matemática e Lógica/1.Teoria Dos Conjuntos e Princípios de Contagem/Módulo 3.md",
     "2025.1/Matemática e Lógica/1.Teoria Dos Conjuntos e Princípios de Contagem/Módulo 2.md",
-    "2025.1/Desenvolvimento Rápido de Aplicações em Python/5.Aplicando RAD/Módulo 1.md",
-    "2025.1/Matemática e Lógica/Módulo 1.md"
+    "2025.1/Desenvolvimento Rápido de Aplicações em Python/5.Aplicando RAD/Módulo 1.md"
   ]
 }
