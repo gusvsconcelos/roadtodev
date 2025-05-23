@@ -5,45 +5,31 @@
 ### 🔹 CONCEITOS BÁSICOS E HISTÓRICO
 
 - **Banco de Dados (BD)**: coleção de dados relacionados, com significado e organizados para uso posterior.
-    
 - **SBD**: sistema completo, incluindo BD, SGBD e aplicações.
-    
 - **SGBD**: software intermediário entre aplicações e dados armazenados.
-    
 
 #### Evolução:
 
 - **Anos 1940**: computadores para cálculos (Babbage, von Neumann).
-    
 - **Anos 1950**: disco magnético (DASD) permitiu acesso direto aos dados.
-    
 - **Anos 1960**: surgem os SGBD, com independência entre dados e programas.
-    
 
 #### Sistemas de arquivos vs SBD:
 
 - Em sistemas de arquivos, cada programa controla seu próprio acesso aos dados.
-    
 - No SBD, o SGBD centraliza a gerência e fornece **independência de dados**.
-    
 
 #### Tipos iniciais de SGBD:
 
 - **Hierárquico (IMS)**: estrutura em árvore
-    
 - **Rede (IDS/CODASYL)**: estrutura em grafo
-    
 - Ambos são **navegacionais**: navega-se entre registros
-    
 
 #### Modelo relacional (Codd, 1970):
 
 - Baseado em **relações matemáticas** (tabelas)
-    
 - Usa a linguagem **SQL**
-    
 - Simplificou e padronizou o acesso aos dados
-    
 
 ---
 
@@ -52,13 +38,9 @@
 #### Principais SGBD:
 
 - **Oracle**: líder comercial, suporta múltiplos modelos
-    
 - **MySQL**: open source, usado em aplicações web
-    
 - **SQL Server**: desenvolvido com base no Sybase, popular no ambiente Windows
-    
 - **PostgreSQL**: relacional-objeto, open source, destaque em ensino e pesquisa
-    
 - **DB2 (IBM)**: robusto, multiplataforma
     
 
