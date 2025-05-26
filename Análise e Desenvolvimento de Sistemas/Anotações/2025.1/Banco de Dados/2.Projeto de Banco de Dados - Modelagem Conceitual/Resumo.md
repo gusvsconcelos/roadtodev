@@ -64,7 +64,7 @@
 - (0,1), (1,1), (0,N), (1,N)
 
 ---
-### 🔹 EXTENSÕES DO MODELO ER
+### EXTENSÕES DO MODELO ER
 
 #### Especialização / Generalização
 
@@ -94,7 +94,7 @@
 
 ---
 
-### 🔹 PRÁTICAS DE MODELAGEM
+### PRÁTICAS DE MODELAGEM
 
 #### Restrições de integridade
 

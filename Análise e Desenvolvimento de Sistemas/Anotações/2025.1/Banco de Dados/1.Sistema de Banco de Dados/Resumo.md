@@ -1,7 +1,7 @@
 ## ✅ RESUMO PARA PROVAS – SISTEMAS DE BANCO DE DADOS (SBD)
 
 ---
-### 🔹 CONCEITOS BÁSICOS E HISTÓRICO
+### CONCEITOS BÁSICOS E HISTÓRICO
 
 - **Banco de Dados (BD)**: ==coleção de dados relacionados==, com significado e organizados para uso posterior.
 - **SBD (Sistema de Banco de Dados)**: ==sistema completo, incluindo BD, SGBD e aplicações==.
@@ -31,7 +31,7 @@
 - ==Simplificou e padronizou o acesso aos dados==
 
 ---
-### 🔹 SGBD RELACIONAIS E EVOLUÇÃO
+### SGBD RELACIONAIS E EVOLUÇÃO
 
 #### Principais SGBD:
 
@@ -48,7 +48,7 @@
 - ==Alguns SGBD atuais são **multimodelos** (relacional + NoSQL)==
 
 ---
-### 🔹 CARACTERÍSTICAS DOS SBD
+### CARACTERÍSTICAS DOS SBD
 
 #### Independência de dados:
 
@@ -74,7 +74,7 @@
 - **Conceitual**: visão do usuário (modelo ER, UML)
 
 ---
-### 🔹 FUNCIONALIDADES DOS SBD
+### FUNCIONALIDADES DOS SBD
 
 - **Redução de redundância**
 - **Compartilhamento multiusuário (concorrência)**
@@ -103,7 +103,7 @@
 - Pode não ser ideal para sistemas pequenos ou de tempo real
 
 ---
-### 🔹 PAPÉIS EM SISTEMAS DE BANCO DE DADOS
+### PAPÉIS EM SISTEMAS DE BANCO DE DADOS
 
 - **Administrador de aplicações**: cuida das aplicações em execução
 - **Administrador de desenvolvimento**: participa do desenvolvimento de sistemas
@@ -112,7 +112,7 @@
 - **Administrador de sistema**: gerencia hardware e SO
 
 ---
-### 🔹 ARQUITETURA DOS SGBD
+### ARQUITETURA DOS SGBD
 
 #### Componentes:
 
@@ -135,7 +135,7 @@
 - **Programadores**: desenvolvem sistemas com comandos embutidos (SQL)
 
 ---
-### 🔹 POSTGRESQL (EXEMPLO DE SGBD RELACIONAL)
+### POSTGRESQL (EXEMPLO DE SGBD RELACIONAL)
 
 - **Origem**: projeto Ingres (Universidade da Califórnia)
 - **Modelo relacional-objeto**
