@@ -1,8 +1,7 @@
 ## ✅ RESUMO PARA PROVAS – CONSULTAS EM UMA TABELA NO POSTGRESQL
 
 ---
-
-### 🔹 ESTRUTURA BÁSICA DO SELECT
+### ESTRUTURA BÁSICA DO SELECT
 
 #### Sintaxe simples
 
@@ -11,9 +10,7 @@ SELECT coluna1, coluna2, ... FROM tabela;
 ```
 
 - `SELECT *` retorna todas as colunas.
-    
 - `AS` permite apelidar colunas: `SELECT nome AS "Nome Completo"`
-    
 
 #### Exemplo:
 
@@ -23,17 +20,12 @@ FROM ALUNO;
 ```
 
 ---
-
-### 🔹 FUNÇÕES DE DATA E HORA
+### FUNÇÕES DE DATA E HORA
 
 - `CURRENT_DATE`, `CURRENT_TIME`, `CURRENT_TIMESTAMP`
-    
 - `EXTRACT(parte FROM data)` extrai partes como `YEAR`, `MONTH`, `DAY`, `DOW`, `DOY`, `CENTURY`
-    
 - `AGE(data)` calcula a idade
-    
 - `CASE WHEN` define condições (usado para exibir dia da semana, faixa etária etc.)
-    
 
 #### Exemplo:
 
@@ -43,18 +35,17 @@ FROM ALUNO;
 ```
 
 ---
+### FUNÇÕES DE AGREGAÇÃO
 
-### 🔹 FUNÇÕES DE AGREGAÇÃO
-
-|Função|Finalidade|
-|---|---|
-|`COUNT(*)`|Conta registros|
-|`MIN(col)`|Valor mínimo|
-|`MAX(col)`|Valor máximo|
-|`SUM(col)`|Soma valores|
-|`AVG(col)`|Média|
-|`STDDEV(col)`|Desvio padrão|
-|`VARIANCE(col)`|Variância|
+| Função          | Finalidade      |
+| --------------- | --------------- |
+| `COUNT(*)`      | Conta registros |
+| `MIN(col)`      | Valor mínimo    |
+| `MAX(col)`      | Valor máximo    |
+| `SUM(col)`      | Soma valores    |
+| `AVG(col)`      | Média           |
+| `STDDEV(col)`   | Desvio padrão   |
+| `VARIANCE(col)` | Variância       |
 
 #### Exemplo:
 
@@ -64,8 +55,7 @@ FROM ALUNO;
 ```
 
 ---
-
-### 🔹 CRIAÇÃO DE TABELA E VIEW VIA SELECT
+### CRIAÇÃO DE TABELA E VIEW VIA SELECT
 
 #### Criar tabela:
 
@@ -80,16 +70,13 @@ CREATE VIEW nome_view AS SELECT ... FROM ...;
 ```
 
 - Views facilitam a reutilização de consultas complexas.
-    
 
 ---
-
-### 🔹 CLAUSULAS WHERE E ORDER BY
+### CLAUSULAS WHERE E ORDER BY
 
 #### WHERE
 
 - Filtra registros com base em condições
-    
 
 ```sql
 SELECT * FROM ALUNO WHERE SEXO = 'F';
@@ -98,23 +85,19 @@ SELECT * FROM ALUNO WHERE SEXO = 'F';
 - Operadores:
     
     - Relacionais: `<`, `<=`, `=`, `>=`, `>`, `<>`
-        
     - Lógicos: `AND`, `OR`, `NOT`
-        
 
 #### ORDER BY
 
 - Ordena resultados (ascendente é padrão)
     
-
 ```sql
 SELECT * FROM ALUNO ORDER BY NOME;
 SELECT * FROM ALUNO ORDER BY EXTRACT(MONTH FROM DTNASCIMENTO), NOME;
 ```
 
 ---
-
-### 🔹 FILTRAGEM AVANÇADA
+### FILTRAGEM AVANÇADA
 
 #### IN
 
@@ -142,14 +125,11 @@ WHERE nome NOT LIKE '%Maria%'; -- ignora Maria
 WHERE EMAIL IS NULL;
 ```
 
----
-
-### 🔹 AGRUPAMENTO DE DADOS
+### AGRUPAMENTO DE DADOS
 
 #### GROUP BY
 
 - Agrupa registros para aplicar funções de agregacão
-    
 
 ```sql
 SELECT SEXO, COUNT(*) AS QUANTIDADE
@@ -160,7 +140,6 @@ GROUP BY SEXO;
 #### HAVING
 
 - Filtra grupos criados pelo `GROUP BY`
-    
 
 ```sql
 SELECT EXTRACT(MONTH FROM DTNASCIMENTO) AS MES, COUNT(*)
@@ -170,13 +149,12 @@ HAVING COUNT(*) > 1;
 ```
 
 ---
-
 ### 🖊️ QUESTÕES COMENTADAS
 
 **1.** Qual comando exibe nome e idade dos alunos?
 
 A) SELECT * FROM ALUNO  
-B) SELECT NOME, AGE(DTNASCIMENTO) FROM ALUNO  
+==B) SELECT NOME, AGE(DTNASCIMENTO) FROM ALUNO==  
 C) SELECT NOME, DTNASCIMENTO FROM ALUNO  
 D) SELECT NOME FROM ALUNO WHERE IDADE > 20  
 E) SELECT AGE(DTNASCIMENTO) FROM ALUNO
@@ -190,7 +168,7 @@ E) SELECT AGE(DTNASCIMENTO) FROM ALUNO
 **2.** Qual comando conta os alunos com email do Gmail?
 
 A) SELECT * FROM ALUNO WHERE EMAIL = 'gmail'  
-B) SELECT COUNT(*) FROM ALUNO WHERE EMAIL LIKE '%@GMAIL.%'  
+==B) SELECT COUNT(*) FROM ALUNO WHERE EMAIL LIKE '%@GMAIL.%'==  
 C) SELECT COUNT(EMAIL) FROM ALUNO WHERE EMAIL = '%gmail%'  
 D) SELECT EMAIL FROM ALUNO WHERE EMAIL IS NOT NULL  
 E) SELECT EMAIL LIKE '%GMAIL%' FROM ALUNO
@@ -206,7 +184,7 @@ E) SELECT EMAIL LIKE '%GMAIL%' FROM ALUNO
 A) WHERE NACIONALIDADE IN ('brasileira' AND 'francesa')  
 B) WHERE NACIONALIDADE LIKE 'brasileira ou francesa'  
 C) WHERE NACIONALIDADE = 'brasileira' OR 'francesa'  
-D) WHERE NACIONALIDADE IN ('brasileira', 'francesa')  
+==D) WHERE NACIONALIDADE IN ('brasileira', 'francesa')==  
 E) WHERE NACIONALIDADE == ('brasileira', 'francesa')
 
 ✅ **Gabarito: D**
@@ -219,7 +197,7 @@ E) WHERE NACIONALIDADE == ('brasileira', 'francesa')
 
 A) CREATE TABLE VISTA AS SELECT ...  
 B) CREATE INDEX ...  
-C) CREATE VIEW VISTA AS SELECT NOME, AGE(DTNASCIMENTO) FROM ALUNO;  
+==C) CREATE VIEW VISTA AS SELECT NOME, AGE(DTNASCIMENTO) FROM ALUNO;==  
 D) CREATE DATABASE VIEW ...  
 E) CREATE FUNCTION ...
 
@@ -234,7 +212,7 @@ E) CREATE FUNCTION ...
 A) GROUP BY SEXO WITH AVG(SALARIO)  
 B) SELECT AVG(SALARIO) GROUP SEXO  
 C) SELECT AVG(SALARIO), SEXO FROM FUNCIONARIO  
-D) SELECT SEXO, AVG(SALARIO) FROM FUNCIONARIO GROUP BY SEXO  
+==D) SELECT SEXO, AVG(SALARIO) FROM FUNCIONARIO GROUP BY SEXO==  
 E) SELECT * FROM FUNCIONARIO WHERE SALARIO = AVG
 
 ✅ **Gabarito: D**
