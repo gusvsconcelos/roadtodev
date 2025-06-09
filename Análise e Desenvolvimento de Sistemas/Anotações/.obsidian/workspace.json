@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "725ec192567dad9d",
+        "id": "f7ca53fe936dbe87",
         "type": "tabs",
         "children": [
           {
-            "id": "4866ac86c8db2d8b",
+            "id": "bdaa9d47658c8381",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025.1/Banco de Dados/6.Consulta Com Várias Tabelas no PostgreSQL/Resumo.md",
+                "file": "2025.1/Matemática e Lógica/1.Teoria Dos Conjuntos e Princípios de Contagem/Resumo.md",
                 "mode": "source",
                 "source": false
               },
@@ -163,11 +163,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4866ac86c8db2d8b",
+  "active": "43759332df85bd01",
   "lastOpenFiles": [
+    "2025.1/Matemática e Lógica/1.Teoria Dos Conjuntos e Princípios de Contagem/Resumo.md",
+    "2025.1/Matemática e Lógica/1.Teoria Dos Conjuntos e Princípios de Contagem/Módulo 3.md",
+    "2025.1/Matemática e Lógica/1.Teoria Dos Conjuntos e Princípios de Contagem/Resumo.md",
+    "2025.1/Matemática e Lógica/1.Teoria Dos Conjuntos e Princípios de Contagem/Módulo 2.md",
+    "2025.1/Banco de Dados/6.Consulta Com Várias Tabelas no PostgreSQL/Resumo.md",
     "2025.1/Banco de Dados/5.Consultas Em Uma Tabela no PostgreSQL/Resumo.md",
     "2025.1/Banco de Dados/4.Criação e Manipulação de Objetos no PostgreSQL/Resumo.md",
-    "2025.1/Banco de Dados/6.Consulta Com Várias Tabelas no PostgreSQL/Resumo.md",
     "2025.1/Banco de Dados/6.Consulta Com Várias Tabelas no PostgreSQL",
     "2025.1/Banco de Dados/5.Consultas Em Uma Tabela no PostgreSQL",
     "2025.1/Banco de Dados/3.Projeto de Banco de Dados - Modelagem Lógica e Física/Resumo.md",
@@ -195,11 +199,7 @@
     "2025.1/Engenharia de Software/2.Fases do Desenvolvimento de Software/Módulo 2.md",
     "2025.1/Engenharia de Software/2.Fases do Desenvolvimento de Software/Módulo 1.md",
     "2025.1/Engenharia de Software/1.Fundamentos de Software e Gerenciamento de Projetos/Módulo 4.md",
-    "2025.1/Engenharia de Software/1.Fundamentos de Software e Gerenciamento de Projetos/Módulo 3.md",
-    "2025.1/Engenharia de Software/1.Fundamentos de Software e Gerenciamento de Projetos/Módulo 2.md",
-    "2025.1/Engenharia de Software/1.Fundamentos de Software e Gerenciamento de Projetos/Módulo 1.md",
     "2025.1/Sistemas Operacionais/4.Sistema de Arquivos/Untitled",
-    "2025.1/Sistemas Operacionais/4.Sistema de Arquivos",
-    "2025.1/Sistemas Operacionais/1.Conceitos Básicos de SO.md"
+    "2025.1/Sistemas Operacionais/4.Sistema de Arquivos"
   ]
 }
