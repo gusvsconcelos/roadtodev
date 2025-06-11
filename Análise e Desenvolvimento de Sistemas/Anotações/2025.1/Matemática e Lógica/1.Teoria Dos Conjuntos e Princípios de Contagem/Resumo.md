@@ -113,9 +113,8 @@
 - Seleciona **p** elementos de um total de **n**, **ordem não importa**.
 - ==C(n, p) = n! / [p! × (n - p)!]==
 - **Exemplo**: escolher 3 alunos entre 8 para uma comissão: C(8,3) = 56
-    
 
 #### Combinação com repetição:
 
 - ==C(n + p - 1, p)==
-- **Exemplo**: comprar 3 frutas dentre 5 tipos (com repetição): C(5 + 3 - 1, 3) = C(7,3) = 35
+	- **Exemplo**: comprar 3 frutas dentre 5 tipos (com repetição): C(5 + 3 - 1, 3) = C(7,3) = 35
