@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025.1/Matemática e Lógica/1.Teoria Dos Conjuntos e Princípios de Contagem/Gabarito.md",
+                "file": "2025.1/Matemática e Lógica/2.Gráficos e Interpretações Gráficas/Gabarito.md",
                 "mode": "source",
                 "source": false
               },
@@ -165,8 +165,11 @@
   },
   "active": "9692a30095a67acf",
   "lastOpenFiles": [
+    "2025.1/Matemática e Lógica/2.Gráficos e Interpretações Gráficas/Resumo.md",
+    "2025.1/Matemática e Lógica/2.Gráficos e Interpretações Gráficas/Gabarito.md",
     "2025.1/Matemática e Lógica/1.Teoria Dos Conjuntos e Princípios de Contagem/Resumo.md",
     "2025.1/Matemática e Lógica/1.Teoria Dos Conjuntos e Princípios de Contagem/Gabarito.md",
+    "2025.1/Matemática e Lógica/2.Gráficos e Interpretações Gráficas",
     "2025.1/Matemática e Lógica/1.Teoria Dos Conjuntos e Princípios de Contagem/Módulo 3.md",
     "2025.1/Matemática e Lógica/1.Teoria Dos Conjuntos e Princípios de Contagem/Módulo 2.md",
     "2025.1/Banco de Dados/6.Consulta Com Várias Tabelas no PostgreSQL/Resumo.md",
@@ -197,8 +200,6 @@
     "2025.1/Engenharia de Software/2.Fases do Desenvolvimento de Software/Módulo 4.md",
     "2025.1/Engenharia de Software/2.Fases do Desenvolvimento de Software/Módulo 3.md",
     "2025.1/Engenharia de Software/2.Fases do Desenvolvimento de Software/Módulo 2.md",
-    "2025.1/Engenharia de Software/2.Fases do Desenvolvimento de Software/Módulo 1.md",
-    "2025.1/Sistemas Operacionais/4.Sistema de Arquivos/Untitled",
-    "2025.1/Sistemas Operacionais/4.Sistema de Arquivos"
+    "2025.1/Sistemas Operacionais/4.Sistema de Arquivos/Untitled"
   ]
 }

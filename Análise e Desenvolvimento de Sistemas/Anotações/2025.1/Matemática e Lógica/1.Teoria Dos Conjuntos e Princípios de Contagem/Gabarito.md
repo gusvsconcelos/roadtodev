@@ -5,11 +5,11 @@
 **Objetivo:** Achar quantas soluções existem.
 **Solução:** Resolver por intervalos:
 
-- Quando x<1x < 1: ∣x−1∣+∣x−3∣=−x+1−x+3=−2x+4|x-1| + |x-3| = -x+1 - x + 3 = -2x + 4
+- Quando x < 1x < 1: ∣x−1∣+∣x−3∣=−x+1−x+3=−2x+4|x-1| + |x-3| = -x+1 - x + 3 = -2x + 4
     
-- Quando 1<x<31 < x < 3: ∣x−1∣+∣x−3∣=x−1+3−x=2|x-1| + |x-3| = x-1 + 3 - x = 2
+- Quando 1 < x < 31 < x < 3: ∣x−1∣+∣x−3∣=x−1+3−x=2|x-1| + |x-3| = x-1 + 3 - x = 2
     
-- Quando x>3x > 3: ∣x−1∣+∣x−3∣=x−1+x−3=2x−4|x-1| + |x-3| = x-1 + x - 3 = 2x - 4
+- Quando x > 3x > 3: ∣x−1∣+∣x−3∣=x−1+x−3=2x−4|x-1| + |x-3| = x-1 + x - 3 = 2x - 4
 
 Resolva cada trecho e compare com 4. Encontramos **duas soluções reais**.
 
@@ -20,14 +20,14 @@ Resolva cada trecho e compare com 4. Encontramos **duas soluções reais**.
 ---
 
 **Fórmula:** Combinação com repetição:  
-C(n+k−1,k−1)C(n + k - 1, k - 1)  
+C(n + k − 1, k − 1) C(n + k - 1, k - 1)  
 
 **Onde**:
 
-- n=7n = 7
-- k=3k = 3 (variáveis x, y, z)
+- n = 7n = 7
+- k = 3k = 3 (variáveis x, y, z)
 
-C(7+3−1,3−1)=C(9,2)=36C(7 + 3 - 1, 3 - 1) = C(9, 2) = 36
+C(7 + 3 − 1, 3 − 1) = C(9, 2) = 36 C(7 + 3 - 1, 3 - 1) = C(9, 2) = 36
 
 **Resposta correta:** C) 36
 
@@ -46,7 +46,7 @@ Opções:
 - Salada: 4
 
 Multiplica:  
-3×5×2×5×4=6003 \times 5 \times 2 \times 5 \times 4 = 600
+**3 × 5 × 2 × 5 × 4 = 600** 3 \times 5 \times 2 \times 5 \times 4 = 600
 
 **Resposta correta:** E) 600
 
@@ -95,7 +95,7 @@ Balas:
 - Cereja: 5
 
 Para garantir pelo menos 1 de cada:  
-8+7+6+1=228 + 7 + 6 + 1 = 22 (pior caso: tirar todas as erradas antes)
+8+7+6+1=22 8 + 7 + 6 + 1 = 22 (pior caso: tirar todas as erradas antes)
 
 **Resposta correta:** D) 22
 
