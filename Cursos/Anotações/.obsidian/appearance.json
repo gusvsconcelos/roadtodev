@@ -1,0 +1,16 @@
+{
+  "cssTheme": "Tokyo Night",
+  "baseFontSize": 16,
+  "showViewHeader": false,
+  "nativeMenus": false,
+  "interfaceFontFamily": "Inter,Cascadia Code,Cascadia Mono,CaskaydiaCove Nerd Font",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font",
+  "textFontFamily": "Cascadia Mono,Cascadia Code,CaskaydiaCove Nerd Font",
+  "showRibbon": false,
+  "baseFontSizeAction": true,
+  "accentColor": "",
+  "theme": "system",
+  "enabledCssSnippets": [
+    "spacing-bullets"
+  ]
+}

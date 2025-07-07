@@ -1,0 +1,201 @@
+{
+  "main": {
+    "id": "f75e603194c80c4d",
+    "type": "split",
+    "children": [
+      {
+        "id": "7bec72970f8d89c2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "271eefdb79c6cc07",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nova aba"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ec1a6ee555239831",
+    "type": "split",
+    "children": [
+      {
+        "id": "e804573b71345e80",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "43759332df85bd01",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "82af6d3fb6172392",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "41e8af8592096d94",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 463.5
+  },
+  "right": {
+    "id": "38d6d89cc8c648f9",
+    "type": "split",
+    "children": [
+      {
+        "id": "aee174f1fec4d7b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8fecfc755f6adbf3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2024.2/Computação em Nuvem/1.Fundamentos da Computação em Nuvem/Módulo 3.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para Módulo 3"
+            }
+          },
+          {
+            "id": "bfdd4d019324e60a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2024.2/Computação em Nuvem/1.Fundamentos da Computação em Nuvem/Módulo 3.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para Módulo 3"
+            }
+          },
+          {
+            "id": "11584036e076c968",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1a588a8698483267",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2024.2/Computação em Nuvem/1.Fundamentos da Computação em Nuvem/Módulo 3.md"
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de Módulo 3"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "43759332df85bd01",
+  "lastOpenFiles": [
+    "Modelos/Modelo Conceito.md",
+    "Modelos/Modelo Aula.md",
+    "1. Ánalise e Desenvolvimento de Sistemas/2024.1/Introdução à Segurança da Informação/1.Princípios da Segurança e o Ciclo de Vida da Informação/Segurança da Informação.md",
+    "Conceitos/Não-repúdio.md",
+    "Conceitos/Legalidade.md",
+    "Conceitos/Autenticidade.md",
+    "Conceitos/Disponibilidade.md",
+    "Conceitos/Integridade.md",
+    "Conceitos/Confidencialidade.md",
+    "Conceitos/Ciclo de Vida da Informação.md",
+    "Conceitos/Dado.md",
+    "Conceitos/Informação.md",
+    "ADS.md",
+    "dado.md",
+    "2024.1/Introdução à Segurança da Informação/1.Princípios da Segurança e o Ciclo de Vida da Informação/Segurança da Informação.md",
+    "Conceito 1.md",
+    "Modelos",
+    "Nova pasta",
+    "2025.1/Matemática e Lógica/Resumo Salva-vidas.md",
+    "2024.1/Introdução à Segurança da Informação/1.Princípios da Segurança e o Ciclo de Vida da Informação",
+    "2024.1/Introdução à Segurança da Informação",
+    "2025.1/Matemática e Lógica/3.Aprofundamento de Funções/Gabarito.md",
+    "2025.1/Matemática e Lógica/3.Aprofundamento de Funções/Resumo.md",
+    "2025.1/Matemática e Lógica/2.Gráficos e Interpretações Gráficas/Resumo.md",
+    "2025.1/Matemática e Lógica/3.Aprofundamento de Funções",
+    "2025.1/Matemática e Lógica/2.Gráficos e Interpretações Gráficas/Gabarito.md",
+    "2025.1/Matemática e Lógica/1.Teoria Dos Conjuntos e Princípios de Contagem/Resumo.md",
+    "2025.1/Matemática e Lógica/1.Teoria Dos Conjuntos e Princípios de Contagem/Gabarito.md",
+    "2025.1/Matemática e Lógica/2.Gráficos e Interpretações Gráficas",
+    "2025.1/Matemática e Lógica/1.Teoria Dos Conjuntos e Princípios de Contagem/Módulo 3.md",
+    "2025.1/Matemática e Lógica/1.Teoria Dos Conjuntos e Princípios de Contagem/Módulo 2.md",
+    "2025.1/Banco de Dados/6.Consulta Com Várias Tabelas no PostgreSQL/Resumo.md",
+    "2025.1/Banco de Dados/6.Consulta Com Várias Tabelas no PostgreSQL",
+    "2025.1/Banco de Dados/5.Consultas Em Uma Tabela no PostgreSQL",
+    "2025.1/Banco de Dados/4.Criação e Manipulação de Objetos no PostgreSQL",
+    "2025.1/Banco de Dados/3.Projeto de Banco de Dados - Modelagem Lógica e Física"
+  ]
+}
