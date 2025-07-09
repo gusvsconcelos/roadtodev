@@ -1,7 +1,7 @@
 # {{title}}
 
-**Relacionado a:** [[Disciplina]]
-**Curso(s):** [[ADS]], [[CC]]
+**Relacionado a:** # disciplina
+**Curso(s):** #ADS ou #CC
 **Tags:** #conceito
 
 ## Definição
@@ -9,7 +9,3 @@
 ## Exemplos
 
 ## Onde aparece
-
-- [[Aula 01]]
-- [[Aula 02]]
-- [[Aula 03]]

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7bec72970f8d89c2",
+        "id": "b080825798beb962",
         "type": "tabs",
         "children": [
           {
-            "id": "271eefdb79c6cc07",
+            "id": "7e21efd792c81c6e",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -57,7 +57,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "Procurar"
             }
           },
           {
@@ -159,20 +159,23 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "43759332df85bd01",
+  "active": "7e21efd792c81c6e",
   "lastOpenFiles": [
+    "Conceitos/Sistema de Gestão de Segurança da Informação (SGSI).md",
+    "Conceitos/Autenticidade.md",
+    "Conceitos/Ciclo de Vida da Informação.md",
+    "Conceitos/Confidencialidade.md",
+    "Conceitos/Dado.md",
+    "Conceitos/Disponibilidade.md",
+    "Conceitos/Informação.md",
+    "Conceitos/Integridade.md",
+    "Conceitos/Legalidade.md",
+    "Conceitos/Não-repúdio.md",
+    "1. Análise e Desenvolvimento de Sistemas/2024.1/Introdução à Segurança da Informação/1.Princípios da Segurança e o Ciclo de Vida da Informação/Segurança da Informação.md",
+    "Conceitos/Sistema de Gestão de Segurança da Informação.md",
     "Modelos/Modelo Conceito.md",
     "Modelos/Modelo Aula.md",
-    "1. Ánalise e Desenvolvimento de Sistemas/2024.1/Introdução à Segurança da Informação/1.Princípios da Segurança e o Ciclo de Vida da Informação/Segurança da Informação.md",
-    "Conceitos/Não-repúdio.md",
-    "Conceitos/Legalidade.md",
-    "Conceitos/Autenticidade.md",
-    "Conceitos/Disponibilidade.md",
-    "Conceitos/Integridade.md",
-    "Conceitos/Confidencialidade.md",
-    "Conceitos/Ciclo de Vida da Informação.md",
-    "Conceitos/Dado.md",
-    "Conceitos/Informação.md",
+    "Aula 02.md",
     "ADS.md",
     "dado.md",
     "2024.1/Introdução à Segurança da Informação/1.Princípios da Segurança e o Ciclo de Vida da Informação/Segurança da Informação.md",
@@ -190,9 +193,6 @@
     "2025.1/Matemática e Lógica/1.Teoria Dos Conjuntos e Princípios de Contagem/Resumo.md",
     "2025.1/Matemática e Lógica/1.Teoria Dos Conjuntos e Princípios de Contagem/Gabarito.md",
     "2025.1/Matemática e Lógica/2.Gráficos e Interpretações Gráficas",
-    "2025.1/Matemática e Lógica/1.Teoria Dos Conjuntos e Princípios de Contagem/Módulo 3.md",
-    "2025.1/Matemática e Lógica/1.Teoria Dos Conjuntos e Princípios de Contagem/Módulo 2.md",
-    "2025.1/Banco de Dados/6.Consulta Com Várias Tabelas no PostgreSQL/Resumo.md",
     "2025.1/Banco de Dados/6.Consulta Com Várias Tabelas no PostgreSQL",
     "2025.1/Banco de Dados/5.Consultas Em Uma Tabela no PostgreSQL",
     "2025.1/Banco de Dados/4.Criação e Manipulação de Objetos no PostgreSQL",

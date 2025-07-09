@@ -1,10 +1,10 @@
 # Aula: Segurança da Informação
 
-**Curso:** [[ADS]]
+**Curso:** #ADS
 **Semestre:** #ADS1
-**Disciplina:** [[Introdução à Segurança da Informação]]
+**Disciplina:** #IntroduçãoàSegurançadaInformação
 **Data:** 07-07-2025
-**Tags:** #ADS, #segurancadainformacao, #dados, #informacao
+**Tags:** #ADS, #SegurançaDaInformação, #dados, #informação
 
 ## Resumo
 
@@ -14,7 +14,7 @@
 - Um [[Dado]] é uma representação primitiva. Como números, símbolos, caracteres e gráficos.
 
 **O que é a [[Informação]]?**
-- A [[Informação]] é o resultado do processamento e da atribuição de contexto e valor a esses dados.
+- A [[Informação]] é o resultado do processamento e da atribuição de contexto e valor a esses [[Dado]]s.
 
 **Exemplo**: As notas de um aluno podem ser entendidas como [[Dado]]s. Sozinhas, essas notas não permitem identificar a situação do aluno. Quando aplicamos as normas e regras da escola (o contexto) a esses [[Dado]]s, obtemos a [[Informação]], que nos permite interpretar e entender a situação real do aluno.
 
@@ -49,7 +49,7 @@
 
 - **[[Autenticidade]]**: Garante que a [[Informação]] foi gerada, enviada ou modificada por uma fonte autorizada.
 
-- **[[Legalidade]]**: Garante que as [[Informação]] estão alinhadas com normas, portarias, leis e quaisquer outros documentos normativos.
+- **[[Legalidade]]**: Garante que a [[Informação]] está alinhada com normas, portarias, leis e quaisquer outros documentos normativos.
 
 - **Irretratabilidade (ou [[Não-repúdio]])**: Garante que o emissor não possa negar a autoria de uma [[Informação]] que tenha sido enviada ou publicada.
 
