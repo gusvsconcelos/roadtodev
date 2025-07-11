@@ -2,7 +2,7 @@
 
 **Relacionado a:** #IntroduçãoàSegurançadaInformação
 **Curso(s):** #ADS
-**Tags:** #conceito, #nãorepúdio
+**Tags:** #conceito #nãorepúdio
 
 ## Definição
 

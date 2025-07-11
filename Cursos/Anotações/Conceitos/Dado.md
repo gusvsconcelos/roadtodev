@@ -2,7 +2,7 @@
 
 **Relacionado a:** #IntroduçãoàSegurançadaInformação
 **Curso(s):** #ADS
-**Tags:** #conceito, #dado
+**Tags:** #conceito #dado
 
 ## Definição
 

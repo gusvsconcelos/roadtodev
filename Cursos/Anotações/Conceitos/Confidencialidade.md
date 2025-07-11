@@ -2,7 +2,7 @@
 
 **Relacionado a:** #IntroduçãoàSegurançadaInformação
 **Curso(s):** #ADS
-**Tags:** #conceito, #confidencialidade
+**Tags:** #conceito #confidencialidade
 
 ## Definição
 

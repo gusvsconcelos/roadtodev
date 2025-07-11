@@ -4,7 +4,7 @@
 **Semestre:** #ADS1
 **Disciplina:** #IntroduçãoàSegurançadaInformação
 **Data:** 07-07-2025
-**Tags:** #ADS, #SegurançaDaInformação, #dados, #informação
+**Tags:** #ADS #SegurançaDaInformação #dados #informação
 
 ## Resumo
 
@@ -67,8 +67,10 @@
 
 ## Conclusões
 
-- Aprendi a diferença entre [[Dado]] e [[Informação]] e como eles se relacionam.
+- Aprendi a diferença entre [[Dado]] e [[Informação]], e como eles se relacionam.
+    
+- Compreendi o [[Ciclo de Vida da Informação]] e as boas práticas para garantir sua segurança em cada etapa.
+    
+- Estudei os principais pilares da [[Segurança da Informação]], como [[Confidencialidade]], [[Integridade]] e [[Disponibilidade]].
 
-- Aprendi sobre o [[Ciclo de Vida da Informação]] e as melhores práticas para garantir a sua segurança.
-
-- Aprendi sobre os principais aspectos da Segurança da Informação, como a [[Confidencialidade]], a [[Integridade]] e a [[Disponibilidade]].
+> *Conhecer e aplicar os principais princípios da [[Segurança da Informação]] é essencial para qualquer profissional de TI. Esses princípios garantem não apenas a persistência dos [[Dado]]s, mas também a [[Integridade]] de usuários, empresas e organizações.*
