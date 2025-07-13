@@ -34,4 +34,4 @@ Um firewall pode ser implementado por meio de hardware, software ou ambos.
 
 ## Onde aparece
 
-- [[Segurança Física, Lógica e Controle de Acesso]]
+- [[2. Segurança Física, Lógica e Controle de Acesso|Segurança Física, Lógica e Controle de Acesso]]

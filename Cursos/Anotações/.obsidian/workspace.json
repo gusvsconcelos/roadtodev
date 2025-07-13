@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "f75e603194c80c4d",
+    "id": "3c8aa8825347e1d5",
     "type": "split",
     "children": [
       {
-        "id": "56a5cd2e4224be14",
+        "id": "d20200c7237cf691",
         "type": "tabs",
         "children": [
           {
-            "id": "d5a9329490040523",
+            "id": "40a81bb43836cf8f",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -23,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "ec1a6ee555239831",
+    "id": "ba9da2ae376c2963",
     "type": "split",
     "children": [
       {
-        "id": "e804573b71345e80",
+        "id": "21bf6d6482f6b921",
         "type": "tabs",
         "children": [
           {
-            "id": "43759332df85bd01",
+            "id": "da36e7e380536f60",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,12 +44,12 @@
             }
           },
           {
-            "id": "82af6d3fb6172392",
+            "id": "cb5eac15d922679e",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "iso",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +61,7 @@
             }
           },
           {
-            "id": "41e8af8592096d94",
+            "id": "af1bb69ae7750c68",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -74,23 +74,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 463.5
+    "width": 300
   },
   "right": {
-    "id": "38d6d89cc8c648f9",
+    "id": "dd2c14cc7d93fe4b",
     "type": "split",
     "children": [
       {
-        "id": "aee174f1fec4d7b7",
+        "id": "5df38a20e1dd1099",
         "type": "tabs",
         "children": [
           {
-            "id": "8fecfc755f6adbf3",
+            "id": "692ac00ea5735046",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2024.2/Computação em Nuvem/1.Fundamentos da Computação em Nuvem/Módulo 3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,46 +99,49 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Módulo 3"
+              "title": "Backlinks"
             }
           },
           {
-            "id": "bfdd4d019324e60a",
+            "id": "e4846295b6525950",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2024.2/Computação em Nuvem/1.Fundamentos da Computação em Nuvem/Módulo 3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para Módulo 3"
+              "title": "Links de saída"
             }
           },
           {
-            "id": "11584036e076c968",
+            "id": "a90c68cbb94bf841",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "1a588a8698483267",
+            "id": "04851ee21487453b",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "2024.2/Computação em Nuvem/1.Fundamentos da Computação em Nuvem/Módulo 3.md"
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Módulo 3"
+              "title": "Sumário"
             }
           }
         ]
@@ -159,43 +161,9 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "d5a9329490040523",
+  "active": "40a81bb43836cf8f",
   "lastOpenFiles": [
-    "1. Análise e Desenvolvimento de Sistemas/2024.1/Introdução à Segurança da Informação/1.Princípios da Segurança e o Ciclo de Vida da Informação/Segurança Física, Lógica e Controle de Acesso.md",
-    "Conceitos/Firewalls.md",
-    "Conceitos/Criptografia.md",
-    "1. Análise e Desenvolvimento de Sistemas/2024.1/Introdução à Segurança da Informação/1.Princípios da Segurança e o Ciclo de Vida da Informação/Segurança da Informação.md",
-    "Conceitos/Sistema de Gestão de Segurança da Informação (SGSI).md",
-    "Conceitos/Não-repúdio.md",
-    "Conceitos/Legalidade.md",
-    "Conceitos/Integridade.md",
-    "Conceitos/Informação.md",
-    "Conceitos/Disponibilidade.md",
-    "Conceitos/Dado.md",
-    "Conceitos/Confidencialidade.md",
-    "Conceitos/Ciclo de Vida da Informação.md",
-    "Conceitos/Autenticidade.md",
-    "Modelos/Modelo Aula.md",
-    "Modelos/Modelo Conceito.md",
-    "Conceitos/Sistema de Gestão de Segurança da Informação.md",
-    "Aula 02.md",
-    "ADS.md",
-    "dado.md",
-    "2024.1/Introdução à Segurança da Informação/1.Princípios da Segurança e o Ciclo de Vida da Informação/Segurança da Informação.md",
-    "Conceito 1.md",
-    "Modelos",
-    "Nova pasta",
-    "2025.1/Matemática e Lógica/Resumo Salva-vidas.md",
-    "2024.1/Introdução à Segurança da Informação/1.Princípios da Segurança e o Ciclo de Vida da Informação",
-    "2024.1/Introdução à Segurança da Informação",
-    "2025.1/Matemática e Lógica/3.Aprofundamento de Funções/Gabarito.md",
-    "2025.1/Matemática e Lógica/3.Aprofundamento de Funções/Resumo.md",
-    "2025.1/Matemática e Lógica/2.Gráficos e Interpretações Gráficas/Resumo.md",
-    "2025.1/Matemática e Lógica/3.Aprofundamento de Funções",
-    "2025.1/Matemática e Lógica/2.Gráficos e Interpretações Gráficas",
-    "2025.1/Banco de Dados/6.Consulta Com Várias Tabelas no PostgreSQL",
-    "2025.1/Banco de Dados/5.Consultas Em Uma Tabela no PostgreSQL",
-    "2025.1/Banco de Dados/4.Criação e Manipulação de Objetos no PostgreSQL",
-    "2025.1/Banco de Dados/3.Projeto de Banco de Dados - Modelagem Lógica e Física"
+    "Circuitos Digitais.md",
+    "Sem título"
   ]
 }

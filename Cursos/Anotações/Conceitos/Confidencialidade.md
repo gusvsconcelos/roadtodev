@@ -6,20 +6,21 @@
 
 ## Definição
 
-Na [[Segurança da Informação]], confidencialidade se refere à garantia de que a [[Informação]] será acessada apenas por sistemas ou pessoas autorizadas. Isso implica em estabelecer mecanismos de controle de acesso, como senhas, autenticação biométrica ou outras formas de verificação (conferir: [[Autenticidade]]).
+Na [[1. Segurança da Informação|Segurança da Informação]], confidencialidade se refere à garantia de que a [[Informação|informação]] será acessada apenas por sistemas ou pessoas autorizadas. Isso implica em estabelecer mecanismos de controle de acesso, como senhas, autenticação biométrica ou outras [[Autenticidade|formas de verificação]].
 
-A confidencialidade tem como objetivo proteger [[Dado]]s sensíveis de empresas, indivíduos ou governos, prevenindo vazamentos, acessos indevidos ou roubos de [[Informação]].
+A confidencialidade tem como objetivo proteger [[Dado|dados]] sensíveis de empresas, indivíduos ou governos, prevenindo vazamentos, acessos indevidos ou roubos de [[Informação|informações]].
 
-Esse princípio está intimamente relacionado ao conceito de privacidade, assegurando que [[Informação]] pessoal ou confidencial não sejam divulgadas sem consentimento.
+Esse princípio está intimamente relacionado ao conceito de privacidade, assegurando que [[Informação|informações]] pessoais ou confidenciais não sejam divulgadas sem consentimento.
 
 ## Exemplos
 
-- Em um sistema de banco de [[Dado]]s, apenas funcionários autorizados podem acessar [[Informação]] financeiras de clientes.
+- Em um sistema de banco de [[Dado|dados]], apenas funcionários autorizados podem acessar [[Informação|informações]] financeiras de clientes.
 
-- Em uma empresa, [[Dado]]s de funcionários, como salários, só devem ser acessados pelo departamento de Recursos Humanos.
+- Em uma empresa, [[Dado|dados]] de funcionários, como salários, só devem ser acessados pelo departamento de Recursos Humanos.
 
 - Em uma comunicação online, a confidencialidade é garantida por meio de criptografia, que protege o conteúdo da mensagem de terceiros.
 
 ## Onde aparece
 
-- [[Segurança da Informação]]
+- [[1. Segurança da Informação|Segurança da Informação]]
+- [[2. Segurança Física, Lógica e Controle de Acesso|Segurança Física, Lógica e Controle de Acesso]]

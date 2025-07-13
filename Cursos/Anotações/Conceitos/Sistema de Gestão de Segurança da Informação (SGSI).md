@@ -6,14 +6,14 @@
 
 ## Definição
 
-O Sistema de Gestão de Segurança da Informação (SGSI) é um sistema — não necessariamente informatizado — fundamentado nas normas da família NBR ISO/IEC 27000. Ele compreende toda a abordagem institucional utilizada para proteger a [[Informação]], conforme os princípios e atributos de [[Confidencialidade]], [[Disponibilidade]], [[Integridade]], [[Autenticidade]], responsabilidade e criticidade.
+O Sistema de Gestão de Segurança da Informação (SGSI) é um sistema — não necessariamente informatizado — fundamentado nas normas da família NBR ISO/IEC 27000. Ele compreende toda a abordagem institucional utilizada para proteger a [[Informação|informação]], conforme os princípios e atributos de [[Confidencialidade]], [[Disponibilidade]], [[Integridade]], [[Autenticidade]], Responsabilidade e Criticidade.
 
-De acordo com essas normas técnicas, o SGSI deve estabelecer políticas, objetivos, processos e procedimentos voltados à gestão da [[Segurança da Informação]], por meio de processos específicos definidos em seu escopo. Entre os principais processos organizacionais, destacam-se:
+De acordo com essas normas técnicas, o SGSI deve estabelecer políticas, objetivos, processos e procedimentos voltados à gestão da [[1. Segurança da Informação|Segurança da Informação]], por meio de processos específicos definidos em seu escopo. Entre os principais processos organizacionais, destacam-se:
 
 - **Classificação da [[Informação]];**
 - **Controle de acesso;**
 - **Gerenciamento de ativos de TI;**
-- **Gestão de riscos de [[Segurança da Informação]];**
+- **Gestão de riscos de [[1. Segurança da Informação|Segurança da Informação]];**
 - **Resposta e tratamento de incidentes;**
 - **Conscientização e treinamento de usuários.**
 
@@ -27,7 +27,7 @@ De acordo com essas normas técnicas, o SGSI deve estabelecer políticas, objeti
     
 - **Gerenciamento de ativos de TI:** A equipe de TI mantém inventários de servidores, computadores e softwares, com responsáveis definidos para cada item;
     
-- **Gestão de riscos de [[Segurança da Informação]]:** Realiza-se análise de riscos anual para identificar falhas como senhas fracas ou falta de backup, adotando medidas corretivas;
+- **Gestão de riscos de [[1. Segurança da Informação|Segurança da Informação]]:** Realiza-se análise de riscos anual para identificar falhas como senhas fracas ou falta de backup, adotando medidas corretivas;
     
 - **Resposta e tratamento de incidentes:** Em caso de ataque (como ransomware), isola-se o sistema afetado, restaura-se o backup e notifica-se usuários e autoridades;
     
@@ -35,4 +35,4 @@ De acordo com essas normas técnicas, o SGSI deve estabelecer políticas, objeti
 
 ## Onde aparece
 
-- [[Segurança da Informação]]
+- [[1. Segurança da Informação|Segurança da Informação]]

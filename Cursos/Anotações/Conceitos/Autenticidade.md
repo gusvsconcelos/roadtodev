@@ -6,7 +6,7 @@
 
 ## Definição
 
-A autenticidade é a garantia de que a [[Informação]] foi gerada, enviada ou modificada por uma fonte autorizada e confiável, sem sofrer alterações ou manipulações indevidas.
+A autenticidade é a garantia de que a [[Informação|informação]] foi gerada, enviada ou modificada por uma fonte autorizada e confiável, sem sofrer alterações ou manipulações indevidas.
 
 ## Exemplos
 
@@ -18,10 +18,10 @@ A autenticidade é a garantia de que a [[Informação]] foi gerada, enviada ou m
     
 - **Biometria:** utiliza características físicas únicas para identificar usuários, como impressão digital ou reconhecimento facial.
     
-- **Controles de acesso:** restringem o acesso à [[Informação]] apenas a usuários autorizados, evitando que pessoas não autorizadas alterem ou visualizem [[Dado]]s sensíveis.
+- **Controles de acesso:** restringem o acesso à [[Informação|informação]] apenas a usuários autorizados, evitando que pessoas não autorizadas alterem ou visualizem [[Dado|dados]] sensíveis.
     
 - **Monitoramento e auditoria:** permitem detectar atividades suspeitas ou acessos não autorizados, auxiliando na identificação e prevenção de fraudes.
 
 ## Onde aparece
 
-- [[Segurança da Informação]]
+- [[1. Segurança da Informação|Segurança da Informação]]

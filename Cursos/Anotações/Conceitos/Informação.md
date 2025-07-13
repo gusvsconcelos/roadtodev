@@ -6,7 +6,7 @@
 
 ## Definição
 
-Informação é um conjunto de [[Dado]]s que foram processados e contextualizados, passando a ter significado e valor.
+Informação é um conjunto de [[Dado|dados]] que foram processados e contextualizados, passando a ter significado e valor.
 
 A informação é essencial para a compreensão de fenômenos, a resolução de problemas e a tomada de decisões. Ela permite interpretar a realidade, estabelecer padrões e formular conclusões.
 
@@ -20,4 +20,5 @@ A informação é essencial para a compreensão de fenômenos, a resolução de 
 
 ## Onde aparece
 
-- [[Segurança da Informação]]
+- [[1. Segurança da Informação|Segurança da Informação]]
+- [[2. Segurança Física, Lógica e Controle de Acesso|Segurança Física, Lógica e Controle de Acesso]]
